@@ -10,6 +10,9 @@ module.exports = {
       colors: {
         fontBlue: '#096193', // Warna kustom
     },
+    fontFamily: {
+      saira: ['Saira', 'sans-serif'], // Tambahkan font Saira
+    },
     },
   },
   plugins: [],
