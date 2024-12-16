@@ -17,3 +17,7 @@ Route::get('/copilot', function () {
 Route::get('/about', function () {
     return view('about_us');
 });
+
+Route::get('/career', function(){
+    return view('careers');
+});

@@ -23,6 +23,7 @@
                 <li><a href="{{ url('/about') }}" class="hover:text-blue-500">About</a></li>
                 <li><a href="#services" class="hover:text-blue-500">Services</a></li>
                 <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+                <li><a href="{{url('/career')}}" class="hover:text-blue-500">Careers</a></li>
                 <li><a href="#faq" class="hover:text-blue-500">FAQ</a></li>
             </ul>
             <div>
@@ -32,9 +33,9 @@
     </nav>
 
     <!-- Content -->
-    <main class="container mx-auto px-6 md:px-12 py-8">
+    {{-- <main class="container mx-auto px-6 md:px-12 py-8"> --}}
         @yield('content')
-    </main>
+    {{-- </main> --}}
 
     <!-- Footer -->
     <footer class="bg-gray-100">
