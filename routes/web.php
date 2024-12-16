@@ -21,3 +21,7 @@ Route::get('/about', function () {
 Route::get('/career', function(){
     return view('careers');
 });
+
+Route::get('/latest', function(){
+    return view('latest');
+});

@@ -24,6 +24,7 @@
                 <li><a href="#services" class="hover:text-blue-500">Services</a></li>
                 <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
                 <li><a href="{{url('/career')}}" class="hover:text-blue-500">Careers</a></li>
+                <li><a href="{{url('/latest')}}" class="hover:text-blue-500">Latest</a></li>
                 <li><a href="#faq" class="hover:text-blue-500">FAQ</a></li>
             </ul>
             <div>
