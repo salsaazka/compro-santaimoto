@@ -87,88 +87,142 @@
         </div>
     </section>
 
-    <!-- Meet Our Team -->
    <!-- Meet Our Team Section -->
     <section class="container mx-auto px-6 md:px-12 py-12">
         <h2 class="text-2xl md:text-3xl font-bold text-gray-900 text-center mb-8">Meet Our Team</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <!-- Team Member 1 -->
-            <div class="relative text-center p-4 bg-white rounded-lg shadow-md">
-                <img src="{{asset('images/Frame 106.png')}}" alt="Team Member" class="w-full rounded-lg mb-4">
-                <h3 class="font-bold text-lg text-gray-800">Fadzle Ismail</h3>
-                <p class="text-blue-600 font-semibold">Founder & CEO</p>
-                <p class="text-gray-600 mt-2 text-sm leading-relaxed">
-                    A former motorcycle mechanic with a lifelong love for bikes, Fadzle started working on motorcycles as a teenager.
-                </p>
-                <!-- Icons -->
-                <div class="absolute bottom-4 right-4 flex space-x-2">
-                    <a href="mailto:someone@example.com" target="_blank" aria-label="Email">
-                        <img src="{{ asset('images/w-email.png') }}" alt="Email Icon" class="h-6 w-6">
-                    </a>
-                    <a href="" target="_blank" aria-label="LinkedIn">
-                        <img src="{{ asset('images/w-linkedin.png') }}" alt="LinkedIn Icon" class="h-6 w-6">
-                    </a>
+            <div class="relative text-start bg-white rounded-lg shadow-md border overflow-hidden">
+                <!-- Gambar sampai atas -->
+                <div class="w-full ">
+                    <img src="{{ asset('images/Frame 103.png') }}" 
+                         alt="Team Member" 
+                         class="w-full h-full object-cover">
+                </div>
+                <!-- Konten -->
+                <div class="p-4">
+                    <div class="flex justify-between items-center mb-2">
+                        <div>
+                            <h3 class="font-bold text-lg text-gray-800">Fadzle Ismail</h3>
+                            <p class="text-blue-600 font-semibold">Founder & CEO</p>
+                        </div>
+                        <!-- Icons -->
+                        <div class="flex space-x-2">
+                            <a href="mailto:someone@example.com" target="_blank" aria-label="Email">
+                                <img src="{{ asset('images/w-email.png') }}" alt="Email Icon" class="h-6 w-6">
+                            </a>
+                            <a href="" target="_blank" aria-label="LinkedIn">
+                                <img src="{{ asset('images/w-linkedin.png') }}" alt="LinkedIn Icon" class="h-6 w-6">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Deskripsi -->
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        A former motorcycle mechanic with a lifelong love for bikes, Fadzle started working on motorcycles as a teenager.
+                    </p>
                 </div>
             </div>
             
             <!-- Team Member 2 -->
-            <div class="relative text-center p-4 bg-white rounded-lg shadow-md">
-                <img src="{{asset('images/Frame 106.png')}}" alt="Team Member" class="w-full rounded-lg mb-4">
-                <h3 class="font-bold text-lg text-gray-800">Fadzle Ismail</h3>
-                <p class="text-blue-600 font-semibold">Chief Technology Officer</p>
-                <p class="text-gray-600 mt-2 text-sm leading-relaxed">
-                    Eris brings deep expertise in predictive maintenance from his work with leading automotive companies.
-                </p>
-                <!-- Icons -->
-                <div class="absolute bottom-4 right-4 flex space-x-2">
-                    <a href="mailto:someone@example.com" target="_blank" aria-label="Email">
-                        <img src="{{ asset('images/w-email.png') }}" alt="Email Icon" class="h-6 w-6">
-                    </a>
-                    <a href="" target="_blank" aria-label="LinkedIn">
-                        <img src="{{ asset('images/w-linkedin.png') }}" alt="LinkedIn Icon" class="h-6 w-6">
-                    </a>
+            <div class="relative text-start bg-white rounded-lg shadow-md border overflow-hidden">
+                <!-- Gambar sampai atas -->
+                <div class="w-full">
+                    <img src="{{ asset('images/Frame 103.png') }}" 
+                         alt="Team Member" 
+                         class="w-full h-full object-cover">
+                </div>
+                <!-- Konten -->
+                <div class="p-4">
+                    <div class="flex justify-between items-center mb-2">
+                        <div>
+                            <h3 class="font-bold text-lg text-gray-800">Fadzle Ismail</h3>
+                            <p class="text-blue-600 font-semibold">Founder & CEO</p>
+                        </div>
+                        <!-- Icons -->
+                        <div class="flex space-x-2">
+                            <a href="mailto:someone@example.com" target="_blank" aria-label="Email">
+                                <img src="{{ asset('images/w-email.png') }}" alt="Email Icon" class="h-6 w-6">
+                            </a>
+                            <a href="" target="_blank" aria-label="LinkedIn">
+                                <img src="{{ asset('images/w-linkedin.png') }}" alt="LinkedIn Icon" class="h-6 w-6">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Deskripsi -->
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        A former motorcycle mechanic with a lifelong love for bikes, Fadzle started working on motorcycles as a teenager.
+                    </p>
                 </div>
             </div>
 
             <!-- Team Member 3 -->
-            <div class="relative text-center p-4 bg-white rounded-lg shadow-md">
-                <img src="{{asset('images/Frame 106.png')}}" alt="Team Member" class="w-full rounded-lg mb-4">
-                <h3 class="font-bold text-lg text-gray-800">Fadzle Ismail</h3>
-                <p class="text-blue-600 font-semibold">Co-Founder & Operations Lead</p>
-                <p class="text-gray-600 mt-2 text-sm leading-relaxed">
-                    Irwan ensures that every service runs smoothly, coordinating logistics and connecting mechanics effectively.
-                </p>
-                <!-- Icons -->
-                <div class="absolute bottom-4 right-4 flex space-x-2">
-                    <a href="mailto:someone@example.com" target="_blank" aria-label="Email">
-                        <img src="{{ asset('images/w-email.png') }}" alt="Email Icon" class="h-6 w-6">
-                    </a>
-                    <a href="" target="_blank" aria-label="LinkedIn">
-                        <img src="{{ asset('images/w-linkedin.png') }}" alt="LinkedIn Icon" class="h-6 w-6">
-                    </a>
+            <div class="relative text-start bg-white rounded-lg shadow-md border overflow-hidden">
+                <!-- Gambar sampai atas -->
+                <div class="w-full">
+                    <img src="{{ asset('images/Frame 103.png') }}" 
+                         alt="Team Member" 
+                         class="w-full h-full object-cover">
+                </div>
+                <!-- Konten -->
+                <div class="p-4">
+                    <div class="flex justify-between items-center mb-2">
+                        <div>
+                            <h3 class="font-bold text-lg text-gray-800">Fadzle Ismail</h3>
+                            <p class="text-blue-600 font-semibold">Founder & CEO</p>
+                        </div>
+                        <!-- Icons -->
+                        <div class="flex space-x-2">
+                            <a href="mailto:someone@example.com" target="_blank" aria-label="Email">
+                                <img src="{{ asset('images/w-email.png') }}" alt="Email Icon" class="h-6 w-6">
+                            </a>
+                            <a href="" target="_blank" aria-label="LinkedIn">
+                                <img src="{{ asset('images/w-linkedin.png') }}" alt="LinkedIn Icon" class="h-6 w-6">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Deskripsi -->
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        A former motorcycle mechanic with a lifelong love for bikes, Fadzle started working on motorcycles as a teenager.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Looking Forward -->
+    <!-- Looking Forward Section -->
     <section class="container mx-auto px-6 md:px-12 py-12">
-        <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-6">Looking Forward</h2>
+        <!-- Heading -->
+        <div class="mb-6">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-900">
+                Looking Forward
+            </h1>
+            <div class="w-16 h-0.5 bg-gray-400 mt-2"></div>
+        </div>
+
+        <!-- Grid Layout -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-            <!-- Image -->
-            <div>
-                <img src="https://via.placeholder.com/400x300" alt="Looking Forward" class="rounded-lg shadow-md">
+            <!-- Image Section -->
+            <div class="relative">
+                <img src="{{ asset('images/Frame 106.png') }}" 
+                    alt="Looking Forward" 
+                    class="rounded-xl shadow-lg object-cover">
+                <!-- Circular Icon -->
+                <div class="absolute -top-12 -right-3 w-20 h-20">
+                    <img src="{{ asset('images/curve-text.png') }}" 
+                        alt="Circular Icon" 
+                        class="w-full h-full object-contain">
+                </div>
             </div>
-            <!-- Content -->
-            <div class="text-gray-600">
-                <p class="leading-relaxed mb-4">
-                    At SantaiMoto, we’re building more than an app—we’re creating a future where motorcycle care is simpler, smarter, and fully accessible to riders everywhere.
-                </p>
-                <p class="leading-relaxed mb-4">
+
+            <!-- Content Section -->
+            <div class="bg-gray-50 rounded-xl p-6 shadow-md">
+                <p class="text-gray-700 leading-relaxed mb-4">
+                    At SantaiMoto, we’re building more than an app—we’re creating a future where motorcycle care is simpler, smarter, and fully accessible to riders everywhere. 
                     Our journey is just beginning, and as we expand, we’re excited about the potential to reach even more riders and reshape the motorcycle industry.
                 </p>
-                <p class="leading-relaxed">
-                    For those who share our vision and see the opportunity in this growing field, SantaiMoto offers a unique chance to drive meaningful change and make an impact. Join us in building something extraordinary.
+                <p class="text-gray-700 leading-relaxed">
+                    For those who share our vision and see the opportunity in this growing field, SantaiMoto offers a unique chance to drive meaningful change and make an impact. 
+                    Join us in building something extraordinary.
                 </p>
             </div>
         </div>

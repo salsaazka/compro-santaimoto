@@ -20,7 +20,7 @@
             </div>
             <ul class="flex space-x-6 text-gray-600">
                 <li><a href="{{ url('/') }}" class="hover:text-blue-500">Home</a></li>
-                <li><a href="#about" class="hover:text-blue-500">About</a></li>
+                <li><a href="{{ url('/about') }}" class="hover:text-blue-500">About</a></li>
                 <li><a href="#services" class="hover:text-blue-500">Services</a></li>
                 <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
                 <li><a href="#faq" class="hover:text-blue-500">FAQ</a></li>
@@ -39,7 +39,7 @@
     <!-- Footer -->
     <footer class="bg-gray-100">
         <div class="container mx-auto px-6 md:px-12 py-5">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <!-- Contact Section -->
                 <div>
                     <h3 class="text-lg font-bold text-gray-800">Contact</h3>
@@ -82,7 +82,7 @@
                 <div>
                     <h3 class="text-lg font-bold text-gray-800 mb-4">Stay Connected</h3>
                     <p class="text-gray-600 mb-4">Join our Founder’s Newsletter to stay in the loop with exclusive updates.</p>
-                    <form class="flex flex-col space-y-4">
+                    <form class="flex flex-col space-y-4 flex justify-between">
                         <input type="text" placeholder="Your name" class="p-3 rounded-lg border border-gray-300">
                         <input type="email" placeholder="Your email address" class="p-3 rounded-lg border border-gray-300">
                         <button class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">

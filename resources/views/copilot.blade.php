@@ -24,24 +24,6 @@
             <img src="{{ asset('images/Group 135.png') }}" alt="Floating Elements" class="w-full max-w-md mx-auto">
         </div>
     </header>
-    
-
-    <!-- Floating Cards -->
-    {{-- <section class="relative mb-16">
-        <div class="absolute top-0 left-1/4 transform -translate-x-10 -translate-y-4 bg-white shadow-md p-3 rounded-lg">
-            <span class="text-sm text-gray-600">🔧 Real-Time Support</span>
-        </div>
-        <div class="absolute top-4 right-1/4 transform translate-x-10 bg-white shadow-md p-3 rounded-lg">
-            <span class="text-sm text-gray-600">⚠️ Alerts</span>
-        </div>
-        <div class="absolute bottom-0 left-1/3 transform -translate-x-12 translate-y-4 bg-white shadow-md p-3 rounded-lg">
-            <span class="text-sm text-gray-600">💡 Get recommendations</span>
-        </div>
-        <div class="absolute bottom-4 right-1/3 transform translate-x-12 bg-white shadow-md p-3 rounded-lg">
-            <span class="text-sm text-gray-600">🛠️ Diagnostics</span>
-        </div>
-    </section> --}}
-
 
     <!-- Core Features -->
     <section class="text-center py-12">
