@@ -44,6 +44,18 @@
             <li><a href="#service2" class="block px-4 py-2 hover:bg-blue-100">Service 2</a></li>
           </ul>
         </li>
+        <li class="relative group">
+          <a href="#services" class="hover:text-blue-500 font-semibold flex items-center">
+            Solutions
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1 group-hover:text-blue-500 transition-transform duration-300 group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </a>
+          <ul class="absolute hidden group-hover:block bg-white shadow-lg rounded-lg w-48 -mt-1">
+            <li><a href="#service1" class="block px-4 py-2 hover:bg-blue-100">Service 1</a></li>
+            <li><a href="#service2" class="block px-4 py-2 hover:bg-blue-100">Service 2</a></li>
+          </ul>
+        </li>
         <li><a href="#how-it-works" class="hover:text-blue-500 font-semibold">How it Works</a></li>
         <li><a href="{{ url('/career') }}" class="hover:text-blue-500 font-semibold">Careers</a></li>
         <li><a href="{{ url('/latest') }}" class="hover:text-blue-500 font-semibold">Latest</a></li>
