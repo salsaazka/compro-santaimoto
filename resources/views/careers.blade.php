@@ -21,7 +21,7 @@
     <h1 class="font-semibold	 text-[4rem] text-center bg-gradient-to-r from-[#4499db]  to-[#004370] bg-clip-text text-transparent">
       Shape the Future with Us
     </h1>
-    <p class="text-center px-[25rem] text-[#0D0D12]">
+    <p class="text-center lg:px-[25rem] sm:px-[1rem] text-[#0D0D12]">
       Be part of something transformative. At SantaiMoto, we’re redefining motorcycle maintenance by merging technology with passion. If you’re ready to make a meaningful impact, we’d love to hear from you!
     </p>
   </div>
