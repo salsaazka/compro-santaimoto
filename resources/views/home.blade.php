@@ -110,7 +110,6 @@
                         </div>
                     </div>
                 </div>
-                
             
                 <!-- Gambar -->
                 <div class="w-full md:w-1/2 mt-10 md:mt-0 flex justify-center">
@@ -196,84 +195,82 @@
     </div>
 
     <!-- Testimonials -->
-    <section class="py-16">
+    <section class="py-16 relative">
         <div class="container mx-auto px-6 md:px-12">
-            <!-- Judul -->
-            <h2 class="text-3xl font-bold text-gray-800 text-center mb-8">Trusted by Thousands</h2>
-
+            <!-- Bagian Judul -->
+            <div class="text-center mb-12">
+                <p class="bg-white inline-block px-4 py-1 rounded-full text-sm text-gray-600 shadow-lg">
+                    TESTIMONIALS
+                </p>
+                <h2 class="text-3xl font-bold text-gray-800 mt-4">Trusted by Thousands</h2>
+            </div>
+    
             <!-- Grid Testimoni -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Testimoni 1 -->
-                <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <p class="text-gray-600 italic">
-                        "I had an issue with my engine while riding to work, and SantaiMoto helped me out fast. The process was seamless from start to finish, and the mechanic explained everything they were doing so I could understand. It's such a relief to know I can count on them in emergencies! I'd highly recommend."
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg relative flex flex-col justify-between h-full hover:bg-white transition duration-300 group">
+                    <p class="text-gray-600 mb-4">
+                        “I had an issue with my engine while riding to work, and SantaiMoto helped me out fast. The process was seamless from start to finish, and the mechanic explained everything they were doing so I could understand. It’s such a relief to know I can count on them in emergencies! I’d highly recommend.”
                     </p>
-                    <div class="flex items-center mt-6">
-                        <img src="path-to-customer1.png" alt="Customer 1" class="h-12 w-12 rounded-full object-cover">
+                    <div class="flex items-center mt-auto">
+                        <img src="{{ asset('images/Ellipse 1.png') }}" alt="Customer 1" class="h-12 w-12 rounded-full object-cover">
                         <div class="ml-4">
                             <p class="font-bold text-gray-800">Ronny J.</p>
                             <p class="text-gray-600 text-sm">Jakarta</p>
-                            <div class="flex mt-2 text-yellow-500">
-                                <span>★★★★★</span>
-                            </div>
+                            <div class="flex mt-1 text-yellow-500">★★★★★</div>
                         </div>
                     </div>
+                    <img src="{{ asset('images/testi-element1.png') }}" alt="Icon Chat" class="absolute bottom-8 left-[-25px] w-16">
                 </div>
-
+    
                 <!-- Testimoni 2 -->
-                <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <p class="text-gray-600 italic">
-                        "The convenience is unmatched. Scheduling a tune-up through the app was so easy, and the mechanic was professional and thorough."
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg flex flex-col justify-between h-full hover:bg-white transition duration-300 group">
+                    <p class="text-gray-600">
+                        “The convenience is unmatched. Scheduling a tune-up through the app was so easy, and the mechanic was professional and thorough.”
                     </p>
                     <div class="flex items-center mt-6">
-                        <img src="path-to-customer2.png" alt="Customer 2" class="h-12 w-12 rounded-full object-cover">
+                        <img src="{{ asset('images/Ellipse 1.png') }}" alt="Customer 2" class="h-12 w-12 rounded-full object-cover">
                         <div class="ml-4">
                             <p class="font-bold text-gray-800">Rahmat B.</p>
                             <p class="text-gray-600 text-sm">Penang</p>
-                            <div class="flex mt-2 text-yellow-500">
-                                <span>★★★★★</span>
-                            </div>
+                            <div class="flex mt-1 text-yellow-500">★★★★★</div>
                         </div>
                     </div>
                 </div>
-
+    
                 <!-- Testimoni 3 -->
-                <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <p class="text-gray-600 italic">
-                        "SantaiMoto has completely changed how I handle bike maintenance. Scheduling a service is as simple as a few taps on my phone, and the mechanics are always punctual and well-prepared. The Co-Pilot’s real-time tracking gives me peace of mind."
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg relative flex-col justify-between h-full hover:bg-white transition duration-300 group">
+                    <p class="text-gray-600">
+                        “SantaiMoto has completely changed how I handle bike maintenance. Scheduling a service is as simple as a few taps on my phone, and the mechanics are always punctual and well-prepared. The Co-Pilot’s real-time tracking gives me peace of mind because I always know when to expect help. Plus, the advice they offer keeps my bike in top shape. I’ve been recommending it to all my friends!”
                     </p>
                     <div class="flex items-center mt-6">
-                        <img src="path-to-customer3.png" alt="Customer 3" class="h-12 w-12 rounded-full object-cover">
+                        <img src="{{ asset('images/Ellipse 1.png') }}" alt="Customer 3" class="h-12 w-12 rounded-full object-cover">
                         <div class="ml-4">
                             <p class="font-bold text-gray-800">Rizal K.</p>
                             <p class="text-gray-600 text-sm">Melaka</p>
-                            <div class="flex mt-2 text-yellow-500">
-                                <span>★★★★★</span>
-                            </div>
+                            <div class="flex mt-1 text-yellow-500">★★★★★</div>
                         </div>
                     </div>
+                    <img src="{{ asset('images/testi-elemen2.png') }}" alt="Box Red" class="absolute bottom-[-10px] right-[-40px] w-20">
                 </div>
-
+    
                 <!-- Testimoni 4 -->
-                <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <p class="text-gray-600 italic">
-                        "Super easy to schedule and the mechanic was on time and professional. I would highly recommend."
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg flex flex-col justify-between h-full hover:bg-white transition duration-300 group">
+                    <p class="text-gray-600">
+                        “Super easy to schedule and the mechanic was on time and professional. I would highly recommend.”
                     </p>
                     <div class="flex items-center mt-6">
-                        <img src="path-to-customer4.png" alt="Customer 4" class="h-12 w-12 rounded-full object-cover">
+                        <img src="{{ asset('images/Ellipse 1.png') }}" alt="Customer 4" class="h-12 w-12 rounded-full object-cover">
                         <div class="ml-4">
                             <p class="font-bold text-gray-800">Isabella R.</p>
                             <p class="text-gray-600 text-sm">Semarang</p>
-                            <div class="flex mt-2 text-yellow-500">
-                                <span>★★★★★</span>
-                            </div>
+                            <div class="flex mt-1 text-yellow-500">★★★★★</div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
+    </section>    
 
     <!-- FAQ -->
     <section class="py-16">
