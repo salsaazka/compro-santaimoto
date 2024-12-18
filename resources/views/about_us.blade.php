@@ -6,6 +6,7 @@
 
     <!-- Hero Section -->
     <section class="container mx-auto px-6 md:px-12 py-12 md:py-24">
+        <img src="{{ asset('images/box-2.png') }}" alt="Box 1" class="absolute top-0 right-0 transform translate-x-[-50%] mt-10 z-0">
         <div class="flex flex-col md:flex-row items-center justify-between">
             <div class="md:w-1/2">
                 <span class="inline-block bg-gray-200 text-gray-600 px-4 py-2 rounded-md text-sm mb-4">OUR STORY</span>
@@ -24,27 +25,38 @@
                     Now, with over 5,000 users, SantaiMoto offers real-time tracking, smart reminders, and easy access to trusted mechanics, making it simple to keep every bike in top shape—one service at a time.”
                 </p>
             </div>
+            <img src="{{ asset('images/box-1.png') }}" alt="Box 1" class="absolute bottom-0 left-3 transform translate-x-[-50%] z-0">
         </div>
     </section>
 
     <!-- Mission & Vision -->
     <section class="container mx-auto px-6 md:px-12 py-12 grid grid-cols-1 md:grid-cols-2 gap-8">
         <!-- Our Mission -->
-        <div class="p-6 bg-white rounded-lg shadow-md">
+        <div class="relative p-6 bg-white rounded-lg shadow-md">
             <h3 class="text-lg font-bold mb-4">Our Mission</h3>
             <p class="text-gray-600">
                 To empower motorcycle owners with an easy, reliable, and complete solution for maintaining their bikes.
             </p>
+            <!-- Icon Mission -->
+            <img src="{{ asset('images/element-mission.png') }}" 
+                 alt="Mission Icon" 
+                 class="absolute -top-3 -left-6 w-15 md:w-16">
         </div>
+    
         <!-- Our Vision -->
-        <div class="p-6 bg-white rounded-lg shadow-md">
+        <div class="relative p-6 bg-white rounded-lg shadow-md">
             <h3 class="text-lg font-bold mb-4">Our Vision</h3>
             <p class="text-gray-600">
                 To be the go-to app for everything motorcycles—a place where riders can find trusted service, parts reviews, specs, and even their next bike.
             </p>
+            <!-- Icon Vision -->
+            <img src="{{ asset('images/element-vission.png') }}" 
+                 alt="Vision Icon" 
+                 class="absolute -bottom-10 -right-6 w-15 md:w-16">
         </div>
     </section>
-
+    
+    
     <!-- Core Values -->
     <section class="container mx-auto px-6 md:px-12 py-12">
         <h2 class="text-2xl md:text-3xl font-bold text-gray-900 text-start mb-8">Core Values</h2>

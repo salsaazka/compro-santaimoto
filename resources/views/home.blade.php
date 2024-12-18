@@ -18,14 +18,14 @@
             </p>
         </div>
         <!-- Logo Section -->
-        <div class="absolute bottom-6 left-0 right-0 flex justify-center space-x-8 md:space-x-10">
-            <img src="{{ asset('images/airbnb.png') }}" alt="Airbnb Logo" class="h-3 md:h-6 object-contain">
-            <img src="{{ asset('images/hubspot.png') }}" alt="HubSpot Logo" class="h-3 md:h-6 object-contain">
-            <img src="{{ asset('images/google.png') }}" alt="Google Logo" class="h-3 md:h-6 object-contain">
-            <img src="{{ asset('images/microsoft.png') }}" alt="Microsoft Logo" class="h-3 md:h-6 object-contain">
-            <img src="{{ asset('images/walmart.png') }}" alt="Walmart Logo" class="h-3 md:h-6 object-contain">
-            <img src="{{ asset('images/fedex.png') }}" alt="FedEx Logo" class="h-3 md:h-6 object-contain">
-            <img src="{{ asset('images/Shopify.png') }}" alt="Shopify Logo" class="h-3 md:h-6 object-contain">
+        <div class="absolute bottom-6 left-0 right-0 flex justify-center space-x-8 md:space-x-8">
+            <img src="{{ asset('images/airbnb.png') }}" alt="Airbnb Logo" class="h-3 md:h-5 object-contain">
+            <img src="{{ asset('images/hubspot.png') }}" alt="HubSpot Logo" class="h-3 md:h-5 object-contain">
+            <img src="{{ asset('images/google.png') }}" alt="Google Logo" class="h-3 md:h-5 object-contain">
+            <img src="{{ asset('images/microsoft.png') }}" alt="Microsoft Logo" class="h-3 md:h-5 object-contain">
+            <img src="{{ asset('images/walmart.png') }}" alt="Walmart Logo" class="h-3 md:h-5 object-contain">
+            <img src="{{ asset('images/fedex.png') }}" alt="FedEx Logo" class="h-3 md:h-5 object-contain">
+            <img src="{{ asset('images/Shopify.png') }}" alt="Shopify Logo" class="h-3 md:h-5 object-contain">
         </div>
     </div>
 

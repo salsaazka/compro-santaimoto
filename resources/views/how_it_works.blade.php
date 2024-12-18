@@ -106,7 +106,7 @@
         <div class="absolute right-3 bottom-4">
             <img src="{{ asset('images/vector-banner.png') }}" 
                 alt="Background Logo" 
-                class="w-[80px] md:w-[120px] lg:w-[150px] opacity-50 md:opacity-100">
+                class="w-[80px] md:w-[100px] lg:w-[150px] opacity-50 md:opacity-100">
         </div>
 
     </div>
