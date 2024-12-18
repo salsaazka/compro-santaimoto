@@ -3,9 +3,29 @@
 @section('title', 'Welcome to SantaiMoto')
 
 @section('content')
-    <div class="bg-white mx-auto px-2 text-center">
-        <div class="flex justify-center mt-6">
-            <img src="{{ asset('images/banner-1.png') }}" alt="Hero Image" class="rounded-lg">
+    <div class="relative mx-5 mt-3 rounded-lg overflow-hidden text-center">
+        <!-- Banner Image -->
+        <img src="{{ asset('images/banner-home.png') }}" alt="Hero Image" class="w-full object-cover rounded-lg">
+
+        <!-- Overlay Text -->
+        <div class="absolute top-1/4 left-6 md:left-12 lg:left-16 text-left text-white">
+            <h1 class="text-2xl md:text-4xl font-bold mb-4">
+                Discover the Ultimate Convenience in <br>
+                Motorcycle Maintenance with Santai
+            </h1>
+            <p class="text-sm md:text-base text-gray-200 max-w-lg">
+                Experience seamless, on-demand motorcycle maintenance at your doorstep. Join millions of satisfied users today.
+            </p>
+        </div>
+        <!-- Logo Section -->
+        <div class="absolute bottom-6 left-0 right-0 flex justify-center space-x-8 md:space-x-10">
+            <img src="{{ asset('images/airbnb.png') }}" alt="Airbnb Logo" class="h-3 md:h-6 object-contain">
+            <img src="{{ asset('images/hubspot.png') }}" alt="HubSpot Logo" class="h-3 md:h-6 object-contain">
+            <img src="{{ asset('images/google.png') }}" alt="Google Logo" class="h-3 md:h-6 object-contain">
+            <img src="{{ asset('images/microsoft.png') }}" alt="Microsoft Logo" class="h-3 md:h-6 object-contain">
+            <img src="{{ asset('images/walmart.png') }}" alt="Walmart Logo" class="h-3 md:h-6 object-contain">
+            <img src="{{ asset('images/fedex.png') }}" alt="FedEx Logo" class="h-3 md:h-6 object-contain">
+            <img src="{{ asset('images/Shopify.png') }}" alt="Shopify Logo" class="h-3 md:h-6 object-contain">
         </div>
     </div>
 
