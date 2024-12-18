@@ -181,38 +181,37 @@
         </div>
     </div>
 
-    <div class="relative w-full flex justify-center items-center bg-[#0D9BDE17] min-h-[250px] max-h-[250px] rounded-lg mt-8 mb-8 ">
+    <div class="relative w-full flex flex-col-reverse md:flex-row items-center bg-[#0D9BDE17] rounded-lg mt-8 mb-8">
         <!-- Gambar Mockup Handphone -->
-        <div class="w-[40%] absolute left-10 bottom-0">
-            <img src="{{ asset('images/MidIphone.png') }}" 
-                alt="Mobile App Screenshot" 
-                class="w-[200px]">
+        <div class="w-1/2 md:w-1/3 relative z-0 mt-[-50px] md:mt-0">
+            <img src="{{ asset('images/MidIphone.png') }}" alt="Mobile App Screenshot" 
+                 class="w-[150px] md:w-[200px] lg:w-[220px] mx-auto">
         </div>
 
-        <div class="md:w-1/2 mt-8 md:mt-0 md:pl-12">
-            <h2 class="text-4xl font-bold text-gray-800">
+        <!-- Konten Teks -->
+        <div class="w-full md:w-1/2 text-center md:text-left px-6 md:px-12 mt-6 md:mt-0 z-10">
+            <h2 class="text-2xl md:text-4xl font-bold text-gray-800 leading-snug">
                 Join over <span class="text-blue-600">5,000</span> users and a growing network of qualified mechanics
             </h2>
-            <p class="text-gray-600 mt-4">
+            <p class="text-gray-600 mt-4 text-sm md:text-base">
                 Get the app now on your favorite platform and experience seamless bike management with SantaiMoto.
             </p>
-            <div class="mt-6 flex space-x-4">
-                <a href="https://play.google.com/store/apps/details?id=com.example" target="_blank" rel="noopener noreferrer">
-                    <img src="{{ asset('images/googleplay.png') }}" alt="Google Play" class="w-40">
+            <!-- Tombol Platform -->
+            <div class="mt-6 flex justify-center md:justify-start space-x-4">
+                <a href="#">
+                    <img src="{{ asset('images/googleplay.png') }}" alt="Google Play" class="w-32 md:w-40">
                 </a>
-                <a href="https://apps.apple.com/us/app/example/id1234567890" target="_blank" rel="noopener noreferrer">
-                    <img src="{{ asset('images/appstore.png') }}" alt="App Store" class="w-40">
+                <a href="#">
+                    <img src="{{ asset('images/appstore.png') }}" alt="App Store" class="w-32 md:w-40">
                 </a>
             </div>
         </div>
-        
-        <div class="absolute right-3 bottom-4">
-            <img src="{{ asset('images/vector-banner.png') }}" 
-                alt="Background Logo" 
-                class="w-[80px] md:w-[120px] lg:w-[150px] opacity-50 md:opacity-100">
+    
+        <!-- Logo Background -->
+        <div class="absolute right-4 bottom-4 hidden md:block">
+            <img src="{{ asset('images/vector-banner.png') }}" alt="Background Logo" class="w-[80px] md:w-[120px] lg:w-[150px]">
         </div>
-
-    </div>
+    </div>    
 
     <!-- Testimonials -->
     <section class="py-16 relative">
