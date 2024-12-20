@@ -13,7 +13,10 @@
                     maintenance simple, convenient, and reliable. Follow these quick steps to start using SantaiMoto and
                     experience hassle-free service wherever you are.
                 </p>
+                <img src="{{ asset('images/box-1.png') }}" alt="Box 1" class="absolute top-0 right-0 transform translate-x-[-50%] mt-10 z-0">
+
             </div>
+            
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-6 md:px-12 mt-16 mb-8">
                 <!-- Steps List -->
                 <div class="space-y-4">
@@ -103,7 +106,7 @@
         <div class="absolute right-3 bottom-4">
             <img src="{{ asset('images/vector-banner.png') }}" 
                 alt="Background Logo" 
-                class="w-[80px] md:w-[120px] lg:w-[150px] opacity-50 md:opacity-100">
+                class="w-[80px] md:w-[100px] lg:w-[150px] opacity-50 md:opacity-100">
         </div>
 
     </div>

@@ -53,7 +53,7 @@
     </section>
 
     <!-- Banner -->
-    <section class="py-12 bg-blue-50">
+    <section class="py-12 bg-blue-50 mb-5 mx-5 border rounded-lg">
         <div class="container mx-auto text-center">
             <div class=" inline-block mb-4 p-4">
                 <img src="{{ asset('images/graphic-element.png') }}" alt="Logo Placeholder">

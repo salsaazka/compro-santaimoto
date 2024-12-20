@@ -3,9 +3,29 @@
 @section('title', 'Welcome to SantaiMoto')
 
 @section('content')
-    <div class="bg-white mx-auto px-2 text-center">
-        <div class="flex justify-center mt-6">
-            <img src="{{ asset('images/banner-1.png') }}" alt="Hero Image" class="rounded-lg">
+    <div class="relative mx-5 mt-3 rounded-lg overflow-hidden text-center">
+        <!-- Banner Image -->
+        <img src="{{ asset('images/banner-home.png') }}" alt="Hero Image" class="w-full object-cover rounded-lg">
+
+        <!-- Overlay Text -->
+        <div class="absolute top-1/4 left-6 md:left-12 lg:left-16 text-left text-white">
+            <h1 class="text-2xl md:text-4xl font-bold mb-4">
+                Discover the Ultimate Convenience in <br>
+                Motorcycle Maintenance with Santai
+            </h1>
+            <p class="text-sm md:text-base text-gray-200 max-w-lg">
+                Experience seamless, on-demand motorcycle maintenance at your doorstep. Join millions of satisfied users today.
+            </p>
+        </div>
+        <!-- Logo Section -->
+        <div class="absolute bottom-6 left-0 right-0 flex justify-center space-x-8 md:space-x-8">
+            <img src="{{ asset('images/airbnb.png') }}" alt="Airbnb Logo" class="h-3 md:h-5 object-contain">
+            <img src="{{ asset('images/hubspot.png') }}" alt="HubSpot Logo" class="h-3 md:h-5 object-contain">
+            <img src="{{ asset('images/google.png') }}" alt="Google Logo" class="h-3 md:h-5 object-contain">
+            <img src="{{ asset('images/microsoft.png') }}" alt="Microsoft Logo" class="h-3 md:h-5 object-contain">
+            <img src="{{ asset('images/walmart.png') }}" alt="Walmart Logo" class="h-3 md:h-5 object-contain">
+            <img src="{{ asset('images/fedex.png') }}" alt="FedEx Logo" class="h-3 md:h-5 object-contain">
+            <img src="{{ asset('images/Shopify.png') }}" alt="Shopify Logo" class="h-3 md:h-5 object-contain">
         </div>
     </div>
 
@@ -110,7 +130,6 @@
                         </div>
                     </div>
                 </div>
-                
             
                 <!-- Gambar -->
                 <div class="w-full md:w-1/2 mt-10 md:mt-0 flex justify-center">
@@ -162,118 +181,115 @@
         </div>
     </div>
 
-    <div class="relative w-full flex justify-center items-center bg-[#0D9BDE17] min-h-[250px] max-h-[250px] rounded-lg mt-8 mb-8 ">
+    <div class="relative w-full flex flex-col-reverse md:flex-row items-center bg-[#0D9BDE17] rounded-lg mt-8 mb-8">
         <!-- Gambar Mockup Handphone -->
-        <div class="w-[40%] absolute left-10 bottom-0">
-            <img src="{{ asset('images/MidIphone.png') }}" 
-                alt="Mobile App Screenshot" 
-                class="w-[200px]">
+        <div class="w-1/2 md:w-1/3 relative z-0 mt-[-50px] md:mt-0">
+            <img src="{{ asset('images/MidIphone.png') }}" alt="Mobile App Screenshot" 
+                 class="w-[150px] md:w-[200px] lg:w-[220px] mx-auto">
         </div>
 
-        <div class="md:w-1/2 mt-8 md:mt-0 md:pl-12">
-            <h2 class="text-4xl font-bold text-gray-800">
+        <!-- Konten Teks -->
+        <div class="w-full md:w-1/2 text-center md:text-left px-6 md:px-12 mt-6 md:mt-0 z-10">
+            <h2 class="text-2xl md:text-4xl font-bold text-gray-800 leading-snug">
                 Join over <span class="text-blue-600">5,000</span> users and a growing network of qualified mechanics
             </h2>
-            <p class="text-gray-600 mt-4">
+            <p class="text-gray-600 mt-4 text-sm md:text-base">
                 Get the app now on your favorite platform and experience seamless bike management with SantaiMoto.
             </p>
-            <div class="mt-6 flex space-x-4">
-                <a href="https://play.google.com/store/apps/details?id=com.example" target="_blank" rel="noopener noreferrer">
-                    <img src="{{ asset('images/googleplay.png') }}" alt="Google Play" class="w-40">
+            <!-- Tombol Platform -->
+            <div class="mt-6 flex justify-center md:justify-start space-x-4">
+                <a href="#">
+                    <img src="{{ asset('images/googleplay.png') }}" alt="Google Play" class="w-32 md:w-40">
                 </a>
-                <a href="https://apps.apple.com/us/app/example/id1234567890" target="_blank" rel="noopener noreferrer">
-                    <img src="{{ asset('images/appstore.png') }}" alt="App Store" class="w-40">
+                <a href="#">
+                    <img src="{{ asset('images/appstore.png') }}" alt="App Store" class="w-32 md:w-40">
                 </a>
             </div>
         </div>
-        
-        <div class="absolute right-3 bottom-4">
-            <img src="{{ asset('images/vector-banner.png') }}" 
-                alt="Background Logo" 
-                class="w-[80px] md:w-[120px] lg:w-[150px] opacity-50 md:opacity-100">
+    
+        <!-- Logo Background -->
+        <div class="absolute right-4 bottom-4 hidden md:block">
+            <img src="{{ asset('images/vector-banner.png') }}" alt="Background Logo" class="w-[80px] md:w-[120px] lg:w-[150px]">
         </div>
-
-    </div>
+    </div>    
 
     <!-- Testimonials -->
-    <section class="py-16">
+    <section class="py-16 relative">
         <div class="container mx-auto px-6 md:px-12">
-            <!-- Judul -->
-            <h2 class="text-3xl font-bold text-gray-800 text-center mb-8">Trusted by Thousands</h2>
-
+            <!-- Bagian Judul -->
+            <div class="text-center mb-12">
+                <p class="bg-white inline-block px-4 py-1 rounded-full text-sm text-gray-600 shadow-lg">
+                    TESTIMONIALS
+                </p>
+                <h2 class="text-3xl font-bold text-gray-800 mt-4">Trusted by Thousands</h2>
+            </div>
+    
             <!-- Grid Testimoni -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Testimoni 1 -->
-                <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <p class="text-gray-600 italic">
-                        "I had an issue with my engine while riding to work, and SantaiMoto helped me out fast. The process was seamless from start to finish, and the mechanic explained everything they were doing so I could understand. It's such a relief to know I can count on them in emergencies! I'd highly recommend."
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg relative flex flex-col justify-between h-full hover:bg-white transition duration-300 group">
+                    <p class="text-gray-600 mb-4">
+                        “I had an issue with my engine while riding to work, and SantaiMoto helped me out fast. The process was seamless from start to finish, and the mechanic explained everything they were doing so I could understand. It’s such a relief to know I can count on them in emergencies! I’d highly recommend.”
                     </p>
-                    <div class="flex items-center mt-6">
-                        <img src="path-to-customer1.png" alt="Customer 1" class="h-12 w-12 rounded-full object-cover">
+                    <div class="flex items-center mt-auto">
+                        <img src="{{ asset('images/Ellipse 1.png') }}" alt="Customer 1" class="h-12 w-12 rounded-full object-cover">
                         <div class="ml-4">
                             <p class="font-bold text-gray-800">Ronny J.</p>
                             <p class="text-gray-600 text-sm">Jakarta</p>
-                            <div class="flex mt-2 text-yellow-500">
-                                <span>★★★★★</span>
-                            </div>
+                            <div class="flex mt-1 text-yellow-500">★★★★★</div>
                         </div>
                     </div>
+                    <img src="{{ asset('images/testi-element1.png') }}" alt="Icon Chat" class="absolute bottom-8 left-[-25px] w-16">
                 </div>
-
+    
                 <!-- Testimoni 2 -->
-                <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <p class="text-gray-600 italic">
-                        "The convenience is unmatched. Scheduling a tune-up through the app was so easy, and the mechanic was professional and thorough."
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg flex flex-col justify-between h-full hover:bg-white transition duration-300 group">
+                    <p class="text-gray-600">
+                        “The convenience is unmatched. Scheduling a tune-up through the app was so easy, and the mechanic was professional and thorough.”
                     </p>
                     <div class="flex items-center mt-6">
-                        <img src="path-to-customer2.png" alt="Customer 2" class="h-12 w-12 rounded-full object-cover">
+                        <img src="{{ asset('images/Ellipse 1.png') }}" alt="Customer 2" class="h-12 w-12 rounded-full object-cover">
                         <div class="ml-4">
                             <p class="font-bold text-gray-800">Rahmat B.</p>
                             <p class="text-gray-600 text-sm">Penang</p>
-                            <div class="flex mt-2 text-yellow-500">
-                                <span>★★★★★</span>
-                            </div>
+                            <div class="flex mt-1 text-yellow-500">★★★★★</div>
                         </div>
                     </div>
                 </div>
-
+    
                 <!-- Testimoni 3 -->
-                <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <p class="text-gray-600 italic">
-                        "SantaiMoto has completely changed how I handle bike maintenance. Scheduling a service is as simple as a few taps on my phone, and the mechanics are always punctual and well-prepared. The Co-Pilot’s real-time tracking gives me peace of mind."
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg relative flex-col justify-between h-full hover:bg-white transition duration-300 group">
+                    <p class="text-gray-600">
+                        “SantaiMoto has completely changed how I handle bike maintenance. Scheduling a service is as simple as a few taps on my phone, and the mechanics are always punctual and well-prepared. The Co-Pilot’s real-time tracking gives me peace of mind because I always know when to expect help. Plus, the advice they offer keeps my bike in top shape. I’ve been recommending it to all my friends!”
                     </p>
                     <div class="flex items-center mt-6">
-                        <img src="path-to-customer3.png" alt="Customer 3" class="h-12 w-12 rounded-full object-cover">
+                        <img src="{{ asset('images/Ellipse 1.png') }}" alt="Customer 3" class="h-12 w-12 rounded-full object-cover">
                         <div class="ml-4">
                             <p class="font-bold text-gray-800">Rizal K.</p>
                             <p class="text-gray-600 text-sm">Melaka</p>
-                            <div class="flex mt-2 text-yellow-500">
-                                <span>★★★★★</span>
-                            </div>
+                            <div class="flex mt-1 text-yellow-500">★★★★★</div>
                         </div>
                     </div>
+                    <img src="{{ asset('images/testi-elemen2.png') }}" alt="Box Red" class="absolute bottom-[-10px] right-[-40px] w-20">
                 </div>
-
+    
                 <!-- Testimoni 4 -->
-                <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <p class="text-gray-600 italic">
-                        "Super easy to schedule and the mechanic was on time and professional. I would highly recommend."
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg flex flex-col justify-between h-full hover:bg-white transition duration-300 group">
+                    <p class="text-gray-600">
+                        “Super easy to schedule and the mechanic was on time and professional. I would highly recommend.”
                     </p>
                     <div class="flex items-center mt-6">
-                        <img src="path-to-customer4.png" alt="Customer 4" class="h-12 w-12 rounded-full object-cover">
+                        <img src="{{ asset('images/Ellipse 1.png') }}" alt="Customer 4" class="h-12 w-12 rounded-full object-cover">
                         <div class="ml-4">
                             <p class="font-bold text-gray-800">Isabella R.</p>
                             <p class="text-gray-600 text-sm">Semarang</p>
-                            <div class="flex mt-2 text-yellow-500">
-                                <span>★★★★★</span>
-                            </div>
+                            <div class="flex mt-1 text-yellow-500">★★★★★</div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
+    </section>    
 
     <!-- FAQ -->
     <section class="py-16">
