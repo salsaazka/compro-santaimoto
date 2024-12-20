@@ -12,12 +12,12 @@
       Stay informed with the latest updates, tips, and industry insights, all in one place.</h1>
   </div>
 </div>
-<div class="mx-12">
+<div class="mx-[6rem] ">
   <section>
-    <button class="bg-white text-gray-800 font-semibold py-2 px-4 rounded-full border border-gray-300 shadow-md hover:shadow-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-300 transition duration-300">
+    <button class="bg-white text-gray-800 font-semibold py-2 px-4 rounded-full border border-gray-300 shadow-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-300 transition duration-300">
       RECENT UPLOADS
     </button>
-    <div class="flex mt-12 align-items-center gap-5">
+    <div class="flex mt-12 gap-5 align-items-center">
       <div class=" p-2 bg-white border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
         <img class="w-full rounded-t-lg" src="{{asset('images/blog-1.jpg')}}" alt="Card Image">
         <div class="p-6">
@@ -25,7 +25,6 @@
           <p class="text-gray-600 text-sm mb-4">
             This is a brief description of the card content. It's concise and informative.
           </p>
-        
         </div>
       </div>
      <div>
@@ -87,6 +86,30 @@
         </div>
       </div>
      </div>
+    </div>
+    <div class="flex items-center mt-12 gap-3 justify-between">
+      <img src="{{asset('images/vid-1.png')}}" alt="">
+      <img src="{{asset('images/vid-2.png')}}" alt="">
+      <img src="{{asset('images/vid-3.png')}}" alt="">
+      <img src="{{asset('images/vid-4.png')}}" alt="">
+    </div>
+  </section>
+
+  <section>
+    <button class="bg-white mt-5 text-gray-800 font-semibold py-2 px-4 rounded-full border border-gray-300 shadow-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-300 transition duration-300">
+      ALL POSTS
+    </button>
+
+    <div class="grid grid-rows-4 grid-flow-col gap-4">
+      <div class=" p-2 bg-white border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+        <img class="w-full rounded-t-lg" src="{{asset('images/upload-1.png')}}" alt="Card Image">
+        <div class="p-6">
+          <h5 class="text-xl font-semibold text-gray-800 mb-2">Riding in Style: Brian Ahmad Talks Bike Customization</h5>
+          <p class="text-gray-600 text-sm mb-4">
+            This is a brief description of the card content. It's concise and informative.
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 </div>

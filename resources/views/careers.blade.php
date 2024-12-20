@@ -5,7 +5,7 @@
 @section('content')
 <div class="relative">
   <!-- Background Transparan -->
-  <img src="{{ asset('images/bg-trans.png') }}" alt="Background Transparan" class="absolute inset-0 w-full h-auto mt-[-10rem] object-cover z-10">
+  <img src="{{ asset('images/bg-trans.png') }}" alt="Background Transparan" class="absolute inset-0 w-full h-auto mt-[-10rem] object-cover z-10 hidden lg:block">
 
   <!-- Box 3 -->
   <img src="{{ asset('images/box-3.png') }}" alt="Box 3" class="absolute top-[-7rem] left-1/4 transform -translate-y-1/2 -translate-x-1/2 z-0">
@@ -14,10 +14,10 @@
   <img src="{{ asset('images/box-2.png') }}" alt="Box 2" class="absolute top-[5rem] left-[4rem] transform -translate-x-1/2 z-10">
 
   <!-- Box 1 -->
-  <img src="{{ asset('images/box-1.png') }}" alt="Box 1" class="absolute bottom-[-10rem] right-[4rem] transform translate-x-[-50%] mt-8 z-10">
+  <img src="{{ asset('images/box-1.png') }}" alt="Box 1" class="absolute lg:bottom-[-10rem] bottom-0 lg:right-[4rem] right-0 transform translate-x-[-50%] mt-8 z-10">
 
   <!-- Text Section -->
-  <div class="relative z-20 mt-[8rem]">
+  <div class="relative z-20 lg:mt-[8rem] mt-[3rem]">
     <h1 class="font-semibold	 lg:text-[4rem] text-[2rem] text-center bg-gradient-to-r from-[#4499db]  to-[#004370] bg-clip-text text-transparent">
       Shape the Future with Us
     </h1>
@@ -27,9 +27,9 @@
   </div>
 </div>
 
-<div class="lg:px-[5rem] px-[1rem] my-12 mt-[12rem] ">
+<div class="lg:px-[5rem] px-[1rem] my-12 lg:mt-[12rem] mt-[3rem] ">
   <section>
-    <button class="bg-white text-sm  text-gray-800 font-semibold py-[0.3rem] px-4 rounded-full border border-gray-300 shadow-md hover:shadow-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-300 transition duration-300">
+    <button class="bg-white text-sm  text-gray-800 font-semibold py-[0.3rem] px-4 rounded-full border border-gray-300 shadow-lg hover:shadow-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-300 transition duration-300">
       MISSION
     </button>
     <div class="flex flex-col lg:flex-row">
@@ -44,7 +44,7 @@
   <section>
     <h1 class="lg:text-[3rem] text-[2rem] font-semibold mb-12 text-center">Why Work with SantaiMoto?</h1>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      <div class="w-full mx-auto bg-white border border-gray-200 rounded-[1rem] shadow-md hover:shadow-lg transition-shadow duration-300">
+      <div class="w-full mx-auto bg-white border rounded-[1rem] shadow-lg hover:shadow-lg transition-shadow duration-300">
         <div class="p-8">
           <img src="{{ asset('images/card-icon-5.png') }}" alt="Card Image">
           <h5 class="text-xl font-semibold text-gray-800 my-2">Innovative Culture</h5>
@@ -53,7 +53,7 @@
           </p>
         </div>
       </div>
-      <div class="w-full mx-auto bg-white border border-gray-200 rounded-[1rem] shadow-md hover:shadow-lg transition-shadow duration-300">
+      <div class="w-full mx-auto bg-white border rounded-[1rem] shadow-lg hover:shadow-lg transition-shadow duration-300">
         <div class="p-8">
           <img src="{{ asset('images/card-icon-1.png') }}" alt="Card Image">
           <h5 class="text-xl font-semibold text-gray-800 my-3">Community-Driven Team</h5>
@@ -63,8 +63,8 @@
       </div>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-3">
-      <div class="w-full mx-auto bg-white border border-gray-200 rounded-[1rem] shadow-md hover:shadow-lg transition-shadow duration-300">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-5">
+      <div class="w-full mx-auto bg-white border rounded-[1rem] shadow-lg hover:shadow-lg transition-shadow duration-300">
         <div class="p-8">
           <img src="{{ asset('images/card-icon-4.png') }}" alt="Card Image">
           <h5 class="text-xl font-semibold text-gray-800 my-3">Growth Opportunities</h5>
@@ -72,7 +72,7 @@
             We value learning and development, offering opportunities to sharpen your skills and advance your career.
         </div>
       </div>
-      <div class="w-full mx-auto bg-white border border-gray-200 rounded-[1rem] shadow-md hover:shadow-lg transition-shadow duration-300">
+      <div class="w-full mx-auto bg-white border rounded-[1rem] shadow-lg hover:shadow-lg transition-shadow duration-300">
         <div class="p-8">
           <img src="{{ asset('images/card-icon-5.png') }}" alt="Card Image">
           <h5 class="text-xl font-semibold text-gray-800 my-3">Flexible Work Environment</h5>
@@ -80,7 +80,7 @@
             Life moves fast, and we know flexibility matters. We support work-life balance to help our team thrive
         </div>
       </div>
-      <div class="w-full mx-auto bg-white border border-gray-200 rounded-[1rem] shadow-md hover:shadow-lg transition-shadow duration-300">
+      <div class="w-full mx-auto bg-white border rounded-[1rem] shadow-lg hover:shadow-lg transition-shadow duration-300">
         <div class="p-8">
           <img src="{{ asset('images/card-icon-2.png') }}" alt="Card Image">
           <h5 class="text-xl font-semibold text-gray-800 my-3">Bonus & Reward</h5>
