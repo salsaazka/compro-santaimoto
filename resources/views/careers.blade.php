@@ -5,7 +5,7 @@
 @section('content')
 <div class="relative">
   <!-- Background Transparan -->
-  <img src="{{ asset('images/bg-trans.png') }}" alt="Background Transparan" class="absolute inset-0 w-full h-auto mt-[-10rem] object-cover z-10">
+  <img src="{{ asset('images/bg-trans.png') }}" alt="Background Transparan" class="absolute inset-0 w-full h-auto mt-[-10rem] object-cover z-10 hidden lg:block">
 
   <!-- Box 3 -->
   <img src="{{ asset('images/box-3.png') }}" alt="Box 3" class="absolute top-[-7rem] left-1/4 transform -translate-y-1/2 -translate-x-1/2 z-0">
@@ -14,25 +14,25 @@
   <img src="{{ asset('images/box-2.png') }}" alt="Box 2" class="absolute top-[5rem] left-[4rem] transform -translate-x-1/2 z-10">
 
   <!-- Box 1 -->
-  <img src="{{ asset('images/box-1.png') }}" alt="Box 1" class="absolute bottom-[-10rem] right-[4rem] transform translate-x-[-50%] mt-8 z-10">
+  <img src="{{ asset('images/box-1.png') }}" alt="Box 1" class="absolute lg:bottom-[-10rem] bottom-0 lg:right-[4rem] right-0 transform translate-x-[-50%] mt-8 z-10">
 
   <!-- Text Section -->
-  <div class="relative z-20 mt-[8rem]">
-    <h1 class="font-semibold	 text-[4rem] text-center bg-gradient-to-r from-[#4499db]  to-[#004370] bg-clip-text text-transparent">
+  <div class="relative z-20 lg:mt-[8rem] mt-[3rem]">
+    <h1 class="font-semibold	 lg:text-[4rem] text-[2rem] text-center bg-gradient-to-r from-[#4499db]  to-[#004370] bg-clip-text text-transparent">
       Shape the Future with Us
     </h1>
-    <p class="text-center px-[25rem] text-[#0D0D12]">
+    <p class="text-center text-[20px] lg:px-[25rem] sm:px-[1rem] text-[#0D0D12]">
       Be part of something transformative. At SantaiMoto, we’re redefining motorcycle maintenance by merging technology with passion. If you’re ready to make a meaningful impact, we’d love to hear from you!
     </p>
   </div>
 </div>
 
-<div class="px-[5rem] my-12 mt-[12rem] ">
+<div class="lg:px-[5rem] px-[1rem] my-12 lg:mt-[12rem] mt-[3rem] ">
   <section>
-    <button class="bg-white text-sm  text-gray-800 font-semibold py-[0.3rem] px-4 rounded-full border border-gray-300 shadow-md hover:shadow-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-300 transition duration-300">
+    <button class="bg-white text-sm  text-gray-800 font-semibold py-[0.3rem] px-4 rounded-full border border-gray-300 shadow-lg hover:shadow-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-300 transition duration-300">
       MISSION
     </button>
-    <div class="flex">
+    <div class="flex flex-col lg:flex-row">
       <div>
         <h1 class="text-[2rem] font-bold mt-8">OUR FUTURE</h1>
         <p class="text-[20px]">Imagine a world where SantaiMoto is the trusted name in every rider’s journey. Our app aims to go beyond basic maintenance—it’s a comprehensive hub where riders can find honest reviews on parts, the latest specs, expert insights, and even options to buy their next bike. Our goal is to become the go-to platform for everything motorcycle-related, making life simpler, safer, and more exciting for riders everywhere. We’re excited to build this vision together, and we need talented people to help make it a reality.</p>
@@ -42,9 +42,9 @@
     </div>
   </section>
   <section>
-    <h1 class="text-[3rem] font-semibold mb-12 text-center">Why Work with SantaiMoto?</h1>
+    <h1 class="lg:text-[3rem] text-[2rem] font-semibold mb-12 text-center">Why Work with SantaiMoto?</h1>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      <div class="w-full mx-auto bg-white border border-gray-200 rounded-[1rem] shadow-md hover:shadow-lg transition-shadow duration-300">
+      <div class="w-full mx-auto bg-white border rounded-[1rem] shadow-lg hover:shadow-lg transition-shadow duration-300">
         <div class="p-8">
           <img src="{{ asset('images/card-icon-5.png') }}" alt="Card Image">
           <h5 class="text-xl font-semibold text-gray-800 my-2">Innovative Culture</h5>
@@ -53,7 +53,7 @@
           </p>
         </div>
       </div>
-      <div class="w-full mx-auto bg-white border border-gray-200 rounded-[1rem] shadow-md hover:shadow-lg transition-shadow duration-300">
+      <div class="w-full mx-auto bg-white border rounded-[1rem] shadow-lg hover:shadow-lg transition-shadow duration-300">
         <div class="p-8">
           <img src="{{ asset('images/card-icon-1.png') }}" alt="Card Image">
           <h5 class="text-xl font-semibold text-gray-800 my-3">Community-Driven Team</h5>
@@ -63,8 +63,8 @@
       </div>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-3">
-      <div class="w-full mx-auto bg-white border border-gray-200 rounded-[1rem] shadow-md hover:shadow-lg transition-shadow duration-300">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-5">
+      <div class="w-full mx-auto bg-white border rounded-[1rem] shadow-lg hover:shadow-lg transition-shadow duration-300">
         <div class="p-8">
           <img src="{{ asset('images/card-icon-4.png') }}" alt="Card Image">
           <h5 class="text-xl font-semibold text-gray-800 my-3">Growth Opportunities</h5>
@@ -72,7 +72,7 @@
             We value learning and development, offering opportunities to sharpen your skills and advance your career.
         </div>
       </div>
-      <div class="w-full mx-auto bg-white border border-gray-200 rounded-[1rem] shadow-md hover:shadow-lg transition-shadow duration-300">
+      <div class="w-full mx-auto bg-white border rounded-[1rem] shadow-lg hover:shadow-lg transition-shadow duration-300">
         <div class="p-8">
           <img src="{{ asset('images/card-icon-5.png') }}" alt="Card Image">
           <h5 class="text-xl font-semibold text-gray-800 my-3">Flexible Work Environment</h5>
@@ -80,7 +80,7 @@
             Life moves fast, and we know flexibility matters. We support work-life balance to help our team thrive
         </div>
       </div>
-      <div class="w-full mx-auto bg-white border border-gray-200 rounded-[1rem] shadow-md hover:shadow-lg transition-shadow duration-300">
+      <div class="w-full mx-auto bg-white border rounded-[1rem] shadow-lg hover:shadow-lg transition-shadow duration-300">
         <div class="p-8">
           <img src="{{ asset('images/card-icon-2.png') }}" alt="Card Image">
           <h5 class="text-xl font-semibold text-gray-800 my-3">Bonus & Reward</h5>
@@ -94,26 +94,26 @@
 
   </section>
   <section>
-    <h1 class="text-[3rem] font-semibold mt-[6rem] mb-6">Life at SantaiMoto</h1>
+    <h1 class="lg:text-[3rem] text-[2rem] font-semibold mt-[6rem] mb-6">Life at SantaiMoto</h1>
     <div>
-      <div class="flex gap-8  mb-8 justify-content-center align-items-center">
+      <div class="flex flex-col lg:flex-row  gap-8  mb-8 justify-content-center align-items-center">
         <img src="{{asset('images/life-1.png')}}"  class="w-full h-auto" alt="">
         <img src="{{asset('images/life-2.png')}}" class="w-full h-auto" alt="">
       </div>
-      <div class="flex gap-8 justify-content-center align-items-center">
+      <div class="flex gap-8 lg:flex-row flex-col justify-between">
         <div class="relative">
-          <img src="{{ asset('images/life-3.png') }}" alt="Life 3" class="w-full rounded-md">
-          <div class="absolute inset-0 flex items-center justify-center">
-            <p class="text-white text-center text-lg font-semibol p-4 rounded-md">
+          <img src="{{ asset('images/life-3.png') }}" alt="Life 3" class="w-full h-full rounded-md">
+          <div class="absolute inset-0 mt-[8rem]">
+            <p class="text-white text-center  text-[22px] font-semibol p-4 rounded-md">
               Working with us is about more than a job—it’s about being part of a community that values innovation, collaboration, and purpose.
             </p>
           </div>
         </div>
-        <img src="{{asset('images/life-4.png')}}" class="w-full h-auto"  alt="">
+        <img src="{{asset('images/life-4.png')}}"  alt="">
       </div>
-      <div class="flex gap-5 mt-5">
+      <div class="flex lg:flex-row flex-col gap-5 lg:mt-5 mt-2">
         <img src="{{asset('images/life-5.png')}}" alt="">
-        <div class="bg-[#F8F9FB] border-2 border-[#EAEAEA] border-dashed text-[22px] p-[5rem] rounded-xl">
+        <div class="bg-[#F8F9FB] border-2 border-[#EAEAEA] border-dashed text-[22px] lg:p-[5rem] p-[1rem] rounded-xl">
           Whether we’re brainstorming new features, solving challenges, or celebrating milestones, every day at SantaiMoto is an adventure. Together, we’re building something meaningful.
         </div>
       </div>
@@ -121,12 +121,12 @@
   </section>
 
   <section class="mt-12">
-    <div class="bg-[#F8F9FB] p-12">
-      <div class="flex gap-12 align-items-center">
+    <div class="bg-[#F8F9FB] lg:p-12 p-5">
+      <div class="flex gap-12 lg:flex-row flex-col align-items-center">
         <div class="relative">
-          <h1 class="text-[3rem] font-semibold mt-12">Submit Your Resume</h1>
-          <p class="text-[20px] pr-[12rem]">Ready to help shape the future of motorcycle technology? Send us your resume, and let’s talk about how you can be part of the SantaiMoto journey.</p>
-          <img src="{{asset('images/submit.png')}}" class="absolute bottom-0 left-0" alt="">
+          <h1 class="lg:text-[3rem] text-[2rem] font-semibold mt-12">Submit Your Resume</h1>
+          <p class="text-[20px] lg:pr-[12rem] pr-[2rem]">Ready to help shape the future of motorcycle technology? Send us your resume, and let’s talk about how you can be part of the SantaiMoto journey.</p>
+          <img src="{{asset('images/submit.png')}}" class="absolute bottom-0 left-0 hidden md:block" alt="">
         </div>
         <div class="bg-white shadow-sm rounded-lg p-8  w-full">
           <form action="#" method="POST" enctype="multipart/form-data">

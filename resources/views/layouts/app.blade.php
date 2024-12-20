@@ -15,14 +15,23 @@
   <!-- Navbar -->
   <!-- Sticky Navbar with Transition -->
   <nav id="navbar" class="bg-white shadow px-12 transition-all duration-300 ease-in-out sticky top-0 z-50">
-    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+    <div class="container mx-auto flex justify-between items-center py-4">
       <!-- Logo -->
       <div class="text-2xl font-bold text-blue-600">
         <img src="{{ asset('images/Logo.png') }}" alt="Logo" class="h-8">
       </div>
 
-      <!-- Navbar Menu -->
-      <ul class="flex space-x-6">
+      <!-- Hamburger Icon for Mobile -->
+      <div class="lg:hidden flex items-center">
+        <button id="menu-toggle" class="text-gray-600 focus:outline-none">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Menu Links -->
+      <ul id="menu" class="hidden lg:flex space-x-6">
         <li class="relative group">
           <a href="#services" class="hover:text-blue-500 font-semibold flex items-center">
             About Us
@@ -31,30 +40,47 @@
             </svg>
           </a>
           <ul class="absolute hidden group-hover:block bg-white shadow-lg rounded-lg w-48 -mt-1">
-            <li><a href="#service1" class="block px-4 py-2 hover:bg-blue-100">Service 1</a></li>
-            <li><a href="#service2" class="block px-4 py-2 hover:bg-blue-100">Service 2</a></li>
-            <li><a href="#service3" class="block px-4 py-2 hover:bg-blue-100">Service 3</a></li>
+            <li><a href="{{url('/about')}}" class="block px-4 py-2 hover:bg-blue-100">About 1</a></li>
+            <li><a href="{{url('/enterprise')}}" class="block px-4 py-2 hover:bg-blue-100">Enterprise</a></li>
           </ul>
         </li>
         <li class="relative group">
-          <a href="#services" class="hover:text-blue-500  font-semibold flex items-center">
-            Solution
+          <a href="#services" class="hover:text-blue-500 font-semibold flex items-center">
+            Solutions
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1 group-hover:text-blue-500 transition-transform duration-300 group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
             </svg>
           </a>
           <ul class="absolute hidden group-hover:block bg-white shadow-lg rounded-lg w-48 -mt-1">
-            <li><a href="#service1" class="block px-4 py-2 hover:bg-blue-100">Service 1</a></li>
+            <li><a href="{{url('copilot')}}" class="block px-4 py-2 hover:bg-blue-100">Copilot</a></li>
             <li><a href="#service2" class="block px-4 py-2 hover:bg-blue-100">Service 2</a></li>
-            <li><a href="#service3" class="block px-4 py-2 hover:bg-blue-100">Service 3</a></li>
           </ul>
         </li>
-        <li><a href="{{ url('/') }}" class="hover:text-blue-500 font-semibold">How it Works</a></li>
-        <li><a href="{{url('/career')}}" class="hover:text-blue-500 font-semibold">Careers</a></li>
-        <li><a href="{{url('/latest')}}" class="hover:text-blue-500 font-semibold">Latest</a></li>
+        <li><a href="{{url('how-it-works')}}" class="hover:text-blue-500 font-semibold">How it Works</a></li>
+        <li><a href="{{ url('/career') }}" class="hover:text-blue-500 font-semibold">Careers</a></li>
+        <li><a href="{{ url('/latest') }}" class="hover:text-blue-500 font-semibold">Latest</a></li>
+      </ul>
+
+      <!-- Mobile Menu -->
+      <ul id="mobile-menu" class="lg:hidden hidden bg-white shadow-lg rounded-lg absolute top-16 left-0 right-0 space-y-4 p-6">
+        <li><a href="#services" class="block hover:text-blue-500 font-semibold">About Us</a></li>
+        <li><a href="#how-it-works" class="block hover:text-blue-500 font-semibold">How it Works</a></li>
+        <li><a href="{{ url('/career') }}" class="block hover:text-blue-500 font-semibold">Careers</a></li>
+        <li><a href="{{ url('/latest') }}" class="block hover:text-blue-500 font-semibold">Latest</a></li>
       </ul>
     </div>
   </nav>
+
+  <!-- JavaScript for Menu Toggle -->
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuToggle.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+  </script>
 
 
   <!-- JavaScript untuk Menambahkan Efek Scroll -->
@@ -66,7 +92,7 @@
   {{-- </main> --}}
 
   <!-- Footer -->
-  <footer class="bg-gray-100">
+  <footer class="bg-[#F8F9FB] pt-[4rem]">
     <div class="container mx-auto px-6 md:px-12 py-5">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         <!-- Contact Section -->
@@ -109,14 +135,16 @@
 
         <!-- Newsletter Section -->
         <div>
-          <h3 class="text-lg font-bold text-gray-800 mb-4">Stay Connected</h3>
-          <p class="text-gray-600 mb-4">Join our Founder’s Newsletter to stay in the loop with exclusive updates.</p>
-          <form class="flex flex-col space-y-4 flex justify-between">
-            <input type="text" placeholder="Your name" class="p-3 rounded-lg border border-gray-300">
-            <input type="email" placeholder="Your email address" class="p-3 rounded-lg border border-gray-300">
-            <button class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">
-              Join Now
-            </button>
+          <h3 class="text-[24px] font-bold text-gray-800 mb-4">Stay Connected</h3>
+          <p class="text-gray-600 mb-4">Want to keep up with SantaiMoto’s journey, latest insights, and future developments? Join our Founder’s Newsletter to stay in the loop with exclusive updates from the team.</p>
+          <form class="flex gap-3 items-center justify-between">
+              <input type="text" placeholder="Your name" class="p-3 rounded-lg border border-gray-300">
+              <input type="email" placeholder="Your email address" class="p-3 rounded-lg border border-gray-300">
+              <div>
+                <button class="bg-blue-600 text-white px-2 py-3 rounded-lg hover:bg-blue-700">
+                  Join Now
+                </button>
+            </div>
           </form>
         </div>
       </div>
@@ -124,7 +152,7 @@
       <hr class="my-8 border-gray-300">
 
       <!-- Footer Bottom -->
-      <div class="flex flex-col md:flex-row items-center justify-between text-sm text-gray-600">
+      <div class="flex flex-col md:flex-row py-6 items-center justify-between text-sm text-gray-600">
         <p>© 2024 Brand, Inc. • <a href="#" class="hover:underline">Privacy</a> • <a href="#" class="hover:underline">Terms</a> • <a href="#" class="hover:underline">Sitemap</a></p>
         <div class="flex space-x-4 mt-4 md:mt-0">
           <img src="{{ asset('images/paypal.png') }}" alt="PayPal" class="h-4">
