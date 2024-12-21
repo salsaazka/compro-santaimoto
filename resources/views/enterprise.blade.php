@@ -113,12 +113,39 @@
   <section class="px-[6rem]">
     <h1 class="text-[44px] font-semibold text-center">Client Success Stories</h1>
     <div class="flex gap-3 justify-center mt-5">
-      <img src="{{asset('images/testi-1.png')}}" alt="">
-      <img src="{{asset('images/testi-2.png')}}" alt="">
-      <img src="{{asset('images/testi-3.png')}}" alt="">
-    </div>
+      <div class="relative">
+        <img src="{{asset('images/testi-1.png')}}" alt="">
+        <img src="{{asset('images/kutip.svg')}}" class="absolute bottom-[18rem] left-0" alt="">
+        <div class="absolute bottom-[8rem] left-[1rem]">
+          <p class="text-white font-semibold pr-5">Centralizing maintenance with SantaiMoto has revolutionized how we manage our fleet. From predictive maintenance to real-time tracking, they’ve delivered beyond expectations.</p>
+          <h1 class="mt-3 font-semibold text-white text-[20]">Amin Z.</h1>
+          <p class=" text-white text-[20]">Operations Manager</p>
+        </div>
+      </div>
+      <div class="flex gap-3 justify-center">
+        
+        <div class="relative">
+          <img src="{{asset('images/testi-2.png')}}" alt="">
+          <img src="{{asset('images/kutip.svg')}}" class="absolute bottom-[18rem] left-0" alt="">
+          <div class="absolute bottom-[8rem] left-[1rem]">
+            <p class="text-white font-semibold pr-5">Centralizing maintenance with SantaiMoto has revolutionized how we manage our fleet. From predictive maintenance to real-time tracking, they’ve delivered beyond expectations.</p>
+            <h1 class="mt-3 font-semibold text-white text-[20]">Amin Z.</h1>
+            <p class=" text-white text-[20]">Operations Manager</p>
+          </div>
+        </div>
+        <div class="flex gap-3 justify-center">
+          <div class="relative">
+            <img src="{{asset('images/testi-3 .png')}}" alt="">
+            <img src="{{asset('images/kutip.svg')}}" class="absolute bottom-[18rem] left-0" alt="">
+            <div class="absolute bottom-[8rem] left-[1rem]">
+              <p class="text-white font-semibold pr-5">Centralizing maintenance with SantaiMoto has revolutionized how we manage our fleet. From predictive maintenance to real-time tracking, they’ve delivered beyond expectations.</p>
+              <h1 class="mt-3 font-semibold text-white text-[20]">Amin Z.</h1>
+              <p class=" text-white text-[20]">Operations Manager</p>
+            </div>
+          </div>
+      </div>
   </section>
-  <section class="px-[6rem]">
+  <section class="px-[6rem] mt-12">
     <h1 class="text-[44px] font-semibold text-center">Enterprise Packages</h1>
     <div class="flex gap-5 items-center justify-center mt-5">
       <div class=" mx-auto bg-[#FAFAFA] rounded-xl border p-6">
@@ -213,15 +240,18 @@
       </div>
     </div>
   </section>
-  <section>
-    <div class="container text-center bg-[#0D9BDE]">
-      <img src="{{asset('images/logoh.png')}}" alt="">
-      <h1 class="text-[32px] font-semibold">Get Started with SantaiMoto Enterprise Co-Pilot.</h1>
-      <p class="text-[24px]">Contact us to select the best package for your fleet and discover how SantaiMoto’s data-driven approach can enhance your maintenance management.</p>
 
-        <button class="mt-6 px-3   py-2 bg-[#004370] text-white font-semibold rounded-lg hover:bg-blue-700">
-          Get Started
-        </button>
+
+  <section class="py-12 bg-blue-50 mt-[5rem] mb-12 mx-[6rem] border rounded-2xl">
+    <div class="container mx-auto text-center">
+      <div class=" inline-block p-4">
+        <img src="{{ asset('images/logoh.png') }}" alt="Logo Placeholder">
+      </div>
+      <h2 class="text-lg md:text-[32px] font-semibold mt-[-2rem]  bg-gradient-to-r from-[#4499db]  to-[#004370] bg-clip-text text-transparent">Get Started with SantaiMoto Enterprise Co-Pilot.</h2>
+      <h2 class="text-lg md:text-[24px] px-12 font-normal mt-8 bg-gradient-to-r from-[#4499db]  to-[#004370] bg-clip-text text-transparent">Contact us to select the best package for your fleet and discover how SantaiMoto’s data-driven approach can enhance your maintenance management.</h2>
+      <button class="bg-[#004370] text-white px-8 py-3 mt-5 rounded-lg hover:bg-blue-700">
+        Get Started
+      </button>
     </div>
   </section>
 </div>

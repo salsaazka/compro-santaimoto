@@ -9,24 +9,25 @@
 
   <!-- Overlay Text -->
   <div class="absolute top-1/4 left-6 md:left-12 lg:left-16 text-left text-white">
-    <h1 class="text-2xl md:text-[40px] leading-[3rem] font-bold mb-4">
+    <h1 data-aos="fade-up" data-aos-duration="800" class="text-2xl md:text-[40px] leading-[3rem] font-bold mb-4">
       Discover the Ultimate Convenience in <br>
       Motorcycle Maintenance with Santai
     </h1>
-    <p class="text-sm md:text-[20px] leading-[2rem] text-gray-200">
+    <p data-aos="zoom-in" data-aos-delay="500" class="text-sm md:text-[20px] leading-[2rem] text-gray-200">
       Experience seamless, on-demand motorcycle maintenance at your <br> doorstep. Join millions of satisfied users today.
     </p>
   </div>
   <!-- Logo Section -->
   <div class="absolute bottom-[6rem] left-0 right-0 flex justify-center space-x-8 md:space-x-8">
-    <img src="{{ asset('images/airbnb.png') }}" alt="Airbnb Logo" class="h-3 md:h-8 object-contain">
-    <img src="{{ asset('images/hubspot.png') }}" alt="HubSpot Logo" class="h-3 md:h-8 object-contain">
-    <img src="{{ asset('images/google.png') }}" alt="Google Logo" class="h-3 md:h-8 object-contain">
-    <img src="{{ asset('images/microsoft.png') }}" alt="Microsoft Logo" class="h-3 md:h-8 object-contain">
-    <img src="{{ asset('images/walmart.png') }}" alt="Walmart Logo" class="h-3 md:h-8 object-contain">
-    <img src="{{ asset('images/fedex.png') }}" alt="FedEx Logo" class="h-3 md:h-8 object-contain">
-    <img src="{{ asset('images/Shopify.png') }}" alt="Shopify Logo" class="h-3 md:h-8 object-contain">
-  </div>
+    <img data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" src="{{ asset('images/airbnb.png') }}" alt="Airbnb Logo" class="h-3 md:h-8 object-contain">
+    <img data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" src="{{ asset('images/hubspot.png') }}" alt="HubSpot Logo" class="h-3 md:h-8 object-contain">
+    <img data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000" src="{{ asset('images/google.png') }}" alt="Google Logo" class="h-3 md:h-8 object-contain">
+    <img data-aos="fade-up" data-aos-delay="1500" data-aos-duration="1000" src="{{ asset('images/microsoft.png') }}" alt="Microsoft Logo" class="h-3 md:h-8 object-contain">
+    <img data-aos="fade-up" data-aos-delay="2000" data-aos-duration="1000" src="{{ asset('images/walmart.png') }}" alt="Walmart Logo" class="h-3 md:h-8 object-contain">
+    <img data-aos="fade-up" data-aos-delay="2500" data-aos-duration="1000" src="{{ asset('images/fedex.png') }}" alt="FedEx Logo" class="h-3 md:h-8 object-contain">
+    <img data-aos="fade-up" data-aos-delay="3000" data-aos-duration="1000" src="{{ asset('images/Shopify.png') }}" alt="Shopify Logo" class="h-3 md:h-8 object-contain">
+</div>
+
 </div>
 
 <div class="mx-[6rem]">
@@ -35,21 +36,21 @@
       <h2 class="text-[32px] mx-[5rem] text-[#818898]"><b class="bg-gradient-to-r from-[#4499db]  to-[#004370] bg-clip-text text-transparent">Meet SantaiMoto</b>, the app that brings trusted motorcycle mechanics and peace of mind directly to you.</h2>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-[4rem]">
-        <div class="p-4 bg-gray-100 rounded-2xl ">
+        <div data-aos="fade-down" data-aos-delay="500"  class="p-4 bg-gray-100 rounded-2xl ">
           <div class="justify-center mt-[-4rem] flex items-center">
             <img src="{{ asset('images/Frame-1.png') }}" alt="" srcset="">
           </div>
           <h3 class="font-bold text-[24px]">Convenience</h3>
           <p class=" font-semibold mx-12 text-[#818898] text-[18px] mt-2">On-demand service that saves you time.</p>
         </div>
-        <div class="p-4 bg-gray-100 rounded-2xl ">
+        <div data-aos="fade-down" data-aos-delay="1000" class="p-4 bg-gray-100 rounded-2xl ">
           <div class="justify-center mt-[-4rem] flex items-center">
             <img src="{{ asset('images/Frame-2.png') }}" alt="" srcset="">
           </div>
           <h3 class="font-bold text-[24px]">Reliability</h3>
           <p class=" font-semibold mx-12 text-[#818898] text-[18px] mt-2">Skilled mechanics and a service you can trust.</p>
         </div>
-        <div class="p-4 bg-gray-100 rounded-2xl ">
+        <div data-aos="fade-down" data-aos-delay="1500" class="p-4 bg-gray-100 rounded-2xl ">
           <div class="justify-center mt-[-4rem] flex items-center">
             <img src="{{ asset('images/Frame-3.png') }}" alt="" srcset="">
           </div>
@@ -67,12 +68,11 @@
         <h2 class="text-[44px] font-bold text-gray-800">Unlock the Power of SantaiMoto</h2>
         <p class="text-[#818898] text-[20px] mt-4">Experience seamless bike management with features that save you time, money, and hassle.</p>
       </div>
-
-      <div class="mt-10 flex flex-col md:flex-row items-center md:items-start">
+      <div class="mt-10 flex gap-12 flex-col md:flex-row items-center md:items-start">
         <!-- Kolom Fitur -->
         <div class="w-full md:w-1/2 space-y-4">
           <!-- Item 1 -->
-          <div class="relative group bg-gradient-to-r from-[#3ABFF7] to-[#005289] text-white rounded-2xl shadow-lg p-4">
+          <div data-aos="fade-right" class="relative group bg-gradient-to-r from-[#3ABFF7] to-[#005289] text-white rounded-2xl shadow-lg p-4">
             <!-- Garis Samping -->
             <div class="absolute top-0 -left-5 w-1 h-full bg-blue-800 group-hover:bg-white transition-all duration-300 rounded-tl-lg rounded-bl-lg"></div>
             <div class="ml-4">
@@ -82,7 +82,7 @@
           </div>
 
           <!-- Item 2 -->
-          <div class="relative group flex items-center p-4  rounded-2xl shadow-md cursor-pointer transition-all bg-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 focus-within:bg-gradient-to-r focus-within:from-blue-500 focus-within:to-blue-700">
+          <div  data-aos="fade-right" data-aos-delay="500" class="relative group flex items-center p-4  rounded-2xl shadow-md cursor-pointer transition-all bg-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 focus-within:bg-gradient-to-r focus-within:from-blue-500 focus-within:to-blue-700">
             <!-- Garis Samping -->
             <div class="absolute top-0 -left-4 w-1 h-full bg-gray-300 group-hover:bg-blue-800 transition-all duration-300 rounded-tl-lg rounded-bl-lg"></div>
             <div class="ml-4">
@@ -92,7 +92,7 @@
           </div>
 
           <!-- Item 3 -->
-          <div class="relative group flex items-center p-4  rounded-2xl shadow-md cursor-pointer transition-all bg-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 focus-within:bg-gradient-to-r focus-within:from-blue-500 focus-within:to-blue-700">
+          <div  data-aos="fade-right" data-aos-delay="1000" class="relative group flex items-center p-4  rounded-2xl shadow-md cursor-pointer transition-all bg-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 focus-within:bg-gradient-to-r focus-within:from-blue-500 focus-within:to-blue-700">
             <!-- Garis Samping -->
             <div class="absolute top-0 -left-4 w-1 h-full bg-gray-300 group-hover:bg-blue-800 transition-all duration-300 rounded-tl-lg rounded-bl-lg"></div>
             <div class="ml-4">
@@ -102,7 +102,7 @@
           </div>
 
           <!-- Item 4 -->
-          <div class="relative group flex items-center p-4  rounded-2xl shadow-md cursor-pointer transition-all bg-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 focus-within:bg-gradient-to-r focus-within:from-blue-500 focus-within:to-blue-700">
+          <div  data-aos="fade-right" data-aos-delay="1500" class="relative group flex items-center p-4  rounded-2xl shadow-md cursor-pointer transition-all bg-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 focus-within:bg-gradient-to-r focus-within:from-blue-500 focus-within:to-blue-700">
             <!-- Garis Samping -->
             <div class="absolute top-0 -left-4 w-1 h-full bg-gray-300 group-hover:bg-blue-800 transition-all duration-300 rounded-tl-lg rounded-bl-lg"></div>
             <div class="ml-4">
@@ -112,7 +112,7 @@
           </div>
 
           <!-- Item 5 -->
-          <div class="relative group flex items-center p-4  rounded-2xl shadow-md cursor-pointer transition-all bg-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 focus-within:bg-gradient-to-r focus-within:from-blue-500 focus-within:to-blue-700">
+          <div  data-aos="fade-right" data-aos-delay="2000" class="relative group flex items-center p-4  rounded-2xl shadow-md cursor-pointer transition-all bg-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 focus-within:bg-gradient-to-r focus-within:from-blue-500 focus-within:to-blue-700">
             <!-- Garis Samping -->
             <div class="absolute top-0 -left-4 w-1 h-full bg-gray-300 group-hover:bg-blue-800 transition-all duration-300 rounded-tl-lg rounded-bl-lg"></div>
             <div class="ml-4">
@@ -122,7 +122,7 @@
           </div>
 
           <!-- Item 6 -->
-          <div class="relative group flex items-center p-4  rounded-2xl shadow-md cursor-pointer transition-all bg-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 focus-within:bg-gradient-to-r focus-within:from-blue-500 focus-within:to-blue-700">
+          <div  data-aos="fade-right" data-aos-delay="2500" class="relative group flex items-center p-4  rounded-2xl shadow-md cursor-pointer transition-all bg-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 focus-within:bg-gradient-to-r focus-within:from-blue-500 focus-within:to-blue-700">
             <!-- Garis Samping -->
             <div class="absolute top-0 -left-4 w-1 h-full bg-gray-300 group-hover:bg-blue-800 transition-all duration-300 rounded-tl-lg rounded-bl-lg"></div>
             <div class="ml-4">
@@ -131,13 +131,11 @@
             </div>
           </div>
         </div>
-
         <!-- Gambar -->
-        <div class="w-full md:w-1/2 mt-10 md:mt-0 flex justify-center">
-          <img src="{{ asset('images/Image-1.png') }}" alt="Phone Mockup" class="max-w-xs md:max-w-sm shadow-lg rounded-lg">
+        <div  class=" mt-10 md:mt-0 flex justify-center">
+          <img   data-aos="fade-left" src="{{ asset('images/Image-1.png') }}" alt="Phone Mockup" class=" rounded-lg">
         </div>
       </div>
-
 
     </div>
   </div>
@@ -146,15 +144,15 @@
   <div class="container flex flex-col md:flex-row items-center md:space-x-10">
     <!-- Gambar Mockup -->
     <div class="flex justify-center md:w-1/2">
-      <img src="{{ asset('images/copiliot-asset.png') }}" alt="AI Co-Pilot" class=" rounded-lg">
+      <img  data-aos="fade-right" data-aos-delay="500"  src="{{ asset('images/copiliot-asset.png') }}" alt="AI Co-Pilot" class=" rounded-lg">
     </div>
     <!-- Konten -->
     <div class="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
-      <h2 class="text-[44px] font-bold text-gray-800">Meet Your AI Co-Pilot</h2>
-      <p class="text-gray-600 mt-4 mr-12 text-[20px]">
+      <h2 data-aos="fade-up" data-aos-delay="500" class="text-[44px] font-bold text-gray-800">Meet Your AI Co-Pilot</h2>
+      <p data-aos="fade-up" data-aos-delay="1000" class="text-gray-600 mt-4 mr-12 text-[20px]">
         Your bike’s smartest partner—an interactive assistant that’s always on your side.
       </p>
-      <button class="bg-[#004370] text-white px-6 py-3 rounded-lg shadow-md mt-6 hover:bg-[#003f70]">
+      <button data-aos="fade-up" data-aos-delay="1500" class="bg-[#004370] text-white px-6 py-3 rounded-lg shadow-md mt-6 hover:bg-[#003f70]">
         Learn More
       </button>
     </div>
