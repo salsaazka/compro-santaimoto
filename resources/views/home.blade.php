@@ -82,7 +82,7 @@
           </div>
 
           <!-- Item 2 -->
-          <div class="relative group flex items-center p-4  rounded-2xl shadow-md cursor-pointer transition-all bg-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 focus-within:bg-gradient-to-r focus-within:from-blue-500 focus-within:to-blue-700">
+          <div  data-aos="fade-right" data-aos-delay="500" class="relative group flex items-center p-4  rounded-2xl shadow-md cursor-pointer transition-all bg-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 focus-within:bg-gradient-to-r focus-within:from-blue-500 focus-within:to-blue-700">
             <!-- Garis Samping -->
             <div class="absolute top-0 -left-4 w-1 h-full bg-gray-300 group-hover:bg-blue-800 transition-all duration-300 rounded-tl-lg rounded-bl-lg"></div>
             <div class="ml-4">
@@ -92,7 +92,7 @@
           </div>
 
           <!-- Item 3 -->
-          <div class="relative group flex items-center p-4  rounded-2xl shadow-md cursor-pointer transition-all bg-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 focus-within:bg-gradient-to-r focus-within:from-blue-500 focus-within:to-blue-700">
+          <div  data-aos="fade-right" data-aos-delay="1000" class="relative group flex items-center p-4  rounded-2xl shadow-md cursor-pointer transition-all bg-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 focus-within:bg-gradient-to-r focus-within:from-blue-500 focus-within:to-blue-700">
             <!-- Garis Samping -->
             <div class="absolute top-0 -left-4 w-1 h-full bg-gray-300 group-hover:bg-blue-800 transition-all duration-300 rounded-tl-lg rounded-bl-lg"></div>
             <div class="ml-4">
@@ -102,7 +102,7 @@
           </div>
 
           <!-- Item 4 -->
-          <div class="relative group flex items-center p-4  rounded-2xl shadow-md cursor-pointer transition-all bg-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 focus-within:bg-gradient-to-r focus-within:from-blue-500 focus-within:to-blue-700">
+          <div  data-aos="fade-right" data-aos-delay="1500" class="relative group flex items-center p-4  rounded-2xl shadow-md cursor-pointer transition-all bg-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 focus-within:bg-gradient-to-r focus-within:from-blue-500 focus-within:to-blue-700">
             <!-- Garis Samping -->
             <div class="absolute top-0 -left-4 w-1 h-full bg-gray-300 group-hover:bg-blue-800 transition-all duration-300 rounded-tl-lg rounded-bl-lg"></div>
             <div class="ml-4">
@@ -112,7 +112,7 @@
           </div>
 
           <!-- Item 5 -->
-          <div class="relative group flex items-center p-4  rounded-2xl shadow-md cursor-pointer transition-all bg-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 focus-within:bg-gradient-to-r focus-within:from-blue-500 focus-within:to-blue-700">
+          <div  data-aos="fade-right" data-aos-delay="2000" class="relative group flex items-center p-4  rounded-2xl shadow-md cursor-pointer transition-all bg-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 focus-within:bg-gradient-to-r focus-within:from-blue-500 focus-within:to-blue-700">
             <!-- Garis Samping -->
             <div class="absolute top-0 -left-4 w-1 h-full bg-gray-300 group-hover:bg-blue-800 transition-all duration-300 rounded-tl-lg rounded-bl-lg"></div>
             <div class="ml-4">
@@ -122,7 +122,7 @@
           </div>
 
           <!-- Item 6 -->
-          <div class="relative group flex items-center p-4  rounded-2xl shadow-md cursor-pointer transition-all bg-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 focus-within:bg-gradient-to-r focus-within:from-blue-500 focus-within:to-blue-700">
+          <div  data-aos="fade-right" data-aos-delay="2500" class="relative group flex items-center p-4  rounded-2xl shadow-md cursor-pointer transition-all bg-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 focus-within:bg-gradient-to-r focus-within:from-blue-500 focus-within:to-blue-700">
             <!-- Garis Samping -->
             <div class="absolute top-0 -left-4 w-1 h-full bg-gray-300 group-hover:bg-blue-800 transition-all duration-300 rounded-tl-lg rounded-bl-lg"></div>
             <div class="ml-4">
@@ -132,8 +132,8 @@
           </div>
         </div>
         <!-- Gambar -->
-        <div class=" mt-10 md:mt-0 flex justify-center">
-          <img src="{{ asset('images/Image-1.png') }}" alt="Phone Mockup" class=" rounded-lg">
+        <div  class=" mt-10 md:mt-0 flex justify-center">
+          <img   data-aos="fade-left" src="{{ asset('images/Image-1.png') }}" alt="Phone Mockup" class=" rounded-lg">
         </div>
       </div>
 
@@ -144,15 +144,15 @@
   <div class="container flex flex-col md:flex-row items-center md:space-x-10">
     <!-- Gambar Mockup -->
     <div class="flex justify-center md:w-1/2">
-      <img src="{{ asset('images/copiliot-asset.png') }}" alt="AI Co-Pilot" class=" rounded-lg">
+      <img  data-aos="fade-right" data-aos-delay="500"  src="{{ asset('images/copiliot-asset.png') }}" alt="AI Co-Pilot" class=" rounded-lg">
     </div>
     <!-- Konten -->
     <div class="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
-      <h2 class="text-[44px] font-bold text-gray-800">Meet Your AI Co-Pilot</h2>
-      <p class="text-gray-600 mt-4 mr-12 text-[20px]">
+      <h2 data-aos="fade-up" data-aos-delay="500" class="text-[44px] font-bold text-gray-800">Meet Your AI Co-Pilot</h2>
+      <p data-aos="fade-up" data-aos-delay="1000" class="text-gray-600 mt-4 mr-12 text-[20px]">
         Your bike’s smartest partner—an interactive assistant that’s always on your side.
       </p>
-      <button class="bg-[#004370] text-white px-6 py-3 rounded-lg shadow-md mt-6 hover:bg-[#003f70]">
+      <button data-aos="fade-up" data-aos-delay="1500" class="bg-[#004370] text-white px-6 py-3 rounded-lg shadow-md mt-6 hover:bg-[#003f70]">
         Learn More
       </button>
     </div>
