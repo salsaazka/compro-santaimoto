@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Saira:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body class="font-saira text-gray-900 overflow-x-hidden">
 
@@ -168,6 +169,12 @@
 
   <!-- Swiper.js Script -->
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+
   <script>
     const swiper = new Swiper('.mySwiper', {
       loop: true
