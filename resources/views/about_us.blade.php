@@ -9,10 +9,10 @@
         <button class="bg-white text-sm  text-gray-800 font-semibold py-[0.3rem] px-4 rounded-full border border-gray-300 shadow-md hover:shadow-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-300 transition duration-300">
             OUR STORY
           </button>
-        <img src="{{ asset('images/box-2.png') }}" alt="Box 1" class="absolute top-0 right-0 transform translate-x-[-50%] mt-10 z-0">
+        <img src="{{ asset('images/box-2.png') }}" alt="Box 1" data-aos="fade-down-left" data-aos-delay="500" class="absolute top-0 right-0 transform translate-x-[-50%] mt-10 z-0">
         <div class="flex gap-[5rem]  flex-col md:flex-row items-start mt-12 justify-between pr-12">
             <div class="md:w-1/2">
-                <h1 class="text-3xl md:text-4xl font-bold  text-gray-900 mb-6">
+                <h1 class="text-3xl md:text-4xl font-bold  text-gray-900 mb-6" data-aos="fade-right" data-aos-delay="500">
                     SantaiMoto started with a simple idea: to make caring for your motorcycle easy and stress-free.
                 </h1>
             </div>
@@ -27,15 +27,15 @@
                     Now, with over 5,000 users, SantaiMoto offers real-time tracking, smart reminders, and easy access to trusted mechanics, making it simple to keep every bike in top shape—one service at a time.”
                 </p>
             </div>
-            <img src="{{ asset('images/box-1.png') }}" alt="Box 1" class="absolute bottom-0 left-3 transform translate-x-[-50%] z-0">
+            <img src="{{ asset('images/box-1.png') }}" alt="Box 1" data-aos="fade-up-right" data-aos-delay="500" class="absolute bottom-0 left-3 transform translate-x-[-50%] z-0">
         </div>
     </section>
 
     <!-- Mission & Vision -->
     <section class="container px-[6rem] py-12 grid grid-cols-1 md:grid-cols-2 gap-8">
         <!-- Our Mission -->
-        <div class=" p-6 bg-white rounded-2xl border shadow-lg">
-            <h3 class="text-[20px] font-bold mb-4">Our Mission</h3>
+        <div class=" p-6 bg-white rounded-2xl border shadow-lg" data-aos="fade-down">
+            <h3 class="text-[20px] font-bold mb-4" data-aos="fade-down">Our Mission</h3>
             <img src="{{ asset('images/element-mission.png') }}" 
                  alt="Mission Icon" 
                  class="w-[8rem] ml-[-4rem]">
@@ -46,7 +46,7 @@
         </div>
     
         <!-- Our Vision -->
-        <div class="relative p-6 bg-white rounded-2xl border shadow-lg">
+        <div class="relative p-6 bg-white rounded-2xl border shadow-lg" data-aos="fade-down">
             <h3 class="text-lg font-bold mb-4">Our Vision</h3>
             <p class="text-gray-600 mt-[8rem] text-[22px]">
                 To be the go-to app for everything motorcycles—a place where riders can find trusted service, parts reviews, specs, and even their next bike.
@@ -61,37 +61,37 @@
     
     <!-- Core Values -->
     <section class="container mx-[6rem] px-6 md:px-12 py-12">
-        <h2 class="text-2xl md:text-3xl font-bold text-gray-900 text-start mb-8">Core Values</h2>
+        <h2 class="text-2xl md:text-3xl font-bold text-gray-900 text-start mb-8" data-aos="fade-up">Core Values</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-start">
-            <div>
+            <div data-aos="fade-right">
                 <div class="justify-start flex items-start">
                     <img src="{{ asset('images/innovation.png') }}" alt="" srcset="">
                 </div>
                 <h4 class="font-bold text-lg">Innovation</h4>
                 <p class="text-gray-600 mt-2">We push boundaries to make motorcycle care smarter and simpler.</p>
             </div>
-            <div>
+            <div data-aos="fade-right">
                 <div class="justify-start flex items-start">
                     <img src="{{ asset('images/transparency.png') }}" alt="" srcset="">
                 </div>
                 <h4 class="font-bold text-lg">Transparency</h4>
                 <p class="text-gray-600 mt-2">Honest pricing, genuine parts, and clear communication.</p>
             </div>
-            <div>
+            <div data-aos="fade-right">
                 <div class="justify-start flex items-start">
                     <img src="{{ asset('images/quality.png') }}" alt="" srcset="">
                 </div>
                 <h4 class="font-bold text-lg">Quality</h4>
                 <p class="text-gray-600 mt-2">Certified mechanics and trusted parts for every job.</p>
             </div>
-            <div>
+            <div data-aos="fade-right">
                 <div class="justify-start flex items-start">
                     <img src="{{ asset('images/community.png') }}" alt="" srcset="">
                 </div>
                 <h4 class="font-bold text-lg">Community</h4>
                 <p class="text-gray-600 mt-2">Building a network that connects riders and mechanics.</p>
             </div>
-            <div>
+            <div data-aos="fade-right">
                 <div class="justify-start flex items-start">
                     <img src="{{ asset('images/simplicity.png') }}" alt="" srcset="">
                 </div>
@@ -103,10 +103,10 @@
 
    <!-- Meet Our Team Section -->
     <section class="container px-[6rem] py-12">
-        <h2 class="text-2xl md:text-3xl font-bold text-gray-900 text-center mb-8">Meet Our Team</h2>
+        <h2 class="text-2xl md:text-3xl font-bold text-gray-900 text-center mb-8" data-aos="fade-up">Meet Our Team</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <!-- Team Member 1 -->
-            <div class="relative text-start  overflow-hidden">
+            <div class="relative text-start  overflow-hidden" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
                 <!-- Gambar sampai atas -->
                 <div class="w-full ">
                     <img src="{{ asset('images/Frame 103.png') }}" 
@@ -137,7 +137,7 @@
             </div>
             
             <!-- Team Member 2 -->
-            <div class="relative text-start overflow-hidden">
+            <div class="relative text-start overflow-hidden" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
                 <!-- Gambar sampai atas -->
                 <div class="w-full">
                     <img src="{{ asset('images/Frame 103.png') }}" 
@@ -168,7 +168,7 @@
             </div>
 
             <!-- Team Member 3 -->
-            <div class="relative text-start overflow-hidden">
+            <div class="relative text-start overflow-hidden" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
                 <!-- Gambar sampai atas -->
                 <div class="w-full">
                     <img src="{{ asset('images/Frame 103.png') }}" 
@@ -204,18 +204,19 @@
     <section class="container px-[6rem] py-12">
         <!-- Heading -->
         <div class="mb-6 relative">
-            <h1 class="text-[48px] md:text-4xl font-bold text-gray-900">
+            <h1 class="text-[48px] md:text-4xl font-bold text-gray-900" data-aos="fadde-right">
                 Looking Forward
             </h1>
-            <div class="w-[7rem] h-0.5 bg-gray-400 mt-12"></div>
+            <div class="w-[7rem] h-0.5 bg-gray-400 mt-12" data-aos="flip-right" data-aos-delay="500"></div>
             <div class="absolute top-0 left-[30rem] w-20 h-20">
                 <img src="{{ asset('images/curve-text.png') }}" 
                     alt="Circular Icon" 
-                    class="w-full h-full object-contain">
+                    class="w-full h-full object-contain"
+                    data-aos="fade-down"
+                    data-aos-delay="500">
             </div>
         </div>
 
-        
         <!-- Grid Layout -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div class="relative">
