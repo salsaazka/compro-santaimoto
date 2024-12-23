@@ -175,7 +175,6 @@
           <img src="{{ asset('images/banner-2.png') }}" alt="Banner 3" class="w-full h-auto">
         </div>
       </div>
-      <!-- Pagination -->
       <div class="swiper-pagination absolute left-0 right-0 flex justify-center z-10"></div>
     </div>
   </div>
@@ -187,24 +186,22 @@
       <img src="{{ asset('images/MidIphone.png') }}" alt="Mobile App Screenshot" class="">
     </div>
     <div class="w-full md:w-1/2 text-center md:text-left px-6 md:px-12 pt-[10rem] md:mt-0 z-10">
-      <h2 class="text-2xl md:text-4xl font-bold text-gray-800 leading-snug">
+      <h2 data-aos="fade-up" data-aos-delay="500" class="text-2xl md:text-4xl font-bold text-gray-800 leading-snug">
         Join over <span class="text-blue-600">5,000</span> users and a growing network of qualified mechanics
       </h2>
-      <p class="text-gray-600 mt-4 text-sm md:text-base">
+      <p data-aos="fade-up"  data-aos-delay="1000"  class="text-gray-600 mt-4 text-sm md:text-base">
         Get the app now on your favorite platform and experience seamless bike management with SantaiMoto.
       </p>
       <!-- Tombol Platform -->
       <div class="mt-6 flex justify-center md:justify-start space-x-4">
         <a href="#">
-          <img src="{{ asset('images/googleplay.png') }}" alt="Google Play" class="w-32 md:w-40">
+          <img src="{{ asset('images/googleplay.png') }}" data-aos="zoom-in" data-aos-delay="1500"  alt="Google Play" class="w-32 md:w-40">
         </a>
         <a href="#">
-          <img src="{{ asset('images/appstore.png') }}" alt="App Store" class="w-32 md:w-40">
+          <img src="{{ asset('images/appstore.png') }}" data-aos="zoom-in"  data-aos-delay="2000" alt="App Store" class="w-32 md:w-40">
         </a>
       </div>
     </div>
-
-    <!-- Logo Background -->
     <div class="absolute right-4 bottom-4 hidden md:block">
       <img src="{{ asset('images/vector-banner.png') }}" alt="Background Logo" class="w-[80px] md:w-[120px] lg:w-[150px]">
     </div>
@@ -219,10 +216,10 @@
       <button class="bg-white text-sm  text-gray-800 font-semibold py-[0.3rem] px-4 rounded-full border border-gray-300 shadow-md hover:shadow-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-300 transition duration-300">
         TESTIMONIALS
       </button>
-      <h2 class="text-[52px] font-semibold text-gray-800 mt-4">Trusted by Thousands</h2>
+      <h2 data-aos="fade-up" class="text-[52px] font-semibold text-gray-800 mt-4">Trusted by Thousands</h2>
     </div>
     <div class="flex h-auto gap-5 mr-12 align-items-center">
-      <div class="bg-white p-6 rounded-2xl border shadow-2xl relative flex flex-col justify-between h-full hover:bg-white transition duration-300 group">
+      <div data-aos="zoom-in" data-aos-delay="1000" class="bg-white p-6 rounded-2xl border shadow-2xl relative flex flex-col justify-between h-full hover:bg-white transition duration-300 group">
         <p class="text-gray-600 text-[18px] mb-4">
           “I had an issue with my engine while riding to work, and SantaiMoto helped me out fast. The process was seamless from start to finish, and the mechanic explained everything they were doing so I could understand. It’s such a relief to know I can count on them in emergencies! I’d highly recommend.”
         </p>
@@ -238,7 +235,7 @@
       </div>
 
       <div class="">
-        <div class="bg-[#F8F9FB] p-6 rounded-2xl border w-[22rem] mb-3 relative flex flex-col justify-between  hover:bg-white transition duration-300 group">
+        <div  data-aos="zoom-in" data-aos-delay="1500" class="bg-[#F8F9FB] p-6 rounded-2xl border w-[22rem] mb-3 relative flex flex-col justify-between  hover:bg-white transition duration-300 group">
           <p class="text-gray-600 text-[18px] mb-4">
             “The convenience is unmatched. Scheduling a tune-up through the app was so easy, and the mechanic was professional and thorough.”
           </p>
@@ -251,7 +248,7 @@
             </div>
           </div>
         </div>
-        <div class="bg-[#F8F9FB] p-6 rounded-2xl border relative flex flex-col justify-between hover:bg-white transition duration-300 group">
+        <div  data-aos="zoom-in" data-aos-delay="3000" class="bg-[#F8F9FB] p-6 rounded-2xl border relative flex flex-col justify-between hover:bg-white transition duration-300 group">
           <p class="text-gray-600 text-[18px] mb-4">
             “Super easy to schedule and the mechanic was on time and professional. I would highly recommend.”
           </p>
@@ -266,7 +263,7 @@
         </div>
       </div>
 
-      <div class="bg-[#F8F9FB] p-6 rounded-2xl border relative flex flex-col justify-between h-full hover:bg-white transition duration-300 group">
+      <div  data-aos="zoom-in" data-aos-delay="4000" class="bg-[#F8F9FB] p-6 rounded-2xl border relative flex flex-col justify-between h-full hover:bg-white transition duration-300 group">
        <div class="relative">
         <p class="text-gray-600 text-[18px] mb-4">
             “SantaiMoto has completely changed how I handle bike maintenance. Scheduling a service is as simple as a few taps on my phone, and the mechanics are always punctual and well-prepared. The Co-Pilot’s real-time tracking gives me peace of mind because I always know when to expect help. Plus, the advice they offer keeps my bike in top shape. I’ve been recommending it to all my friends!”
