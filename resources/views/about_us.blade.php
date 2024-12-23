@@ -17,13 +17,13 @@
                 </h1>
             </div>
             <div class="md:w-1/2 mt-6 md:mt-0 text-gray-600 leading-relaxed">
-                <p class="text-[18px]">
+                <p class="text-[18px]" data-aos="fade-left" data-aos-delay="500">
                     Fadzle Ismail, a skilled mechanic, saw how much time riders lost going to workshops for repairs. So, he and his friend Irwan decided to bring the repairs to the riders instead.
                 </p>
-                <p class="mt-4 text-[18px]">
+                <p class="mt-4 text-[18px]" data-aos="fade-left" data-aos-delay="1000">
                     They began by doing on-demand repairs, saving people time and effort. But as they grew, they saw more riders looking for faster, more reliable options. They teamed up with Eris, a tech expert, to build SantaiMoto, an app that brings all things motorcycle into one place.
                 </p>
-                <p class="mt-4 text-[18px]">
+                <p class="mt-4 text-[18px]" data-aos="fade-left" data-aos-delay="1500">
                     Now, with over 5,000 users, SantaiMoto offers real-time tracking, smart reminders, and easy access to trusted mechanics, making it simple to keep every bike in top shape—one service at a time.”
                 </p>
             </div>
@@ -204,7 +204,7 @@
     <section class="container px-[6rem] py-12">
         <!-- Heading -->
         <div class="mb-6 relative">
-            <h1 class="text-[48px] md:text-4xl font-bold text-gray-900" data-aos="fadde-right">
+            <h1 class="text-[48px] md:text-4xl font-bold text-gray-900" data-aos="fade-right" data-aos-delay="500">
                 Looking Forward
             </h1>
             <div class="w-[7rem] h-0.5 bg-gray-400 mt-12" data-aos="flip-right" data-aos-delay="500"></div>
