@@ -93,59 +93,59 @@
   {{-- </main> --}}
 
   <!-- Footer -->
-  <footer class="bg-[#F8F9FB] pt-[4rem]">
-    <div class="container mx-auto px-6 md:px-12 py-5">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+  <footer class="bg-[#F8F9FB] pt-[4rem] md:px-12 px-5 rounded-t-[3rem]">
+    <div class="container mx-auto px-3 md:px-12 py-5">
+      <div class="flex md:flex-row flex-col justify-between">
         <!-- Contact Section -->
-        <div>
-          <h3 class="text-lg font-bold text-gray-800">Contact</h3>
-          <ul class="mt-4 space-y-2 text-gray-600">
-            <li class="flex items-center">
-              <img src="{{ asset('images/telfon.png') }}" alt="Phone Icon" class="h-6 mr-3">
-              123 456 7890
-            </li>
-            <li class="flex items-center">
-              <img src="{{ asset('images/email.png') }}" alt="Email Icon" class="h-6 mr-3">
-              support@santaimoto.com
-            </li>
-            <li class="flex items-center">
-              <img src="{{ asset('images/lokasi.png') }}" alt="Location Icon" class="h-6 mr-3">
-              ABC Tower 3, Jl. Jend. Sudirman Kav. 86, Jakarta Pusat 10297
-            </li>
-          </ul>
-        </div>
+        <div class="flex md:flex-row flex-col">
+          <div>
+            <h3 class="text-lg font-bold text-gray-800">Contact</h3>
+            <ul class="mt-4 space-y-2 text-gray-600">
+              <li class="flex items-center">
+                <img src="{{ asset('images/telfon.png') }}" alt="Phone Icon" class="h-6 mr-3">
+                123 456 7890
+              </li>
+              <li class="flex items-center">
+                <img src="{{ asset('images/email.png') }}" alt="Email Icon" class="h-6 mr-3">
+                support@santaimoto.com
+              </li>
+              <li class="flex items-center w-[20rem]">
+                <img src="{{ asset('images/lokasi.png') }}" alt="Location Icon" class="h-6 mr-3">
+                ABC Tower 3, Jl. Jend. Sudirman Kav. 86, Jakarta Pusat 10297
+              </li>
+            </ul>
+          </div>
 
-        <!-- Social Media Section -->
-        <div>
-          <h3 class="text-lg font-bold text-gray-800">Find Us On</h3>
-          <div class="mt-4 flex space-x-4 text-blue-600">
-            <a href="#" aria-label="Twitter">
-              <img src="{{ asset('images/Logo twitter.png') }}" alt="Twitter" class="h-6">
-            </a>
-            <a href="#" aria-label="Facebook">
-              <img src="{{ asset('images/facebook.png') }}" alt="Facebook" class="h-6">
-            </a>
-            <a href="#" aria-label="LinkedIn">
-              <img src="{{ asset('images/Logo linkedin.png') }}" alt="LinkedIn" class="h-6">
-            </a>
-            <a href="#" aria-label="YouTube">
-              <img src="{{ asset('images/Logo youtube.png') }}" alt="YouTube" class="h-6">
-            </a>
+          <!-- Social Media Section -->
+          <div>
+            <h3 class="text-lg font-bold text-gray-800">Find Us On</h3>
+            <div class="mt-4 flex space-x-4 text-blue-600">
+              <a href="#" aria-label="Twitter">
+                <img src="{{ asset('images/Logo twitter.png') }}" alt="Twitter" class="h-6">
+              </a>
+              <a href="#" aria-label="Facebook">
+                <img src="{{ asset('images/facebook.png') }}" alt="Facebook" class="h-6">
+              </a>
+              <a href="#" aria-label="LinkedIn">
+                <img src="{{ asset('images/Logo linkedin.png') }}" alt="LinkedIn" class="h-6">
+              </a>
+              <a href="#" aria-label="YouTube">
+                <img src="{{ asset('images/Logo youtube.png') }}" alt="YouTube" class="h-6">
+              </a>
+            </div>
           </div>
         </div>
 
         <!-- Newsletter Section -->
         <div>
           <h3 class="text-[24px] font-bold text-gray-800 mb-4">Stay Connected</h3>
-          <p class="text-gray-600 mb-4">Want to keep up with SantaiMoto’s journey, latest insights, and future developments? Join our Founder’s Newsletter to stay in the loop with exclusive updates from the team.</p>
-          <form class="flex gap-3 items-center justify-between">
-              <input type="text" placeholder="Your name" class="p-3 rounded-lg border border-gray-300">
-              <input type="email" placeholder="Your email address" class="p-3 rounded-lg border border-gray-300">
-              <div>
-                <button class="bg-blue-600 text-white px-2 py-3 rounded-lg hover:bg-blue-700">
-                  Join Now
-                </button>
-            </div>
+          <p class="text-gray-600 mb-4 md:w-[30rem]">Want to keep up with SantaiMoto’s journey, latest insights, and future developments? Join our Founder’s Newsletter to stay in the loop with exclusive updates from the team.</p>
+          <form class="flex gap-3 md:flex-row flex-col md:items-center items-start align-items-center justify-between">
+            <input type="text" placeholder="Your name" class="p-3 rounded-lg border border-gray-300">
+            <input type="email" placeholder="Your email address" class="p-3 rounded-lg border border-gray-300">
+            <button class="bg-[#004370] text-white px-3 py-3 rounded-lg hover:bg-blue-700">
+              Join Now
+            </button>
           </form>
         </div>
       </div>
@@ -173,6 +173,7 @@
 
   <script>
     AOS.init();
+
   </script>
 
   <script>
