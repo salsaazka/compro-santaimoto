@@ -113,8 +113,18 @@
   <section class="md:px-[6rem] px-[1rem]">
     <h1 class="text-[44px] font-semibold text-center">Client Success Stories</h1>
     <div class="flex md:flex-row flex-col gap-3 justify-center mt-5">
-      <div class="relative">
-        <img src="{{asset('images/testi-1.png')}}" alt="">
+      <div class="relative group">
+        <img src="{{asset('images/testi-1.png')}}" alt="" class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80">
+        <img src="{{asset('images/kutip.svg')}}" class="absolute bottom-[18rem] left-0" alt="">
+        <div class="absolute bottom-[8rem] left-[1rem]">
+          <p class="text-white font-semibold pr-5">Centralizing maintenance with SantaiMoto has revolutionized how we manage our fleet. From predictive maintenance to real-time tracking, they’ve delivered beyond expectations.</p>
+          <h1 class="mt-3 font-semibold text-white text-[20px]">Amin Z.</h1>
+          <p class="text-white text-[20px]">Operations Manager</p>
+        </div>
+      </div>
+      
+      <div class="relative group">
+        <img src="{{asset('images/testi-center.png')}}"   class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80" alt="">
         <img src="{{asset('images/kutip.svg')}}" class="absolute bottom-[18rem] left-0" alt="">
         <div class="absolute bottom-[8rem] left-[1rem]">
           <p class="text-white font-semibold pr-5">Centralizing maintenance with SantaiMoto has revolutionized how we manage our fleet. From predictive maintenance to real-time tracking, they’ve delivered beyond expectations.</p>
@@ -122,17 +132,8 @@
           <p class=" text-white text-[20]">Operations Manager</p>
         </div>
       </div>
-      <div class="relative">
-        <img src="{{asset('images/testi-tengah.png')}}" alt="">
-        <img src="{{asset('images/kutip.svg')}}" class="absolute bottom-[18rem] left-0" alt="">
-        <div class="absolute bottom-[8rem] left-[1rem]">
-          <p class="text-white font-semibold pr-5">Centralizing maintenance with SantaiMoto has revolutionized how we manage our fleet. From predictive maintenance to real-time tracking, they’ve delivered beyond expectations.</p>
-          <h1 class="mt-3 font-semibold text-white text-[20]">Amin Z.</h1>
-          <p class=" text-white text-[20]">Operations Manager</p>
-        </div>
-      </div>
-      <div class="relative">
-        <img src="{{asset('images/testi-2.png')}}" alt="">
+      <div class="relative group">
+        <img src="{{asset('images/testi-2.png')}}"  class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80" alt="">
         <img src="{{asset('images/kutip.svg')}}" class="absolute bottom-[18rem] left-0" alt="">
         <div class="absolute bottom-[8rem] left-[1rem]">
           <p class="text-white font-semibold pr-5">Centralizing maintenance with SantaiMoto has revolutionized how we manage our fleet. From predictive maintenance to real-time tracking, they’ve delivered beyond expectations.</p>
@@ -146,7 +147,7 @@
   <section class="md:px-[6rem] px-[1rem] mt-12">
     <h1 class="text-[44px] font-semibold text-center">Enterprise Packages</h1>
     <div class="flex md:flex-row flex-col gap-5 items-center justify-center mt-5">
-      <div class=" mx-auto bg-[#FAFAFA] rounded-xl border p-6">
+      <div class="mx-auto bg-[#FAFAFA] rounded-xl border p-6 transform transition duration-300 hover:scale-105 ">
         <h3 class="text-xl font-semibold text-gray-800 mb-4">Silver Package</h3>
         <div class="text-md text-[#818898] mb-4">
           Monthly base fee:
@@ -176,7 +177,7 @@
           Get Started
         </button>
       </div>
-      <div class=" mx-auto py-12 bg-gradient-to-r from-[#3ABFF7]  to-[#005289] rounded-xl shadow-2xl border p-6">
+      <div class=" mx-auto py-12 bg-gradient-to-r from-[#3ABFF7]  to-[#005289] rounded-xl shadow-2xl transform transition duration-300 hover:scale-105  border p-6">
         <h3 class="text-xl font-semibold text-white mb-4">Gold Package</h3>
         <div class="text-md text-white mb-4">
           Monthly base fee:
@@ -206,7 +207,7 @@
           Get Started
         </button>
       </div>
-      <div class=" mx-auto bg-[#FAFAFA] rounded-xl border p-6">
+      <div class=" mx-auto bg-[#FAFAFA] rounded-xl border p-6 transform transition duration-300 hover:scale-105 hover:shadow-lg">
         <h3 class="text-xl font-semibold text-gray-800 mb-4">Silver Package</h3>
         <div class="text-md text-[#818898] mb-4">
           Monthly base fee:
