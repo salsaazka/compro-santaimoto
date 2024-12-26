@@ -263,7 +263,7 @@
         </div>
       </div>
 
-      <div  data-aos="zoom-in" data-aos-delay="4000" class="bg-[#F8F9FB] p-6 rounded-2xl border relative flex flex-col justify-between h-full hover:bg-white transition duration-300 group">
+      <div  data-aos="zoom-in" data-aos-delay="2500" class="bg-[#F8F9FB] p-6 rounded-2xl border relative flex flex-col justify-between h-full hover:bg-white transition duration-300 group">
        <div class="relative">
         <p class="text-gray-600 text-[18px] mb-4">
             “SantaiMoto has completely changed how I handle bike maintenance. Scheduling a service is as simple as a few taps on my phone, and the mechanics are always punctual and well-prepared. The Co-Pilot’s real-time tracking gives me peace of mind because I always know when to expect help. Plus, the advice they offer keeps my bike in top shape. I’ve been recommending it to all my friends!”
