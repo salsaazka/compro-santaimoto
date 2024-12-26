@@ -128,7 +128,7 @@
             class="transform transition duration-300 w-full ease-in-out group-hover:scale-105 rounded-md" 
             alt="">
         </div>
-        <div class="flex-[3] bg-[#F8F9FB] border-2 border-[#EAEAEA] border-dashed text-[22px] lg:p-[5rem] p-[1rem] rounded-xl transition duration-300 ease-in-out hover:bg-blue-100 hover:border-blue-300 hover:shadow-lg">
+        <div class="flex-[1] bg-[#F8F9FB] border-2 border-[#EAEAEA] border-dashed text-[22px] lg:p-[5rem] p-[1rem] rounded-xl transition duration-300 ease-in-out hover:bg-blue-100 hover:border-blue-300 hover:shadow-lg">
           Whether we’re brainstorming new features, solving challenges, or celebrating milestones, every day at SantaiMoto is an adventure. Together, we’re building something meaningful.
         </div>
       </div>
