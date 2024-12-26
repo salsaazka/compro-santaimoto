@@ -17,71 +17,104 @@
   <!-- Sticky Navbar with Transition -->
   <nav id="navbar" class="bg-white shadow px-12 transition-all duration-300 ease-in-out sticky top-0 z-50">
     <div class="container mx-auto flex justify-between items-center py-4">
-      <!-- Logo -->
-      <div class="text-2xl font-bold text-blue-600">
-        <img src="{{ asset('images/Logo.png') }}" alt="Logo" class="h-8">
-      </div>
+        <!-- Logo -->
+        <div class="text-2xl font-bold text-blue-600">
+            <img src="{{ asset('images/Logo.png') }}" alt="Logo" class="h-8">
+        </div>
 
-      <!-- Hamburger Icon for Mobile -->
-      <div class="lg:hidden flex items-center">
-        <button id="menu-toggle" class="text-gray-600 focus:outline-none">
-          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-          </svg>
-        </button>
-      </div>
+        <!-- Hamburger Icon for Mobile -->
+        <div class="lg:hidden flex items-center">
+            <button id="menu-toggle" class="text-gray-600 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
 
-      <!-- Menu Links -->
-      <ul id="menu" class="hidden lg:flex space-x-6">
-        <li class="relative group">
-          <a href="#services" class="hover:text-blue-500 font-semibold flex items-center">
-            About Us
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1 group-hover:text-blue-500 transition-transform duration-300 group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-            </svg>
-          </a>
-          <ul class="absolute hidden group-hover:block bg-white shadow-lg rounded-lg w-48 -mt-1">
-            <li><a href="{{url('/about')}}" class="block px-4 py-2 hover:bg-blue-100">About 1</a></li>
-            <li><a href="{{url('/enterprise')}}" class="block px-4 py-2 hover:bg-blue-100">Enterprise</a></li>
-          </ul>
-        </li>
-        <li class="relative group">
-          <a href="#services" class="hover:text-blue-500 font-semibold flex items-center">
-            Solutions
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1 group-hover:text-blue-500 transition-transform duration-300 group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-            </svg>
-          </a>
-          <ul class="absolute hidden group-hover:block bg-white shadow-lg rounded-lg w-48 -mt-1">
-            <li><a href="{{url('copilot')}}" class="block px-4 py-2 hover:bg-blue-100">Copilot</a></li>
-            <li><a href="#service2" class="block px-4 py-2 hover:bg-blue-100">Service 2</a></li>
-          </ul>
-        </li>
-        <li><a href="{{url('how-it-works')}}" class="hover:text-blue-500 font-semibold">How it Works</a></li>
-        <li><a href="{{ url('/career') }}" class="hover:text-blue-500 font-semibold">Careers</a></li>
-        <li><a href="{{ url('/latest') }}" class="hover:text-blue-500 font-semibold">Latest</a></li>
-      </ul>
+        <!-- Menu Links -->
+        <ul id="menu" class="hidden lg:flex space-x-6">
+            <li class="relative group">
+                <a href="#services" class="hover:text-blue-500 font-semibold flex items-center">
+                    About Us
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1 group-hover:text-blue-500 transition-transform duration-300 group-hover:rotate-180 arrow" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </a>
+                <ul class="absolute hidden group-hover:block bg-white shadow-lg rounded-lg w-48 -mt-1">
+                    <li><a href="{{url('/about')}}" class="block px-4 py-2 hover:bg-blue-100">About 1</a></li>
+                    <li><a href="{{url('/enterprise')}}" class="block px-4 py-2 hover:bg-blue-100">Enterprise</a></li>
+                </ul>
+            </li>
+            <li class="relative group">
+                <a href="#services" class="hover:text-blue-500 font-semibold flex items-center">
+                    Solutions
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1 group-hover:text-blue-500 transition-transform duration-300 group-hover:rotate-180 arrow" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </a>
+                <ul class="absolute hidden group-hover:block bg-white shadow-lg rounded-lg w-48 -mt-1">
+                    <li><a href="{{url('copilot')}}" class="block px-4 py-2 hover:bg-blue-100">Copilot</a></li>
+                    <li><a href="#service2" class="block px-4 py-2 hover:bg-blue-100">Service 2</a></li>
+                </ul>
+            </li>
+            <li><a href="{{url('how-it-works')}}" class="hover:text-blue-500 font-semibold">How it Works</a></li>
+            <li><a href="{{ url('/career') }}" class="hover:text-blue-500 font-semibold">Careers</a></li>
+            <li><a href="{{ url('/latest') }}" class="hover:text-blue-500 font-semibold">Latest</a></li>
+        </ul>
 
-      <!-- Mobile Menu -->
-      <ul id="mobile-menu" class="lg:hidden hidden bg-white shadow-lg rounded-lg absolute top-16 left-0 right-0 space-y-4 p-6">
-        <li><a href="#services" class="block hover:text-blue-500 font-semibold">About Us</a></li>
-        <li><a href="#how-it-works" class="block hover:text-blue-500 font-semibold">How it Works</a></li>
-        <li><a href="{{ url('/career') }}" class="block hover:text-blue-500 font-semibold">Careers</a></li>
-        <li><a href="{{ url('/latest') }}" class="block hover:text-blue-500 font-semibold">Latest</a></li>
-      </ul>
+        <!-- Mobile Menu -->
+        <ul id="mobile-menu" class="lg:hidden hidden bg-white shadow-lg rounded-lg absolute top-16 left-0 right-0 space-y-4 p-6">
+            <li class="relative group">
+                <a href="#services" class="block hover:text-blue-500 font-semibold flex items-center">
+                    About Us
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1 group-hover:text-blue-500 transition-transform duration-300 group-hover:rotate-180 arrow" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </a>
+                <ul class="hidden bg-white shadow-lg rounded-lg w-full space-y-2 p-2">
+                    <li><a href="{{url('/about')}}" class="block px-4 py-2 hover:bg-blue-100">About 1</a></li>
+                    <li><a href="{{url('/enterprise')}}" class="block px-4 py-2 hover:bg-blue-100">Enterprise</a></li>
+                </ul>
+            </li>
+            <li class="relative group">
+                <a href="#services" class="block hover:text-blue-500 font-semibold flex items-center">
+                    Solutions
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1 group-hover:text-blue-500 transition-transform duration-300 group-hover:rotate-180 arrow" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </a>
+                <ul class="hidden bg-white shadow-lg rounded-lg w-full space-y-2 p-2">
+                    <li><a href="{{url('copilot')}}" class="block px-4 py-2 hover:bg-blue-100">Copilot</a></li>
+                    <li><a href="#service2" class="block px-4 py-2 hover:bg-blue-100">Service 2</a></li>
+                </ul>
+            </li>
+            <li><a href="{{url('how-it-works')}}" class="block hover:text-blue-500 font-semibold">How it Works</a></li>
+            <li><a href="{{ url('/career') }}" class="block hover:text-blue-500 font-semibold">Careers</a></li>
+            <li><a href="{{ url('/latest') }}" class="block hover:text-blue-500 font-semibold">Latest</a></li>
+        </ul>
     </div>
-  </nav>
+</nav>
 
-  <!-- JavaScript for Menu Toggle -->
-  <script>
+<!-- JavaScript for Menu Toggle -->
+<script>
     const menuToggle = document.getElementById('menu-toggle');
     const mobileMenu = document.getElementById('mobile-menu');
+    const mobileDropdowns = document.querySelectorAll('#mobile-menu .group');
 
     menuToggle.addEventListener('click', () => {
-      mobileMenu.classList.toggle('hidden');
+        mobileMenu.classList.toggle('hidden');
     });
 
-  </script>
+    // Toggle dropdown visibility on mobile
+    mobileDropdowns.forEach(dropdown => {
+        dropdown.addEventListener('click', (e) => {
+            const subMenu = dropdown.querySelector('ul');
+            subMenu.classList.toggle('hidden');
+            e.stopPropagation();  // Prevent click event from closing the mobile menu
+        });
+    });
+</script>
+
 
 
   <!-- JavaScript untuk Menambahkan Efek Scroll -->
