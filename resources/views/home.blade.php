@@ -8,17 +8,17 @@
   <img src="{{ asset('images/banner-home.png') }}" alt="Hero Image" class="w-full object-cover rounded-lg">
 
   <!-- Overlay Text -->
-  <div class="absolute top-1/4 left-6 md:left-12 lg:left-16 text-left text-white">
-    <h1 data-aos="fade-up" data-aos-duration="800" class="text-2xl md:text-[40px] leading-[3rem] font-bold mb-4">
+  <div class="absolute  top-4 md:top-1/4 left-2 md:left-12 lg:left-16 text-left text-white">
+    <h1 data-aos="fade-up" data-aos-duration="800" class="text-[20px] md:text-[40px] leading-5 md:leading-[3rem] font-semibold md:px-0 px-3 md:font-bold mb-4">
       Discover the Ultimate Convenience in <br>
       Motorcycle Maintenance with Santai
     </h1>
-    <p data-aos="zoom-in" data-aos-delay="500" class="text-sm md:text-[20px] leading-[2rem] text-gray-200">
+    <p data-aos="zoom-in" data-aos-delay="500" class="text-[12px] px-3 md:px-0 md:text-[20px] leading-4 md:leading-[2rem] text-gray-200">
       Experience seamless, on-demand motorcycle maintenance at your <br> doorstep. Join millions of satisfied users today.
     </p>
   </div>
   <!-- Logo Section -->
-  <div class="absolute bottom-[6rem] left-0 right-0 flex justify-center space-x-8 md:space-x-8">
+  <div class="absolute bottom-[6rem] left-0 right-0 md:flex hidden justify-center space-x-8 md:space-x-8">
     <img data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" src="{{ asset('images/airbnb.png') }}" alt="Airbnb Logo" class="h-3 md:h-8 object-contain">
     <img data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" src="{{ asset('images/hubspot.png') }}" alt="HubSpot Logo" class="h-3 md:h-8 object-contain">
     <img data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000" src="{{ asset('images/google.png') }}" alt="Google Logo" class="h-3 md:h-8 object-contain">
@@ -30,10 +30,10 @@
 
 </div>
 
-<div class="mx-[6rem]">
+<div class="md:mx-[6rem] mx-[1rem]">
   <div class="bg-white py-16">
     <div class="container mx-auto px-2 text-center">
-      <h2 class="text-[32px] mx-[5rem] text-[#818898]"><b class="bg-gradient-to-r from-[#4499db]  to-[#004370] bg-clip-text text-transparent">Meet SantaiMoto</b>, the app that brings trusted motorcycle mechanics and peace of mind directly to you.</h2>
+      <h2 class="md:text-[32px] text-[20px] md:mx-[5rem] mx-[1rem] text-[#818898]"><b class="bg-gradient-to-r from-[#4499db]  to-[#004370] bg-clip-text text-transparent">Meet SantaiMoto</b>, the app that brings trusted motorcycle mechanics and peace of mind directly to you.</h2>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-[4rem]">
         <div data-aos="fade-down" data-aos-delay="500"  class="p-4 bg-gray-100 rounded-2xl ">
@@ -65,7 +65,7 @@
     <div class="container mx-auto px-6 md:px-12">
       <!-- Judul -->
       <div class="text-center">
-        <h2 class="text-[44px] font-bold text-gray-800">Unlock the Power of SantaiMoto</h2>
+        <h2 class="md:text-[44px] text-[24px] font-bold text-gray-800">Unlock the Power of SantaiMoto</h2>
         <p class="text-[#818898] text-[20px] mt-4">Experience seamless bike management with features that save you time, money, and hassle.</p>
       </div>
       <div class="mt-10 flex gap-12 flex-col md:flex-row items-center md:items-start">
@@ -76,7 +76,7 @@
             <!-- Garis Samping -->
             <div class="absolute top-0 -left-5 w-1 h-full bg-blue-800 group-hover:bg-white transition-all duration-300 rounded-tl-lg rounded-bl-lg"></div>
             <div class="ml-4">
-              <h3 class="text-white  text-[24px] font-bold">Service History Tracking</h3>
+              <h3 class="text-white text-[20px]  md:text-[24px] font-bold">Service History Tracking</h3>
               <p class="text-white text-[12px]">One place to track every service, every part, every detail.</p>
             </div>
           </div>
@@ -86,7 +86,7 @@
             <!-- Garis Samping -->
             <div class="absolute top-0 -left-4 w-1 h-full bg-gray-300 group-hover:bg-blue-800 transition-all duration-300 rounded-tl-lg rounded-bl-lg"></div>
             <div class="ml-4">
-              <h3 class="bg-gradient-to-r from-[#4499db] text-[24px] to-[#004370] bg-clip-text text-transparent font-bold group-hover:text-white">Flexible Payment Options</h3>
+              <h3 class="bg-gradient-to-r from-[#4499db] text-[20px]  md:text-[24px]  to-[#004370] bg-clip-text text-transparent font-bold group-hover:text-white">Flexible Payment Options</h3>
               <p class="text-gray-600 text-sm group-hover:text-white">Pay your way—credit, buy now pay later, or FPX.</p>
             </div>
           </div>
@@ -96,7 +96,7 @@
             <!-- Garis Samping -->
             <div class="absolute top-0 -left-4 w-1 h-full bg-gray-300 group-hover:bg-blue-800 transition-all duration-300 rounded-tl-lg rounded-bl-lg"></div>
             <div class="ml-4">
-              <h3 class="bg-gradient-to-r from-[#4499db] text-[24px]  to-[#004370] bg-clip-text text-transparent font-bold group-hover:text-white">Catalog of Branded Parts</h3>
+              <h3 class="bg-gradient-to-r from-[#4499db] text-[20px]  md:text-[24px]   to-[#004370] bg-clip-text text-transparent font-bold group-hover:text-white">Catalog of Branded Parts</h3>
               <p class="text-gray-600 text-sm group-hover:text-white">Only the best parts for your bike—choose from top brands.</p>
             </div>
           </div>
@@ -106,7 +106,7 @@
             <!-- Garis Samping -->
             <div class="absolute top-0 -left-4 w-1 h-full bg-gray-300 group-hover:bg-blue-800 transition-all duration-300 rounded-tl-lg rounded-bl-lg"></div>
             <div class="ml-4">
-              <h3 class="bg-gradient-to-r from-[#4499db] text-[24px]  to-[#004370] bg-clip-text text-transparent font-bold group-hover:text-white">Mechanic Profiles and Ratings</h3>
+              <h3 class="bg-gradient-to-r from-[#4499db] text-[20px]  md:text-[24px]  to-[#004370] bg-clip-text text-transparent font-bold group-hover:text-white">Mechanic Profiles and Ratings</h3>
               <p class="text-gray-600 text-sm group-hover:text-white">Know your mechanic—see ratings, reviews, and specialties.</p>
             </div>
           </div>
@@ -116,7 +116,7 @@
             <!-- Garis Samping -->
             <div class="absolute top-0 -left-4 w-1 h-full bg-gray-300 group-hover:bg-blue-800 transition-all duration-300 rounded-tl-lg rounded-bl-lg"></div>
             <div class="ml-4">
-              <h3 class="bg-gradient-to-r from-[#4499db] text-[24px]  to-[#004370] bg-clip-text text-transparent font-bold group-hover:text-white">Real-Time Service Updates</h3>
+              <h3 class="bg-gradient-to-r from-[#4499db] text-[20px]  md:text-[24px]   to-[#004370] bg-clip-text text-transparent font-bold group-hover:text-white">Real-Time Service Updates</h3>
               <p class="text-gray-600 text-sm group-hover:text-white">Stay updated on every job, from start to finish.</p>
             </div>
           </div>
@@ -126,7 +126,7 @@
             <!-- Garis Samping -->
             <div class="absolute top-0 -left-4 w-1 h-full bg-gray-300 group-hover:bg-blue-800 transition-all duration-300 rounded-tl-lg rounded-bl-lg"></div>
             <div class="ml-4">
-              <h3 class="bg-gradient-to-r from-[#4499db] text-[24px]  to-[#004370] bg-clip-text text-transparent font-bold group-hover:text-white">In-App Communication</h3>
+              <h3 class="bg-gradient-to-r from-[#4499db] text-[20px]  md:text-[24px]   to-[#004370] bg-clip-text text-transparent font-bold group-hover:text-white">In-App Communication</h3>
               <p class="text-gray-600 text-sm group-hover:text-white">Ask questions, clarify details, get real-time answers.</p>
             </div>
           </div>
@@ -148,8 +148,8 @@
     </div>
     <!-- Konten -->
     <div class="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
-      <h2 data-aos="fade-up" data-aos-delay="500" class="text-[44px] font-bold text-gray-800">Meet Your AI Co-Pilot</h2>
-      <p data-aos="fade-up" data-aos-delay="1000" class="text-gray-600 mt-4 mr-12 text-[20px]">
+      <h2 data-aos="fade-up" data-aos-delay="500" class="md:text-[44px] text-[24px] font-bold text-gray-800">Meet Your AI Co-Pilot</h2>
+      <p data-aos="fade-up" data-aos-delay="1000" class="text-gray-600 mt-4 md:mr-12 md:text-[20px]  text-[18px]">
         Your bike’s smartest partner—an interactive assistant that’s always on your side.
       </p>
       <button data-aos="fade-up" data-aos-delay="1500" class="bg-[#004370] text-white px-6 py-3 rounded-lg shadow-md mt-6 hover:bg-[#003f70]">
@@ -179,13 +179,13 @@
     </div>
   </div>
 </div>
-<div class="mx-8 relative mt-[20rem]">
+<div class="mx-8 relative md:mt-[20rem] mt-[1rem]">
   <div class="bg-[#0d9cde2e] h-[25rem] rounded-2xl"></div>
-  <div class="w-full flex flex-col-reverse absolute top-[-12rem] md:flex-row items-center rounded-lg mt-8 mb-8">
-    <div class="w-1/2 px-12 md:w-1/3 relative z-0 mt-[-50px] md:mt-0">
+  <div class="w-full flex gap-[4rem] md:gap-0 flex-col-reverse absolute top-[-16rem] md:flex-row items-center rounded-lg mt-8 mb-8">
+    <div class="w-1/3 md:px-12 md:w-1/3 relative z-0 mt-[-50px] md:mt-[4rem]">
       <img src="{{ asset('images/MidIphone.png') }}" alt="Mobile App Screenshot" class="">
     </div>
-    <div class="w-full md:w-1/2 text-center md:text-left px-6 md:px-12 pt-[10rem] md:mt-0 z-10">
+    <div class="w-full md:w-1/2 text-center md:mt- md:text-left px-6 md:px-12 md:pt-[10rem] pt-[2rem] md:mt-0 mt-[14rem] z-10">
       <h2 data-aos="fade-up" data-aos-delay="500" class="text-2xl md:text-4xl font-bold text-gray-800 leading-snug">
         Join over <span class="text-blue-600">5,000</span> users and a growing network of qualified mechanics
       </h2>
@@ -193,12 +193,12 @@
         Get the app now on your favorite platform and experience seamless bike management with SantaiMoto.
       </p>
       <!-- Tombol Platform -->
-      <div class="mt-6 flex justify-center md:justify-start space-x-4">
+      <div class="md:mt-6 md:flex hidden justify-center md:justify-start space-x-4">
         <a href="#">
-          <img src="{{ asset('images/googleplay.png') }}" data-aos="zoom-in" data-aos-delay="1500"  alt="Google Play" class="w-32 md:w-40">
+          <img src="{{ asset('images/googleplay.png') }}" data-aos="zoom-in" data-aos-delay="1500"  alt="Google Play" class="w-[4rem] md:w-40">
         </a>
         <a href="#">
-          <img src="{{ asset('images/appstore.png') }}" data-aos="zoom-in"  data-aos-delay="2000" alt="App Store" class="w-32 md:w-40">
+          <img src="{{ asset('images/appstore.png') }}" data-aos="zoom-in"  data-aos-delay="2000" alt="App Store" class="w-[4rem] md:w-40">
         </a>
       </div>
     </div>
@@ -211,19 +211,19 @@
 
 <!-- Testimonials -->
 <section class="py-16 relative">
-  <div class="container mx-12 px-6 md:px-12">
+  <div class="container md:mx-12 px-6 md:px-12">
     <div class="text-center mb-12">
       <button class="bg-white text-sm  text-gray-800 font-semibold py-[0.3rem] px-4 rounded-full border border-gray-300 shadow-md hover:shadow-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-300 transition duration-300">
         TESTIMONIALS
       </button>
-      <h2 data-aos="fade-up" class="text-[52px] font-semibold text-gray-800 mt-4">Trusted by Thousands</h2>
+      <h2 data-aos="fade-up" class="md:text-[52px] text-[30px] font-semibold text-gray-800 mt-4">Trusted by Thousands</h2>
     </div>
-    <div class="flex h-auto gap-5 mr-12 align-items-center">
+    <div class="flex md:flex-row flex-col h-auto gap-5 md:mr-12 align-items-center">
       <div data-aos="zoom-in" data-aos-delay="1000" class="bg-white p-6 rounded-2xl border shadow-2xl relative flex flex-col justify-between h-full hover:bg-white transition duration-300 group">
         <p class="text-gray-600 text-[18px] mb-4">
           “I had an issue with my engine while riding to work, and SantaiMoto helped me out fast. The process was seamless from start to finish, and the mechanic explained everything they were doing so I could understand. It’s such a relief to know I can count on them in emergencies! I’d highly recommend.”
         </p>
-        <img src="{{ asset('images/testi-element1.png') }}" alt="Icon Chat" class="w-[10rem] ml-[-4rem]">
+        <img src="{{ asset('images/testi-element1.png') }}" alt="Icon Chat" class="md:w-[10rem] w-[5rem] md:ml-[-4rem] ml-[-1rem]">
         <div class="flex items-center mt-[2rem]">
           <img src="{{ asset('images/Ellipse 1.png') }}" alt="Customer 1" class="h-12 w-12 rounded-full object-cover">
           <div class="ml-4">
@@ -248,7 +248,7 @@
             </div>
           </div>
         </div>
-        <div  data-aos="zoom-in" data-aos-delay="3000" class="bg-[#F8F9FB] p-6 rounded-2xl border relative flex flex-col justify-between hover:bg-white transition duration-300 group">
+        <div  data-aos="zoom-in" data-aos-delay="2000" class="bg-[#F8F9FB] p-6 rounded-2xl border relative flex flex-col justify-between hover:bg-white transition duration-300 group">
           <p class="text-gray-600 text-[18px] mb-4">
             “Super easy to schedule and the mechanic was on time and professional. I would highly recommend.”
           </p>
@@ -267,7 +267,7 @@
        <div class="relative">
         <p class="text-gray-600 text-[18px] mb-4">
             “SantaiMoto has completely changed how I handle bike maintenance. Scheduling a service is as simple as a few taps on my phone, and the mechanics are always punctual and well-prepared. The Co-Pilot’s real-time tracking gives me peace of mind because I always know when to expect help. Plus, the advice they offer keeps my bike in top shape. I’ve been recommending it to all my friends!”
-            <img src="{{asset('images/graphic-element-2.png')}}" class="absolute top-[10rem] right-[-7rem]" alt="">
+            <img src="{{asset('images/graphic-element-2.png')}}" class="absolute bottom-[-7rem] w-[6rem] md:w-auto md:top-[10rem] right-[-2rem] md:right-[-7rem]" alt="">
         </p>
        </div>
         <div class="flex items-center mt-[11rem]">
@@ -284,11 +284,11 @@
 </section>
 
 <!-- FAQ -->
-<section class="py-16 mx-12">
+<section class="py-16 md:mx-12 mx-2">
   <div class="container mx-auto px-6 md:px-12 flex flex-col md:flex-row items-center md:items-start">
     <!-- Judul -->
     <div class="w-full md:w-1/3 space-y-4 mx-3">
-      <h2 class="text-[52px] font-semibold text-gray-800">Frequently Asked Questions</h2>
+      <h2 class="md:text-[52px] text-[30px] font-semibold text-gray-800">Frequently Asked Questions</h2>
       <p class="text-gray-600 text-[16px]">
         Got questions? We’ve got answers. Here’s everything you need to know about how we help brands connect with the right influences and drive results.
       </p>
@@ -298,7 +298,7 @@
     </div>
 
     <!-- FAQ List -->
-    <div class="w-full md:w-1/2 ml-[6rem]">
+    <div class="w-full md:w-1/2 md:ml-[6rem] ">
       <!-- FAQ 1 -->
       <details class="p-4 border-b-2 border-gray-300 mb-4">
         <summary class="text-lg font-bold text-gray-800 flex justify-between items-center cursor-pointer">
