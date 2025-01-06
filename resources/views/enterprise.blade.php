@@ -158,6 +158,10 @@
             <img src="{{asset('images/check.svg')}}" alt="">
             <span><b>Fleet size</b>: Up to 10 motorcycles</span>
           </li>
+          {{-- <li class="flex gap-2 items-start">
+            <img src="{{asset('images/check.svg')}}" alt="">
+            <span><b>Monthly Base Fee:</b> RM1,200</span>
+          </li> --}}
           <li class="flex gap-2 items-start">
             <img src="{{asset('images/check.svg')}}" alt="">
             <span><b>Data Logger Device (Optional):</b> RM500 - RM800 per bike (one-time fee)</span>
@@ -169,6 +173,10 @@
           <li class="flex gap-2 items-start">
             <img src="{{asset('images/check.svg')}}" alt="">
             <span><b>Towing Services:</b> 2 per month (additional at RM150 each)</span>
+          </li>
+          <li class="flex gap-2 items-start">
+            <img src="{{asset('images/check.svg')}}" alt="">
+            <span><b>Mechanic Fees:</b>30% discount on service</span>
           </li>
         </ul>
 
@@ -182,23 +190,31 @@
         <div class="text-md text-white mb-4">
           Monthly base fee:
         </div>
-        <h1 class="text-[32px] font-semibold text-white">RM 1,200</h1>
+        <h1 class="text-[32px] font-semibold text-white">RM 2,000</h1>
         <ul class="space-y-3 text-white">
           <li class="flex gap-2 items-start">
             <img src="{{asset('images/check-w.svg')}}" alt="">
-            <span><b>Fleet size</b>: Up to 10 motorcycles</span>
+            <span><b>Fleet size</b>: Up to 50 motorcycles</span>
           </li>
+          {{-- <li class="flex gap-2 items-start">
+            <img src="{{asset('images/check-w.svg')}}" alt="">
+            <span><b>Monthly Base Fee:</b> RM2,000</span>
+          </li> --}}
           <li class="flex gap-2 items-start">
             <img src="{{asset('images/check-w.svg')}}" alt="">
             <span><b>Data Logger Device (Optional):</b> RM500 - RM800 per bike (one-time fee)</span>
           </li>
           <li class="flex gap-2 items-start">
             <img src="{{asset('images/check-w.svg')}}" alt="">
-            <span><b>Emergency Callouts: </b>Up to 5 per month (additional at RM100 each)</span>
+            <span><b>Emergency Callouts: </b>Up to 20 per month (additional at RM100 each)</span>
           </li>
           <li class="flex gap-2 items-start">
             <img src="{{asset('images/check-w.svg')}}" alt="">
-            <span><b>Towing Services:</b> 2 per month (additional at RM150 each)</span>
+            <span><b>Towing Services:</b> 10 per month (additional at RM150 each)</span>
+          </li>
+          <li class="flex gap-2 items-start">
+            <img src="{{asset('images/check-w.svg')}}" alt="">
+            <span><b>Mechanic Fees:</b> 50% discount on services</span>
           </li>
         </ul>
 
@@ -208,12 +224,12 @@
         </button>
       </div>
       <div class=" mx-auto bg-[#FAFAFA] rounded-xl border p-6 transform transition duration-300 hover:scale-105 hover:shadow-lg">
-        <h3 class="text-xl font-semibold text-gray-800 mb-4">Silver Package</h3>
-        <div class="text-md text-[#818898] mb-4">
-          Monthly base fee:
+        <h3 class="text-xl font-semibold text-gray-800 mb-4">Platinum Package</h3>
+        <div class="text-md text-[#818898] mb-4 font-semibold">
+         For custom solutions, contact SantaiMoto for a tailored quote.
         </div>
-        <h1 class="text-[32px] font-semibold">RM 1,200</h1>
-        <ul class="space-y-3 text-gray-700">
+        <h1 class="text-[32px] font-semibold"></h1>
+        {{-- <ul class="space-y-3 text-gray-700">
           <li class="flex gap-2 items-start">
             <img src="{{asset('images/check.svg')}}" alt="">
             <span><b>Fleet size</b>: Up to 10 motorcycles</span>
@@ -230,7 +246,7 @@
             <img src="{{asset('images/check.svg')}}" alt="">
             <span><b>Towing Services:</b> 2 per month (additional at RM150 each)</span>
           </li>
-        </ul>
+        </ul> --}}
 
         <!-- Button -->
         <button class="mt-6 w-full py-2 bg-[#004370] text-white font-semibold rounded-lg hover:bg-blue-700">

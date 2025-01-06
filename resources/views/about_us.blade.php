@@ -7,24 +7,24 @@
     <!-- Hero Section -->
     <section class="container mx-12 px-6 md:px-12 py-12 md:py-24">
         <button class="bg-white text-sm  text-gray-800 font-semibold py-[0.3rem] px-4 rounded-full border border-gray-300 shadow-md hover:shadow-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-300 transition duration-300">
-            OUR STORY
+            STORY
           </button>
         <img src="{{ asset('images/box-2.png') }}" alt="Box 1" data-aos="fade-down-left" data-aos-delay="500" class="absolute top-0 right-0 transform translate-x-[-50%] mt-10 z-0">
         <div class="flex gap-[5rem]  flex-col md:flex-row items-start mt-12 justify-between pr-12">
             <div class="md:w-1/2">
                 <h1 class="text-3xl md:text-4xl font-bold  text-gray-900 mb-6" data-aos="fade-right" data-aos-delay="500">
-                    SantaiMoto started with a simple idea: to make caring for your motorcycle easy and stress-free.
+                    SantaiMoto started with a vision: to revolutionize motorcycle maintenance through innovation and convenience.
                 </h1>
             </div>
             <div class="md:w-1/2 mt-6 md:mt-0 text-gray-600 leading-relaxed">
                 <p class="text-[18px]" data-aos="fade-left" data-aos-delay="500">
-                    Fadzle Ismail, a skilled mechanic, saw how much time riders lost going to workshops for repairs. So, he and his friend Irwan decided to bring the repairs to the riders instead.
+                    SantaiMoto was created to bridge the gap between traditional motorcycle workshops and the modern rider’s expectations for simplicity and efficiency. The platform combines cutting-edge technology with a reliable network of mechanics to offer a streamlined experience for users.
                 </p>
                 <p class="mt-4 text-[18px]" data-aos="fade-left" data-aos-delay="1000">
-                    They began by doing on-demand repairs, saving people time and effort. But as they grew, they saw more riders looking for faster, more reliable options. They teamed up with Eris, a tech expert, to build SantaiMoto, an app that brings all things motorcycle into one place.
+                    With features like real-time tracking, smart reminders, and access to genuine parts, SantaiMoto empowers riders to stay in control of their bike’s maintenance. Every service is designed to save time, reduce hassle, and provide peace of mind.
                 </p>
                 <p class="mt-4 text-[18px]" data-aos="fade-left" data-aos-delay="1500">
-                    Now, with over 5,000 users, SantaiMoto offers real-time tracking, smart reminders, and easy access to trusted mechanics, making it simple to keep every bike in top shape—one service at a time.”
+                    Today, SantaiMoto serves over 5,000 riders across Malaysia, with plans to expand further across Southeast Asia. Our commitment is to continually innovate, ensuring we meet the growing demands of our users and become the ultimate platform for motorcycle care.
                 </p>
             </div>
             <img src="{{ asset('images/box-2.png') }}" alt="Box 1" data-aos="fade-up-right" data-aos-delay="500" class="absolute bottom-0 left-3 transform translate-x-[-50%] z-0">
@@ -146,17 +146,18 @@
                         </div>
                         <!-- Icons -->
                         <div class="flex space-x-2">
-                            <a href="mailto:someone@example.com" target="_blank" aria-label="Email">
+                            <a href="mailto:fadzle@santaitechnology.com" target="_blank" aria-label="Email">
                                 <img src="{{ asset('images/w-email.png') }}" alt="Email Icon" class="h-12 w-12">
                             </a>
-                            <a href="" target="_blank" aria-label="LinkedIn">
+                            <a href="https://www.linkedin.com/in/fadzle-santai/" target="_blank" aria-label="LinkedIn">
                                 <img src="{{ asset('images/w-linkedin.png') }}" alt="LinkedIn Icon" class="h-12 w-12">
                             </a>
                         </div>
                     </div>
                     <!-- Deskripsi -->
                     <p class="text-[#818898] text-[16px] leading-relaxed">
-                        A former motorcycle mechanic with a lifelong love for bikes, Fazli started working on motorcycles as a teenager. After years in the industry, he saw the need for a more convenient, tech-driven approach to maintenance. Combining his passion with his experience, Fadzle leads SantaiMoto with a vision to change motorcycle care for everyone.                    </p>
+                        With a vision to revolutionize motorcycle maintenance, Fadzle leads SantaiMoto with a focus on innovation, technology, and customer-centric solutions. His leadership drives the company toward becoming the go-to platform for motorcycle care across Southeast Asia.
+                    </p>
                 </div>
             </div>
             
@@ -172,22 +173,23 @@
                 <div class="p-4">
                     <div class="flex justify-between items-center mb-2">
                         <div>
-                            <h3 class="font-bold text-[28px] text-gray-800">Fadzle Ismail</h3>
-                            <p class="text-blue-600 text-[20px] font-semibold">Founder & CEO</p>
+                            <h3 class="font-bold text-[28px] text-gray-800">Irwan Lubis</h3>
+                            <p class="text-blue-600 text-[20px] font-semibold">Co-Founder & COO</p>
                         </div>
                         <!-- Icons -->
                         <div class="flex space-x-2">
-                            <a href="mailto:someone@example.com" target="_blank" aria-label="Email">
+                            <a href="mailto:irwan@santaitechnology.com" target="_blank" aria-label="Email">
                                 <img src="{{ asset('images/w-email.png') }}" alt="Email Icon" class="h-12 w-12">
                             </a>
-                            <a href="" target="_blank" aria-label="LinkedIn">
+                            <a href="https://www.linkedin.com/in/irwan-lubis-ba750399/" target="_blank" aria-label="LinkedIn">
                                 <img src="{{ asset('images/w-linkedin.png') }}" alt="LinkedIn Icon" class="h-12 w-12">
                             </a>
                         </div>
                     </div>
                     <!-- Deskripsi -->
                     <p class="text-[#818898] text-[16px] leading-relaxed">
-                        Eris brings deep expertise in predictive maintenance from his work with leading automotive companies like Denso. His passion for tech and innovation has made him the perfect partner to drive SantaiMoto’s technology, ensuring that the app is reliable, intelligent, and easy to use.                    </p>
+                        As the operational backbone of SantaiMoto, Irwan ensures seamless service delivery. His expertise in logistics and dedication to customer satisfaction guarantee that certified mechanics are always ready to provide reliable service whenever needed.
+                    </p>
                 </div>
             </div>
 
@@ -203,12 +205,12 @@
                 <div class="p-4">
                     <div class="flex justify-between items-center mb-2">
                         <div>
-                            <h3 class="font-bold text-[28px] text-gray-800">Fadzle Ismail</h3>
-                            <p class="text-blue-600 text-[20px] font-semibold">Founder & CEO</p>
+                            <h3 class="font-bold text-[28px] text-gray-800">Tan Sri Ismail Bakar</h3>
+                            <p class="text-blue-600 text-[20px] font-semibold">Chairman</p>
                         </div>
                         <!-- Icons -->
                         <div class="flex space-x-2">
-                            <a href="mailto:someone@example.com" target="_blank" aria-label="Email">
+                            <a href="mailto:ismail.bakar@santaitechnology.com" target="_blank" aria-label="Email">
                                 <img src="{{ asset('images/w-email.png') }}" alt="Email Icon" class="h-12 w-12">
                             </a>
                             <a href="" target="_blank" aria-label="LinkedIn">

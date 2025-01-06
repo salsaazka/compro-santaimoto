@@ -41,8 +41,8 @@
                     </svg>
                 </a>
                 <ul class="absolute hidden group-hover:block bg-white shadow-lg rounded-lg w-48 -mt-1">
-                    <li><a href="{{url('/about')}}" class="block px-4 py-2 hover:bg-blue-100">About 1</a></li>
-                    <li><a href="{{url('/enterprise')}}" class="block px-4 py-2 hover:bg-blue-100">Enterprise</a></li>
+                    <li><a href="{{url('/career')}}" class="block px-4 py-2 hover:bg-blue-100">Our Story</a></li>
+                    <li><a href="{{url('/about')}}" class="block px-4 py-2 hover:bg-blue-100">Our Team</a></li>
                 </ul>
             </li>
             <li class="relative group">
@@ -53,8 +53,9 @@
                     </svg>
                 </a>
                 <ul class="absolute hidden group-hover:block bg-white shadow-lg rounded-lg w-48 -mt-1">
-                    <li><a href="{{url('copilot')}}" class="block px-4 py-2 hover:bg-blue-100">Copilot</a></li>
-                    <li><a href="#service2" class="block px-4 py-2 hover:bg-blue-100">Service 2</a></li>
+                    <li><a href="{{url('copilot')}}" class="block px-4 py-2 hover:bg-blue-100">Co-pilot</a></li>
+                    <li><a href="{{ url('/enterprise') }}" class="block px-4 py-2 hover:bg-blue-100">Enterprise</a></li>
+                    <li><a href="{{ url('/latest') }}" class="block px-4 py-2 hover:bg-blue-100">Priicing</a></li>
                 </ul>
             </li>
             <li><a href="{{url('how-it-works')}}" class="hover:text-blue-500 font-semibold">How it Works</a></li>
@@ -72,8 +73,8 @@
                     </svg>
                 </a>
                 <ul class="hidden bg-white shadow-lg rounded-lg w-full space-y-2 p-2">
-                    <li><a href="{{url('/about')}}" class="block px-4 py-2 hover:bg-blue-100">About 1</a></li>
-                    <li><a href="{{url('/enterprise')}}" class="block px-4 py-2 hover:bg-blue-100">Enterprise</a></li>
+                    <li><a href="{{url('/career')}}" class="block px-4 py-2 hover:bg-blue-100">Our Story</a></li>
+                    <li><a href="{{url('/about')}}" class="block px-4 py-2 hover:bg-blue-100">Our Team</a></li>
                 </ul>
             </li>
             <li class="relative group">
@@ -84,8 +85,8 @@
                     </svg>
                 </a>
                 <ul class="hidden bg-white shadow-lg rounded-lg w-full space-y-2 p-2">
-                    <li><a href="{{url('copilot')}}" class="block px-4 py-2 hover:bg-blue-100">Copilot</a></li>
-                    <li><a href="#service2" class="block px-4 py-2 hover:bg-blue-100">Service 2</a></li>
+                    <li><a href="{{url('copilot')}}" class="block px-4 py-2 hover:bg-blue-100">Co-pilot</a></li>
+                    <li><a href="{{ url('/enterprise') }}" class="block px-4 py-2 hover:bg-blue-100">Enterprise</a></li>
                 </ul>
             </li>
             <li><a href="{{url('how-it-works')}}" class="block hover:text-blue-500 font-semibold">How it Works</a></li>
@@ -136,15 +137,16 @@
             <ul class="mt-4 space-y-2 text-gray-600">
               <li class="flex items-center">
                 <img src="{{ asset('images/telfon.png') }}" alt="Phone Icon" class="h-6 mr-3">
-                123 456 7890
+                (+60) 18 9 888 200
               </li>
               <li class="flex items-center">
                 <img src="{{ asset('images/email.png') }}" alt="Email Icon" class="h-6 mr-3">
-                support@santaimoto.com
+                support@santaitechnology.com
               </li>
               <li class="flex items-center w-[20rem]">
                 <img src="{{ asset('images/lokasi.png') }}" alt="Location Icon" class="h-6 mr-3">
-                ABC Tower 3, Jl. Jend. Sudirman Kav. 86, Jakarta Pusat 10297
+                39 Lorong Wilayah, Jalan Madrasah
+                <br>Gombak Setia, 53100, Kuala Lumpur
               </li>
             </ul>
           </div>
@@ -153,16 +155,16 @@
           <div>
             <h3 class="text-lg font-bold text-gray-800">Find Us On</h3>
             <div class="mt-4 flex space-x-4 text-blue-600">
-              <a href="#" aria-label="Twitter">
+              <a href="https://www.instagram.com/app.santai/" aria-label="Twitter">
                 <img src="{{ asset('images/Logo twitter.png') }}" alt="Twitter" class="h-6">
               </a>
-              <a href="#" aria-label="Facebook">
+              <a href="www.facebook.com/app.santaimoto" aria-label="Facebook">
                 <img src="{{ asset('images/facebook.png') }}" alt="Facebook" class="h-6">
               </a>
-              <a href="#" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/company/santaimoto " aria-label="LinkedIn">
                 <img src="{{ asset('images/Logo linkedin.png') }}" alt="LinkedIn" class="h-6">
               </a>
-              <a href="#" aria-label="YouTube">
+              <a href="https://www.youtube.com/@SantaiRides " aria-label="YouTube">
                 <img src="{{ asset('images/Logo youtube.png') }}" alt="YouTube" class="h-6">
               </a>
             </div>
