@@ -133,7 +133,7 @@
             <div class="relative text-start  overflow-hidden" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
                 <!-- Gambar sampai atas -->
                 <div class="w-full ">
-                    <img src="{{ asset('images/Frame 103.png') }}" 
+                    <img src="{{ asset('images/fadle ismail.JPG') }}" 
                          alt="Team Member" 
                          class="w-full h-full object-cover">
                 </div>
@@ -165,7 +165,7 @@
             <div class="relative text-start overflow-hidden" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
                 <!-- Gambar sampai atas -->
                 <div class="w-full">
-                    <img src="{{ asset('images/Frame 103.png') }}" 
+                    <img src="{{ asset('images/irwan_lubis.JPG') }}" 
                          alt="Team Member" 
                          class="w-full h-full object-cover">
                 </div>
@@ -197,7 +197,7 @@
             <div class="relative text-start overflow-hidden" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
                 <!-- Gambar sampai atas -->
                 <div class="w-full">
-                    <img src="{{ asset('images/Frame 103.png') }}" 
+                    <img src="{{ asset('images/Tan_Sri_Dr._Ismail_Bakar_.jpg') }}" 
                          alt="Team Member" 
                          class="w-full h-full object-cover">
                 </div>

@@ -19,7 +19,9 @@
     <div class="container mx-auto flex justify-between items-center py-4">
         <!-- Logo -->
         <div class="text-2xl font-bold text-blue-600">
-            <img src="{{ asset('images/Logo.png') }}" alt="Logo" class="h-8">
+          <a href="{{ url('/') }}">
+            <img src="{{ asset('images/Logo.png') }}" alt="Logo"class="h-8">
+          </a>
         </div>
 
         <!-- Hamburger Icon for Mobile -->
@@ -41,8 +43,8 @@
                     </svg>
                 </a>
                 <ul class="absolute hidden group-hover:block bg-white shadow-lg rounded-lg w-48 -mt-1">
-                    <li><a href="{{url('/career')}}" class="block px-4 py-2 hover:bg-blue-100">Our Story</a></li>
-                    <li><a href="{{url('/about')}}" class="block px-4 py-2 hover:bg-blue-100">Our Team</a></li>
+                    <li><a href="{{url('/about')}}" class="block px-4 py-2 hover:bg-blue-100">Our Story</a></li>
+                    <li><a href="{{url('/career')}}" class="block px-4 py-2 hover:bg-blue-100">Our Team</a></li>
                 </ul>
             </li>
             <li class="relative group">
@@ -59,7 +61,7 @@
                 </ul>
             </li>
             <li><a href="{{url('how-it-works')}}" class="hover:text-blue-500 font-semibold">How it Works</a></li>
-            <li><a href="{{ url('/career') }}" class="hover:text-blue-500 font-semibold">Careers</a></li>
+            {{-- <li><a href="{{ url('/career') }}" class="hover:text-blue-500 font-semibold">Careers</a></li> --}}
             <li><a href="{{ url('/latest') }}" class="hover:text-blue-500 font-semibold">Latest</a></li>
         </ul>
 
@@ -73,8 +75,8 @@
                     </svg>
                 </a>
                 <ul class="hidden bg-white shadow-lg rounded-lg w-full space-y-2 p-2">
-                    <li><a href="{{url('/career')}}" class="block px-4 py-2 hover:bg-blue-100">Our Story</a></li>
-                    <li><a href="{{url('/about')}}" class="block px-4 py-2 hover:bg-blue-100">Our Team</a></li>
+                    <li><a href="{{url('/about')}}" class="block px-4 py-2 hover:bg-blue-100">Our Story</a></li>
+                    <li><a href="{{url('/career')}}" class="block px-4 py-2 hover:bg-blue-100">Our Team</a></li>
                 </ul>
             </li>
             <li class="relative group">
@@ -90,7 +92,7 @@
                 </ul>
             </li>
             <li><a href="{{url('how-it-works')}}" class="block hover:text-blue-500 font-semibold">How it Works</a></li>
-            <li><a href="{{ url('/career') }}" class="block hover:text-blue-500 font-semibold">Careers</a></li>
+            {{-- <li><a href="{{ url('/career') }}" class="block hover:text-blue-500 font-semibold">Careers</a></li> --}}
             <li><a href="{{ url('/latest') }}" class="block hover:text-blue-500 font-semibold">Latest</a></li>
         </ul>
     </div>
