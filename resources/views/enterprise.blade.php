@@ -115,30 +115,33 @@
     <div class="flex md:flex-row flex-col gap-3 justify-center mt-5">
       <div class="relative group">
         <img src="{{asset('images/testi-1.png')}}" alt="" class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80">
-        <img src="{{asset('images/kutip.svg')}}" class="absolute bottom-[18rem] left-0" alt="">
+        <img src="{{asset('images/kutip.svg')}}" class="absolute bottom-[24rem] left-0" alt="">
         <div class="absolute bottom-[8rem] left-[1rem]">
-          <p class="text-white font-semibold pr-5">Centralizing maintenance with SantaiMoto has revolutionized how we manage our fleet. From predictive maintenance to real-time tracking, they’ve delivered beyond expectations.</p>
-          <h1 class="mt-3 font-semibold text-white text-[20px]">Amin Z.</h1>
-          <p class="text-white text-[20px]">Operations Manager</p>
+          <h1 class="mt-3 font-bold text-white text-[20px]">MBSA (Majlis Bandaraya Shah Alam)</h1>
+          <p class="text-white font-semibold pr-5">Managing a fleet of enforcement motorcycles can be a logistical challenge, but SantaiMoto has made it seamless for us. By maintaining our vehicles during off-duty hours, they ensure our bikes are always in top condition, minimizing downtime and making fleet management significantly easier.</p>
+          <h1 class="mt-3 font-semibold text-white text-[20p]">– Ts. Abdul Manaf, Deputy Director.</h1>
+          <p class="text-white text-[20]">Location: Shah Alam, Selangor</p>
         </div>
       </div>
       
       <div class="relative group">
         <img src="{{asset('images/testi-center.png')}}"   class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80" alt="">
-        <img src="{{asset('images/kutip.svg')}}" class="absolute bottom-[18rem] left-0" alt="">
+        <img src="{{asset('images/kutip.svg')}}" class="absolute bottom-[24rem] left-0" alt="">
         <div class="absolute bottom-[8rem] left-[1rem]">
-          <p class="text-white font-semibold pr-5">Centralizing maintenance with SantaiMoto has revolutionized how we manage our fleet. From predictive maintenance to real-time tracking, they’ve delivered beyond expectations.</p>
-          <h1 class="mt-3 font-semibold text-white text-[20]">Amin Z.</h1>
-          <p class=" text-white text-[20]">Operations Manager</p>
+          <h1 class="mt-3 font-bold text-white text-[20px]">EBIDMOTO.COM</h1>
+          <p class="text-white font-semibold pr-5">With customers spread across Malaysia, it’s challenging for us to provide consistent after-sales service nationwide. SantaiMoto has been instrumental in bridging this gap, delivering reliable maintenance to areas beyond our reach and ensuring our customers receive exceptional service no matter where they are.</p>
+          <h1 class="mt-3 font-semibold text-white text-[20]">– Ricky Chea, General Manager.</h1>
+          <p class=" text-white text-[20]">Location: Ampang, Selangor</p>
         </div>
       </div>
       <div class="relative group">
         <img src="{{asset('images/testi-2.png')}}"  class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80" alt="">
-        <img src="{{asset('images/kutip.svg')}}" class="absolute bottom-[18rem] left-0" alt="">
+        <img src="{{asset('images/kutip.svg')}}" class="absolute bottom-[24rem] left-0" alt="">
         <div class="absolute bottom-[8rem] left-[1rem]">
-          <p class="text-white font-semibold pr-5">Centralizing maintenance with SantaiMoto has revolutionized how we manage our fleet. From predictive maintenance to real-time tracking, they’ve delivered beyond expectations.</p>
-          <h1 class="mt-3 font-semibold text-white text-[20]">Amin Z.</h1>
-          <p class=" text-white text-[20]">Operations Manager</p>
+          <h1 class="mt-3 font-bold text-white text-[20px]">Superbike & Kapchai Wash</h1>
+          <p class="text-white font-semibold pr-5">COur customers expect their bikes to be spotless, but occasionally, water issues can cause bikes to malfunction after a wash. SantaiMoto has been a lifesaver, stepping in to resolve these issues and ensuring our customers leave satisfied with both a clean and fully functional bike.</p>
+          <h1 class="mt-3 font-semibold text-white text-[20]">– Yussof Sahib, Owner.</h1>
+          <p class=" text-white text-[20]">Location: Gombak, Kuala Lumpur Manager</p>
         </div>
       </div>
     </div>
