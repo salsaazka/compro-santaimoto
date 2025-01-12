@@ -22,8 +22,12 @@ Route::get('/career', function(){
     return view('careers');
 });
 
-Route::get('/latest', function(){
-    return view('latest');
+// Route::get('/latest', function(){
+//     return view('latest');
+// });
+
+Route::get('/test', function(){
+    return view('testing');
 });
 
 Route::get('/enterprise', function(){

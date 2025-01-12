@@ -60,7 +60,7 @@
     
     
     <!-- Core Values -->
-    <section class="container mx-auto px-4 sm:px-6 md:px-12 py-6 sm:py-12">
+    <section class="container mx-[3rem] px-4 sm:px-6 md:px-12 py-6 sm:py-12">
         <!-- Judul Core Values -->
         <h1 class="text-4xl sm:text-3xl md:text-5xl font-bold text-gray-900 text-start mb-8" data-aos="fade-up">
             Core Values
