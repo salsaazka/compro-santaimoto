@@ -34,7 +34,7 @@
     </button>
     <div class="flex flex-col lg:flex-row">
       <div>
-        <h1 data-aos="fade-left" data-aos-delay="500" class="text-[2rem] font-bold mt-8">OUR FUTURE</h1>
+        <h1 data-aos="fade-left" data-aos-delay="500" class="text-[2rem] font-bold mt-8">Our Future</h1>
         <p data-aos="fade-up" data-aos-delay="1000" class="text-[20px]">Imagine a world where SantaiMoto is the trusted name in every rider’s journey. Our app aims to go beyond basic maintenance—it’s a comprehensive hub where riders can find honest reviews on parts, the latest specs, expert insights, and even options to buy their next bike. Our goal is to become the go-to platform for everything motorcycle-related, making life simpler, safer, and more exciting for riders everywhere. We’re excited to build this vision together, and we need talented people to help make it a reality.</p>
 
       </div>
