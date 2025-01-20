@@ -7,15 +7,15 @@
     <!-- Header -->
     <header class="flex flex-col  md:flex-row justify-between items-center px-6 md:px-[6rem] py-12  w-full">
         <!-- Teks di Sebelah Kiri -->
-        <div class="md:w-1/2 text-center md:text-left">
-            <h1 data-aos="fade-up"  class="text-2xl md:text-[48px] font-semibold  bg-gradient-to-r from-[#4499db]  to-[#004370] bg-clip-text text-transparent leading-snug">
+        <div class="md:w-1/2 text-center flex flex-col items-center">
+            <h1 data-aos="fade-up"  class="text-2xl md:text-[48px] text-center font-semibold  bg-gradient-to-r from-[#4499db]  to-[#004370] bg-clip-text text-transparent leading-snug">
                 Meet Your AI Co-Pilot —<br>Your bike’s smartest partner.
             </h1>
-            <div class="mt-6" data-aos="fade-up">
+            {{-- <div class="mt-6" data-aos="fade-up"> --}}
                 <button class="bg-[#004370] text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300">
                     Get Started
                 </button>
-            </div>
+            {{-- </div> --}}
         </div>
     
         <!-- Gambar Elemen Melayang -->

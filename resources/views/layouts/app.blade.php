@@ -32,7 +32,7 @@
 
   </style>
 </head>
-<body class="font-saira text-gray-900 overflow-x-hidden">
+<body class="font-saira text-gray-900">
   <!-- Navbar -->
   <!-- Sticky Navbar with Transition -->
   <nav id="navbar" class="bg-white shadow px-12 transition-all duration-300 ease-in-out sticky top-0 z-50">

@@ -5,11 +5,11 @@
 @section('content')
 
     <!-- Hero Section -->
-    <section class="container mx-12 px-6 md:px-12 py-12 md:py-24">
+    <section class="px-[7rem] pt-[6rem]">
         <button class="bg-white text-sm  text-gray-800 font-semibold py-[0.3rem] px-4 rounded-full border border-gray-300 shadow-md hover:shadow-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-300 transition duration-300">
-            STORY
+            OUR STORY
           </button>
-        <img src="{{ asset('images/box-2.png') }}" alt="Box 1" data-aos="fade-down-left" data-aos-delay="500" class="absolute top-0 right-0 transform translate-x-[-50%] mt-10 z-0">
+        <img src="{{ asset('images/box-2.png') }}" alt="Box 1" data-aos="fade-down-left" data-aos-delay="500" class="absolute top-0 right-0 transform translate-x-[-30%] mt-10 z-0">
         <div class="flex gap-[5rem]  flex-col md:flex-row items-start mt-12 justify-between pr-12">
             <div class="md:w-1/2">
                 <h1 class="text-3xl md:text-4xl font-bold  text-gray-900 mb-6" data-aos="fade-right" data-aos-delay="500">
@@ -32,7 +32,7 @@
     </section>
 
     <!-- Mission & Vision -->
-    <section class="container px-[6rem] py-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+    <section class=" px-[7rem]  py-12 grid grid-cols-1 md:grid-cols-2 gap-8">
         <!-- Our Mission -->
         <div class=" p-6 bg-white rounded-2xl border shadow-lg" data-aos="fade-down">
             <h3 class="text-[20px] font-bold mb-4" data-aos="fade-down">Our Mission</h3>
@@ -60,7 +60,7 @@
     
     
     <!-- Core Values -->
-    <section class="container mx-[3rem] px-4 sm:px-6 md:px-12 py-6 sm:py-12">
+    <section class="px-[7rem] ">
         <!-- Judul Core Values -->
         <h1 class="text-4xl sm:text-3xl md:text-5xl font-bold text-gray-900 text-start mb-8" data-aos="fade-up">
             Core Values
@@ -126,14 +126,14 @@
     </section>
 
    <!-- Meet Our Team Section -->
-    <section class="container px-[6rem] py-12">
+    <section class="px-[7rem] mt-[5rem]">
         <h1 class="text-4xl sm:text-3xl md:text-5xl font-bold text-gray-900 text-center mb-8" data-aos="fade-up">Meet Our Team</h1>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <!-- Team Member 1 -->
             <div class="relative text-start  overflow-hidden" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
                 <!-- Gambar sampai atas -->
-                <div class="w-full ">
-                    <img src="{{ asset('images/fadle ismail.JPG') }}" 
+                <div class="w-full">
+                    <img src="{{ asset('images/Tan_Sri_Dr._Ismail_Bakar_ 1.png') }}" 
                          alt="Team Member" 
                          class="w-full h-full object-cover">
                 </div>
@@ -165,10 +165,12 @@
             <div class="relative text-start overflow-hidden" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
                 <!-- Gambar sampai atas -->
                 <div class="w-full">
-                    <img src="{{ asset('images/irwan_lubis.JPG') }}" 
+                    <img src="{{ asset('images/r-2.png') }}" 
                          alt="Team Member" 
                          class="w-full h-full object-cover">
                 </div>
+
+                
                 <!-- Konten -->
                 <div class="p-4">
                     <div class="flex justify-between items-center mb-2">
@@ -197,7 +199,7 @@
             <div class="relative text-start overflow-hidden" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
                 <!-- Gambar sampai atas -->
                 <div class="w-full">
-                    <img src="{{ asset('images/Tan_Sri_Dr._Ismail_Bakar_.jpg') }}" 
+                    <img src="{{ asset('images/r-3.png') }}" 
                          alt="Team Member" 
                          class="w-full h-full object-cover">
                 </div>
@@ -227,7 +229,7 @@
     </section>
 
     <!-- Looking Forward Section -->
-    <section class="container px-6 sm:px-8 md:px-[6rem] py-12">
+    <section class="px-[7rem] ">
         <!-- Heading -->
         <div class="mb-6 relative">
             <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900" data-aos="fade-right" data-aos-delay="500">
