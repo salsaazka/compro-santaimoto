@@ -145,6 +145,11 @@
           <img src="{{asset('images/submit.png')}}" class="absolute bottom-0 left-0 hidden md:block" alt="">
         </div>
         <div class="bg-white shadow-sm rounded-lg p-8  w-full">
+          @if(Session::get('status'))
+          <div class="bg-green-100  mb-12  text-center  border border-green-400 text-green-700 px-4 py-3 rounded relative" role="alert">
+            {{session('status')}}
+          </div>
+          @endif
           <form action="{{route('form.store')}}" method="POST" enctype="multipart/form-data" >
             @csrf
             <!-- Nama -->

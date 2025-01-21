@@ -14,6 +14,7 @@ class FormController extends Controller
      */
     public function index()
     {
+        
         return view('data');
     }
 
@@ -51,7 +52,7 @@ class FormController extends Controller
         
         $img->move(public_path('/form-data/'), $imgname);
 
-        return back()->with('status', 'Success add data');
+        return back()->with('status', 'Successfully sent data');
     }
 
     /**
@@ -94,8 +95,15 @@ class FormController extends Controller
      * @param  \App\Models\Form  $form
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Form $form)
+    public function destroy($id)
     {
-        //
+        $data = Form::find($id);
+        $foto_path = public_path('form-data/' . $data->doc);
+        if (file_exists($foto_path)) {
+            unlink($foto_path);
+        }
+
+        $data->delete();
+        return back()->with('status', 'successfuly deleted data');
     }
 }
