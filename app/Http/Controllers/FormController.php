@@ -49,8 +49,8 @@ class FormController extends Controller
             'email' => $request->email, 
         ]);
         
-        dd($request->all());
         $img->move(public_path('/form-data/'), $imgname);
+
         return back()->with('status', 'Success add data');
     }
 
