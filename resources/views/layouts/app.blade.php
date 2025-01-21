@@ -10,7 +10,10 @@
   <link rel="stylesheet" href="{{ asset('css/app.css') }}">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KQ1QJ0P7X7"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modal-video/2.4.0/modal-video.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modal-video/2.4.0/jquery-modal-video.min.js"></script>
+  
   <script>
     window.dataLayer = window.dataLayer || [];
 
