@@ -145,7 +145,8 @@
           <img src="{{asset('images/submit.png')}}" class="absolute bottom-0 left-0 hidden md:block" alt="">
         </div>
         <div class="bg-white shadow-sm rounded-lg p-8  w-full">
-          <form action="#" method="POST" enctype="multipart/form-data">
+          <form action="{{route('form.store')}}" method="POST" enctype="multipart/form-data" >
+            @csrf
             <!-- Nama -->
             <div class="mb-5">
               <label for="name" class="block font-medium mb-2">Name*</label>
@@ -174,7 +175,7 @@
               <p class="font-medium mb-1">Upload your file*</p>
               <p class="text-sm text-gray-500">Maximum file size: 10 MB</p>
               <p class="text-sm text-gray-500 mb-2">Supported formats: PDF, PNG, JPG, DOCX</p>
-              <input type="file" id="resume" name="resume" 
+              <input type="file" id="resume" name="doc" 
                      accept=".pdf, .png, .jpg" 
                      class="absolute inset-0 opacity-0 cursor-pointer" 
                      onchange="previewFile()" 

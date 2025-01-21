@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\FormController;
+use App\Http\Controllers\UserController;
+use Database\Seeders\UserSeeder;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -34,3 +37,15 @@ Route::get('/enterprise', function(){
     return view('enterprise');
 });
 
+
+
+Route::get('/tes', function(){
+    return view('layouts.master');
+});
+
+Route::get('/data', function(){
+    return view('data');
+});
+
+Route::get('dashboard/data-form', [UserController::class, 'index']);
+Route::resource('form', FormController::class);
