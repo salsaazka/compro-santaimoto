@@ -56,8 +56,7 @@
     <section class="py-12 bg-blue-50 mx-[6rem] border rounded-2xl">
         <div class="container mx-auto text-center">
             <div class="inline-block p-4">
-                <!-- Gunakan <a> untuk Modal Video -->
-                <a href="#" class="js-modal-btn" data-video-id="7TUOI23spt0">
+                <a href="#" class="js-modal-btn" data-video-id="MrUvVFEnmBw">
                     <img src="{{ asset('images/logoh.png') }}" alt="Logo Placeholder" data-aos="fade-down">
                 </a>
             </div>

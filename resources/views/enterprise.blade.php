@@ -114,7 +114,7 @@
     <h1 class="text-[44px] font-semibold text-center">Client Success Stories</h1>
     <div class="flex md:flex-row flex-col gap-6 justify-center mt-5">
       <div class="relative group">
-        <img src="{{asset('images/testi-1.png')}}" alt="" class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80">
+        <img src="{{asset('images/mbsa.jpeg')}}" alt="" class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80">
         <img src="{{asset('images/kutip.svg')}}" class="absolute bottom-[16rem] left-0" alt="">
         <div class="absolute bottom-[2rem] left-[1rem] ">
           <h1 class="mt-3 font-bold text-white text-[20px]">MBSA (Majlis Bandaraya Shah Alam)</h1>
@@ -125,7 +125,7 @@
       </div>
       
       <div class="relative group">
-        <img src="{{asset('images/testi-center.png')}}"   class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80" alt="">
+        <img src="{{asset('images/ebidmoto.jpeg')}}"   class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80" alt="">
         <img src="{{asset('images/kutip.svg')}}" class="absolute bottom-[16rem] left-0" alt="">
         <div class="absolute bottom-[2rem] left-[1rem] ">
           <h1 class="mt-3 font-bold text-white text-[20px]">EBIDMOTO.COM</h1>
@@ -135,7 +135,7 @@
         </div>
       </div>
       <div class="relative group">
-        <img src="{{asset('images/testi-2.png')}}"  class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80" alt="">
+        <img src="{{asset('images/superbike.jpeg')}}"  class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80" alt="">
         <img src="{{asset('images/kutip.svg')}}" class="absolute bottom-[16rem] left-0" alt="">
         <div class="absolute bottom-[2rem] left-[1rem] ">
           <h1 class="mt-3 font-bold text-white text-[20px]">Superbike & Kapchai Wash</h1>
