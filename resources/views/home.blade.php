@@ -18,13 +18,16 @@
     </p>
   </div>
   <!-- Logo Section -->
-  <div class="absolute bottom-[3rem] left-0 right-0 md:flex hidden justify-center items-end space-x-8 md:space-x-[4rem]">
-    <img data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" src="{{ asset('images/l-1.png') }}" alt="Airbnb Logo" class="h-3 md:h-12 object-contain">
-    <img data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" src="{{ asset('images/l-2.png') }}" alt="HubSpot Logo" class="h-3 md:h-12 object-contain">
-    <img data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000" src="{{ asset('images/l-3.png') }}" alt="Google Logo" class="h-3 md:h-[4rem] object-contain">
-    <img data-aos="fade-up" data-aos-delay="1500" data-aos-duration="1000" src="{{ asset('images/l-4.png') }}" alt="Microsoft Logo" class="h-3 md:h-12 object-contain">
-    <img data-aos="fade-up" data-aos-delay="180" data-aos-duration="1000" src="{{ asset('images/l-5.png') }}" alt="Walmart Logo" class="h-3 md:h-10 object-contain">
-    <img data-aos="fade-up" data-aos-delay="2500" data-aos-duration="1000" src="{{ asset('images/l-6.png') }}" alt="FedEx Logo" class="h-3 md:h-10 object-contain">
+  <div class="absolute bottom-[4rem] left-0 right-0 md:flex hidden justify-center items-end space-x-8 md:space-x-[2rem]">
+    <img data-aos="fade-up" data-aos-delay="100" src="{{ asset('images/l-4.png') }}" alt="Yamaha" class="h-3 md:h-8 object-contain">
+    <img data-aos="fade-up" data-aos-delay="300" src="{{ asset('assets/img/honda.png') }}" alt="Honda" class="h-3 md:h-7 object-contain">
+    <img data-aos="fade-up" data-aos-delay="500" src="{{ asset('images/modenas.png') }}" alt="Modenas" class="h-3 md:h-10 object-contain">
+    <img data-aos="fade-up" data-aos-delay="700" src="{{ asset('images/kawasaki.png') }}" alt="Modenas" class="h-3 md:h-7 object-contain">
+    <img data-aos="fade-up" data-aos-delay="900" src="{{ asset('images/suzuki.png') }}" alt="Modenas" class="h-3 md:h-7 object-contain">
+     <img data-aos="fade-up" data-aos-delay="1100" src="{{ asset('images/sym.png') }}" alt="SYM" class="h-3 md:h-12 object-contain">
+    <img data-aos="fade-up" data-aos-delay="1300" src="{{ asset('images/cfo.png') }}" alt="Cfmoto" class="h-3 md:h-8 object-contain">
+    <img data-aos="fade-up" data-aos-delay="1500" src="{{ asset('images/ktm.png') }}" alt="KTM" class="h-3 md:h-8 object-contain">
+    <img data-aos="fade-up" data-aos-delay="1700" src="{{ asset('images/benelli.png') }}" alt="Benelli" class="h-3 md:h-7 object-contain">
   </div>
 
 </div>
@@ -32,7 +35,7 @@
 <div class="md:mx-[6rem] mx-[1rem]">
   <div class="bg-white py-16">
     <div class="container mx-auto px-2 text-center">
-      <h2 class="md:text-[32px] text-[20px] md:mx-[5rem] mx-[1rem] text-[#818898]"><b class="bg-gradient-to-r from-[#4499db]  to-[#004370] bg-clip-text text-transparent">Meet SantaiMoto</b>, the app that brings trusted motorcycle mechanics and peace of mind directly to you.</h2>
+      <h2 class="md:text-[32px] md:mb-[4rem] text-[20px] md:mx-[5rem] mx-[1rem] text-[#818898]"><b class="bg-gradient-to-r from-[#4499db]  to-[#004370] bg-clip-text text-transparent">Meet SantaiMoto</b>, the app that brings trusted motorcycle mechanics and peace of mind directly to you.</h2>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 https://meet.google.com/mmh-pgzv-svemt-[4rem]">
         <div data-aos="fade-down" data-aos-delay="500" class="p-4 bg-gray-100 rounded-2xl ">
@@ -340,7 +343,7 @@
 
 
   <script>
-      document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function() {
       AOS.init();
     })
 
@@ -364,10 +367,10 @@
       setTimeout(() => {
         imgElement.src = images[index];
         imgElement.style.opacity = 1;
-        imgElement.dataset.aos = 'zoom-in-up'; 
+        imgElement.dataset.aos = 'zoom-in-up';
         // AOS.refresh();
       }, 300);
     }
-  
+
   </script>
   @endsection

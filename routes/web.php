@@ -2,12 +2,11 @@
 
 use App\Http\Controllers\FormController;
 use App\Http\Controllers\UserController;
-use Database\Seeders\UserSeeder;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
 
 Route::get('/how-it-works', function () {
     return view('how_it_works');
@@ -40,6 +39,8 @@ Route::get('/enterprise', function () {
 
 Route::middleware('isLogin')->group(function () {
     Route::get('dashboard/data-form', [UserController::class, 'index'])->name('dashboard');
+    Route::get('dashboard/newsletter', [UserController::class, 'news'])->name('news');
+    Route::delete('dashboard/news/{id}/delete', [UserController::class, 'emailnewsDestroy'])->name('emailnews.destroy');
 });
 
 Route::middleware('isGuest')->group(function () {
@@ -47,6 +48,7 @@ Route::middleware('isGuest')->group(function () {
     Route::post('login/post', [UserController::class, 'auth'])->name('login.store');
 });
 
+Route::post('/newsletter', [UserController::class, 'postNews']);
 
 Route::get('/logout', [UserController::class, 'logout']);
 Route::resource('form', FormController::class);

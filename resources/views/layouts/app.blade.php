@@ -12,8 +12,9 @@
   <!-- Google tag (gtag.js) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modal-video/2.4.0/modal-video.min.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="icon" type="image/x-icon" href="{{asset('images/logoh.png')}}">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modal-video/2.4.0/jquery-modal-video.min.js"></script>
-  
+
   <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -29,7 +30,9 @@
       background: linear-gradient(to right, #4a90e2, #007aff);
       color: white;
     }
-    .item.active h3, .item.active p{
+
+    .item.active h3,
+    .item.active p {
       color: white;
     }
 
@@ -148,9 +151,9 @@
 
 
   <!-- Content -->
-  {{-- <main class="container mx-auto px-6 md:px-12 py-8"> --}}
-  @yield('content')
-  {{-- </main> --}}
+  <main class="container mx-auto px-6 md:px-12 py-8">
+    @yield('content')
+  </main>
 
   <!-- Footer -->
   <footer class="bg-[#F8F9FB] pt-[4rem] md:px-12 px-5 rounded-t-[3rem]">
@@ -201,13 +204,27 @@
         <div>
           <h3 class="text-[24px] font-bold text-gray-800 mb-4">Stay Connected</h3>
           <p class="text-gray-600 mb-4 md:w-[30rem]">Want to keep up with SantaiMoto’s journey, latest insights, and future developments? Join our Founder’s Newsletter to stay in the loop with exclusive updates from the team.</p>
-          <form class="flex gap-3 md:flex-row flex-col md:items-center items-start align-items-center justify-between">
-            <input type="text" placeholder="Your name" class="p-3 rounded-lg border border-gray-300">
-            <input type="email" placeholder="Your email address" class="p-3 rounded-lg border border-gray-300">
-            <button class="bg-[#004370] text-white px-3 py-3 rounded-lg hover:bg-blue-700">
+          <form action="{{url('newsletter') }}" method="POST" class="flex gap-3 md:flex-row flex-col md:items-center items-start align-items-center justify-between">
+            @csrf
+            <input name="name" type="text" placeholder="Your name" class="p-3 rounded-lg border border-gray-300">
+            <input name="email" type="email" placeholder="Your email address" class="p-3 rounded-lg border border-gray-300">
+            <button type="submit" class="bg-[#004370] text-white px-3 py-3 rounded-lg hover:bg-blue-700">
               Join Now
             </button>
           </form>
+          
+          @if (session('status'))
+          <div>{{ session('status') }}</div>
+          @endif
+          @if ($errors->any())
+          <div>
+            <ul>
+              @foreach ($errors->all() as $error)
+              <li>{{ $error }}</li>
+              @endforeach
+            </ul>
+          </div>
+          @endif
         </div>
       </div>
 
