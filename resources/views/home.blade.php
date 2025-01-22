@@ -144,15 +144,15 @@
         <div class="swiper-wrapper">
           <!-- Slide 1 -->
           <div class="swiper-slide flex justify-center  items-center">
-            <img src="{{ asset('images/b-1.png') }}" alt="Banner 1" class="w-full h-auto">
+            <img src="{{ asset('images/7.png') }}" alt="Banner 1" class="w-full h-auto">
           </div>
           <!-- Slide 2 -->
           <div class="swiper-slide flex justify-center items-center">
-            <img src="{{ asset('images/b-2.png') }}" alt="Banner 2" class="w-full h-auto">
+            <img src="{{ asset('images/11.png') }}" alt="Banner 2" class="w-full h-auto">
           </div>
           <!-- Slide 3 -->
           <div class="swiper-slide flex justify-center items-center">
-            <img src="{{ asset('images/b-3.png') }}" alt="Banner 3" class="w-full h-auto">
+            <img src="{{ asset('images/12.png') }}" alt="Banner 3" class="w-full h-auto">
           </div>
         </div>
         <div class="swiper-pagination absolute left-0 right-0 flex justify-center z-10"></div>
