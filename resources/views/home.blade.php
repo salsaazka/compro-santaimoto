@@ -40,7 +40,7 @@
         <div data-aos="fade-down" data-aos-delay="500" class="p-4 bg-gray-100 rounded-2xl">
           <div class="justify-center mt-[-4rem] flex items-center">
             <!-- Perkecil gambar dan buat responsif -->
-            <img src="{{ asset('images/Frame-1.png') }}" alt="" class="w-20 h-20 md:w-24 md:h-24 object-contain">
+            <img src="{{ asset('images/Frame-1.png') }}" alt="" class="w-20 h-20 md:w-28 md:h-28 object-contain">
           </div>
           <h3 class="font-bold text-[20px] md:text-[24px]">Convenience</h3>
           <p class="font-semibold mx-6 md:mx-12 text-[#818898] text-[16px] md:text-[18px] mt-2">
@@ -50,7 +50,7 @@
         <div data-aos="fade-down" data-aos-delay="1000" class="p-4 bg-gray-100 rounded-2xl">
           <div class="justify-center mt-[-4rem] flex items-center">
             <!-- Perkecil gambar dan buat responsif -->
-            <img src="{{ asset('images/Frame-2.png') }}" alt="" class="w-20 h-20 md:w-24 md:h-24 object-contain">
+            <img src="{{ asset('images/Frame-2.png') }}" alt="" class="w-20 h-20 md:w-28 md:h-28 object-contain">
           </div>
           <h3 class="font-bold text-[20px] md:text-[24px]">Reliability</h3>
           <p class="font-semibold mx-6 md:mx-12 text-[#818898] text-[16px] md:text-[18px] mt-2">
@@ -60,7 +60,7 @@
         <div data-aos="fade-down" data-aos-delay="1500" class="p-4 bg-gray-100 rounded-2xl">
           <div class="justify-center mt-[-4rem] flex items-center">
             <!-- Perkecil gambar dan buat responsif -->
-            <img src="{{ asset('images/Frame-3.png') }}" alt="" class="w-20 h-20 md:w-24 md:h-24 object-contain">
+            <img src="{{ asset('images/Frame-3.png') }}" alt="" class="w-20 h-20 md:w-28 md:h-28 object-contain">
           </div>
           <h3 class="font-bold text-[20px] md:text-[24px]">Transparency</h3>
           <p class="font-semibold mx-6 md:mx-12 text-[#818898] text-[16px] md:text-[18px] mt-2">
