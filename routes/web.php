@@ -21,7 +21,7 @@ Route::get('/about', function () {
     return view('about_us');
 });
 
-Route::get('/career', function(){
+Route::get('/career', function () {
     return view('careers');
 });
 
@@ -29,23 +29,24 @@ Route::get('/career', function(){
 //     return view('latest');
 // });
 
-Route::get('/test', function(){
+Route::get('/test', function () {
     return view('testing');
 });
 
-Route::get('/enterprise', function(){
+Route::get('/enterprise', function () {
     return view('enterprise');
 });
 
 
-
-Route::get('/tes', function(){
-    return view('layouts.master');
+Route::middleware('isLogin')->group(function () {
+    Route::get('dashboard/data-form', [UserController::class, 'index'])->name('dashboard');
 });
 
-Route::get('/data', function(){
-    return view('data');
+Route::middleware('isGuest')->group(function () {
+    Route::get('join/to/login', [UserController::class, 'login']);
+    Route::post('login/post', [UserController::class, 'auth'])->name('login.store');
 });
 
-Route::get('dashboard/data-form', [UserController::class, 'index']);
+
+Route::get('/logout', [UserController::class, 'logout']);
 Route::resource('form', FormController::class);
