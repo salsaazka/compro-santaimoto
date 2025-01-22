@@ -32,32 +32,44 @@
 <div class="md:mx-[6rem] mx-[1rem]">
   <div class="bg-white py-16">
     <div class="container mx-auto px-2 text-center">
-      <h2 class="md:text-[32px] text-[20px] md:mx-[5rem] mx-[1rem] text-[#818898]"><b class="bg-gradient-to-r from-[#4499db]  to-[#004370] bg-clip-text text-transparent">Meet SantaiMoto</b>, the app that brings trusted motorcycle mechanics and peace of mind directly to you.</h2>
-
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 https://meet.google.com/mmh-pgzv-svemt-[4rem]">
-        <div data-aos="fade-down" data-aos-delay="500" class="p-4 bg-gray-100 rounded-2xl ">
+      <h2 class="md:text-[32px] text-[20px] md:mx-[5rem] mx-[1rem] text-[#818898]">
+        <b class="bg-gradient-to-r from-[#4499db] to-[#004370] bg-clip-text text-transparent">Meet SantaiMoto</b>, the app that brings trusted motorcycle mechanics and peace of mind directly to you.
+      </h2>
+    
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-[4rem]">
+        <div data-aos="fade-down" data-aos-delay="500" class="p-4 bg-gray-100 rounded-2xl">
           <div class="justify-center mt-[-4rem] flex items-center">
-            <img src="{{ asset('images/Frame-1.png') }}" alt="" srcset="">
+            <!-- Perkecil gambar dan buat responsif -->
+            <img src="{{ asset('images/Frame-1.png') }}" alt="" class="w-20 h-20 md:w-24 md:h-24 object-contain">
           </div>
-          <h3 class="font-bold text-[24px]">Convenience</h3>
-          <p class=" font-semibold mx-12 text-[#818898] text-[18px] mt-2">On-demand service that saves you time.</p>
+          <h3 class="font-bold text-[20px] md:text-[24px]">Convenience</h3>
+          <p class="font-semibold mx-6 md:mx-12 text-[#818898] text-[16px] md:text-[18px] mt-2">
+            On-demand service that saves you time.
+          </p>
         </div>
-        <div data-aos="fade-down" data-aos-delay="1000" class="p-4 bg-gray-100 rounded-2xl ">
+        <div data-aos="fade-down" data-aos-delay="1000" class="p-4 bg-gray-100 rounded-2xl">
           <div class="justify-center mt-[-4rem] flex items-center">
-            <img src="{{ asset('images/Frame-2.png') }}" alt="" srcset="">
+            <!-- Perkecil gambar dan buat responsif -->
+            <img src="{{ asset('images/Frame-2.png') }}" alt="" class="w-20 h-20 md:w-24 md:h-24 object-contain">
           </div>
-          <h3 class="font-bold text-[24px]">Reliability</h3>
-          <p class=" font-semibold mx-12 text-[#818898] text-[18px] mt-2">Skilled mechanics and a service you can trust.</p>
+          <h3 class="font-bold text-[20px] md:text-[24px]">Reliability</h3>
+          <p class="font-semibold mx-6 md:mx-12 text-[#818898] text-[16px] md:text-[18px] mt-2">
+            Skilled mechanics and a service you can trust.
+          </p>
         </div>
-        <div data-aos="fade-down" data-aos-delay="1500" class="p-4 bg-gray-100 rounded-2xl ">
+        <div data-aos="fade-down" data-aos-delay="1500" class="p-4 bg-gray-100 rounded-2xl">
           <div class="justify-center mt-[-4rem] flex items-center">
-            <img src="{{ asset('images/Frame-3.png') }}" alt="" srcset="">
+            <!-- Perkecil gambar dan buat responsif -->
+            <img src="{{ asset('images/Frame-3.png') }}" alt="" class="w-20 h-20 md:w-24 md:h-24 object-contain">
           </div>
-          <h3 class="font-bold text-[24px]">Transparency</h3>
-          <p class=" font-semibold mx-12 text-[#818898] text-[18px] mt-2">Problem details, repair records, and complete visibility.</p>
+          <h3 class="font-bold text-[20px] md:text-[24px]">Transparency</h3>
+          <p class="font-semibold mx-6 md:mx-12 text-[#818898] text-[16px] md:text-[18px] mt-2">
+            Problem details, repair records, and complete visibility.
+          </p>
         </div>
       </div>
     </div>
+    
 
     <div class="bg-white py-16">
       <div class="container mx-auto px-6 md:px-12">

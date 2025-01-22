@@ -113,38 +113,45 @@
   <section class="md:px-[6rem] px-[2rem]">
     <h1 class="text-[44px] font-semibold text-center">Client Success Stories</h1>
     <div class="flex md:flex-row flex-col gap-6 justify-center mt-5">
-      <div class="relative group">
-        <img src="{{asset('images/mbsa.jpeg')}}" alt="" class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80">
+      <div class="relative group" style="min-width: 450px; min-height: 400px;">
+        <!-- Tambahkan overlay -->
+        <div class="absolute inset-0 bg-black opacity-50 group-hover:opacity-70 transition duration-300 ease-in-out"></div>
+        
+        <img src="{{asset('images/mbsa.jpeg')}}" alt="" class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80 w-full h-full object-cover">
         <img src="{{asset('images/kutip.svg')}}" class="absolute bottom-[16rem] left-0" alt="">
-        <div class="absolute bottom-[2rem] left-[1rem] ">
+      
+        <div class="absolute bottom-[2rem] left-[1rem]">
           <h1 class="mt-3 font-bold text-white text-[20px]">MBSA (Majlis Bandaraya Shah Alam)</h1>
           <p class="text-white font-semibold pr-5">SantaiMoto has simplified our fleet management by maintaining our enforcement motorcycles during off-duty hours. This keeps our bikes in excellent condition, reduces downtime, and streamlines overall operations.</p>
-          <h1 class="mt-3 font-semibold text-white text-[20p]">– Ts. Abdul Manaf, Deputy Director.</h1>
-          <p class="text-white text-[20]">Location: Shah Alam, Selangor</p>
+          <h1 class="mt-3 font-semibold text-white text-[20px]">– Ts. Abdul Manaf, Deputy Director.</h1>
+          <p class="text-white text-[20px]">Location: Shah Alam, Selangor</p>
         </div>
       </div>
       
-      <div class="relative group">
-        <img src="{{asset('images/ebidmoto.jpeg')}}"   class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80" alt="">
+    
+      <div class="relative group" style="min-width: 400px; min-height: 400px;">
+        <img src="{{asset('images/ebidmoto.jpeg')}}" class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80 w-full h-full object-cover" alt="">
         <img src="{{asset('images/kutip.svg')}}" class="absolute bottom-[16rem] left-0" alt="">
-        <div class="absolute bottom-[2rem] left-[1rem] ">
+        <div class="absolute bottom-[2rem] left-[1rem]">
           <h1 class="mt-3 font-bold text-white text-[20px]">EBIDMOTO.COM</h1>
           <p class="text-white font-semibold pr-5">With customers across Malaysia, providing consistent after-sales service is challenging. SantaiMoto bridges this gap by offering reliable maintenance in remote areas, ensuring all customers receive excellent service everywhere.</p>
           <h1 class="mt-3 font-semibold text-white text-[20]">– Ricky Chea, General Manager.</h1>
-          <p class=" text-white text-[20]">Location: Ampang, Selangor</p>
+          <p class="text-white text-[20]">Location: Ampang, Selangor</p>
         </div>
       </div>
-      <div class="relative group">
-        <img src="{{asset('images/superbike.jpeg')}}"  class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80" alt="">
+    
+      <div class="relative group" style="min-width: 400px; min-height: 400px;">
+        <img src="{{asset('images/superbike.jpeg')}}" class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80 w-full h-full object-cover" alt="">
         <img src="{{asset('images/kutip.svg')}}" class="absolute bottom-[16rem] left-0" alt="">
-        <div class="absolute bottom-[2rem] left-[1rem] ">
+        <div class="absolute bottom-[2rem] left-[1rem]">
           <h1 class="mt-3 font-bold text-white text-[20px]">Superbike & Kapchai Wash</h1>
           <p class="text-white font-semibold pr-5">Our customers expect spotless bikes, but water issues can sometimes cause malfunctions after a wash. SantaiMoto has been a lifesaver, quickly resolving these problems and ensuring customers leave with clean, fully functional bikes.</p>
           <h1 class="mt-3 font-semibold text-white text-[20]">– Yussof Sahib, Owner.</h1>
-          <p class=" text-white text-[20]">Location: Gombak, Kuala Lumpur Manager</p>
+          <p class="text-white text-[20]">Location: Gombak, Kuala Lumpur Manager</p>
         </div>
       </div>
     </div>
+    
 
   </section>
   <section id="enterprise-pricing" class="md:px-[6rem] px-[1rem] pt-[5rem]">
