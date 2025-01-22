@@ -130,6 +130,7 @@
       
     
       <div class="relative group" style="min-width: 400px; min-height: 400px;">
+        <div class="absolute inset-0 bg-black opacity-50 group-hover:opacity-70 transition duration-300 ease-in-out"></div>
         <img src="{{asset('images/ebidmoto.jpeg')}}" class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80 w-full h-full object-cover" alt="">
         <img src="{{asset('images/kutip.svg')}}" class="absolute bottom-[16rem] left-0" alt="">
         <div class="absolute bottom-[2rem] left-[1rem]">
@@ -141,6 +142,7 @@
       </div>
     
       <div class="relative group" style="min-width: 400px; min-height: 400px;">
+        <div class="absolute inset-0 bg-black opacity-50 group-hover:opacity-70 transition duration-300 ease-in-out"></div>
         <img src="{{asset('images/superbike.jpeg')}}" class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80 w-full h-full object-cover" alt="">
         <img src="{{asset('images/kutip.svg')}}" class="absolute bottom-[16rem] left-0" alt="">
         <div class="absolute bottom-[2rem] left-[1rem]">
