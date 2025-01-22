@@ -7,15 +7,15 @@
     <!-- Header -->
     <header class="flex flex-col  md:flex-row justify-between items-center px-6 md:px-[6rem] py-12  w-full">
         <!-- Teks di Sebelah Kiri -->
-        <div class="md:w-1/2 text-center md:text-left">
-            <h1 data-aos="fade-up"  class="text-2xl md:text-[48px] font-semibold  bg-gradient-to-r from-[#4499db]  to-[#004370] bg-clip-text text-transparent leading-snug">
+        <div class="md:w-1/2 text-center flex flex-col items-center">
+            <h1 data-aos="fade-up"  class="text-2xl md:text-[48px] text-center font-semibold  bg-gradient-to-r from-[#4499db]  to-[#004370] bg-clip-text text-transparent leading-snug">
                 Meet Your AI Co-Pilot —<br>Your bike’s smartest partner.
             </h1>
-            <div class="mt-6" data-aos="fade-up">
+            {{-- <div class="mt-6" data-aos="fade-up"> --}}
                 <button class="bg-[#004370] text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300">
                     Get Started
                 </button>
-            </div>
+            {{-- </div> --}}
         </div>
     
         <!-- Gambar Elemen Melayang -->
@@ -55,14 +55,27 @@
     <!-- Banner -->
     <section class="py-12 bg-blue-50 mx-[6rem] border rounded-2xl">
         <div class="container mx-auto text-center">
-            <div class=" inline-block p-4">
-                <img src="{{ asset('images/logoh.png') }}" alt="Logo Placeholder" data-aos="fade-down">
+            <div class="inline-block p-4">
+                <a href="#" class="js-modal-btn" data-video-id="MrUvVFEnmBw">
+                    <img src="{{ asset('images/logoh.png') }}" alt="Logo Placeholder" data-aos="fade-down">
+                </a>
             </div>
-            <h2 class="text-lg md:text-2xl font-bold mt-[-2rem]  bg-gradient-to-r from-[#4499db]  to-[#004370] bg-clip-text text-transparent" data-aos="fade-right">Learn more about how Co-Pilot can make every ride safer.</h2>
-            <button class="bg-[#004370] text-white px-8 py-3 mt-5 rounded-lg hover:bg-blue-700">
+            <h2 class="text-lg md:text-2xl font-bold mt-[-2rem] bg-gradient-to-r from-[#4499db] to-[#004370] bg-clip-text text-transparent"
+                data-aos="fade-right">Learn more about how Co-Pilot can make every ride safer.</h2>
+            <button onclick="window.location.href='https://example.com/app-download'"
+                class="bg-[#004370] text-white px-8 py-3 mt-5 rounded-lg hover:bg-blue-700">
                 Get Started
             </button>
         </div>
     </section>
+    
+    <script>
+        // Inisialisasi Modal Video
+        $(document).ready(function () {
+            $(".js-modal-btn").modalVideo();
+        });
+    </script>
+    
+
 </div>
 @endsection

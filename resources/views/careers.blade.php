@@ -34,7 +34,7 @@
     </button>
     <div class="flex flex-col lg:flex-row">
       <div>
-        <h1 data-aos="fade-left" data-aos-delay="500" class="text-[2rem] font-bold mt-8">OUR FUTURE</h1>
+        <h1 data-aos="fade-left" data-aos-delay="500" class="text-[3rem] font-bold mt-8">Our Future</h1>
         <p data-aos="fade-up" data-aos-delay="1000" class="text-[20px]">Imagine a world where SantaiMoto is the trusted name in every rider’s journey. Our app aims to go beyond basic maintenance—it’s a comprehensive hub where riders can find honest reviews on parts, the latest specs, expert insights, and even options to buy their next bike. Our goal is to become the go-to platform for everything motorcycle-related, making life simpler, safer, and more exciting for riders everywhere. We’re excited to build this vision together, and we need talented people to help make it a reality.</p>
 
       </div>
@@ -145,26 +145,93 @@
           <img src="{{asset('images/submit.png')}}" class="absolute bottom-0 left-0 hidden md:block" alt="">
         </div>
         <div class="bg-white shadow-sm rounded-lg p-8  w-full">
-          <form action="#" method="POST" enctype="multipart/form-data">
+          @if(Session::get('status'))
+          <div class="bg-green-100  mb-12  text-center  border border-green-400 text-green-700 px-4 py-3 rounded relative" role="alert">
+            {{session('status')}}
+          </div>
+          @endif
+          <form action="{{route('form.store')}}" method="POST" enctype="multipart/form-data" >
+            @csrf
+            <!-- Nama -->
             <div class="mb-5">
-              <label for="name" class="block  font-medium mb-2">Name*</label>
-              <input type="text" id="name" name="name" placeholder="Enter your name" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+              <label for="name" class="block font-medium mb-2">Name*</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name" 
+                     class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" 
+                     required>
             </div>
+          
+            <!-- Email -->
             <div class="mb-5">
-              <label for="email" class="block  font-medium mb-2">Email*</label>
-              <input type="email" id="email" name="email" placeholder="Enter your email" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+              <label for="email" class="block font-medium mb-2">Email*</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email" 
+                     class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" 
+                     required>
             </div>
-            <div class="mb-6 border-2 border-dashed border-gray-300 rounded-lg p-6 flex flex-col items-center justify-center">
-              <img src="{{asset('images/ic.svg')}}" alt="">
-              <p class=" font-medium mb-1">Upload your resume*</p>
+          
+            <!-- Upload File -->
+            <div class="mb-6 border-2 border-dashed border-gray-300 rounded-lg p-6 flex flex-col items-center justify-center relative">
+              <div id="file-info" class="text-center mb-4">
+                <img id="jd_hidden" src="{{ asset('images/ic.svg') }}" 
+                alt="Preview" class="w-24 h-24 object-contain ">
+                <img id="preview" src="{{ asset('images/ic.svg') }}" 
+                     alt="Preview" class="w-24 h-24 object-contain hidden">
+                <p id="file-name" class="text-sm text-gray-500"></p>
+              </div>
+              <p class="font-medium mb-1">Upload your file*</p>
               <p class="text-sm text-gray-500">Maximum file size: 10 MB</p>
-              <p class="text-sm text-gray-500 mb-2">Supported format: PDF, PNG, JPG</p>
-              <input type="file" id="resume" name="resume" class="hidden" required>
+              <p class="text-sm text-gray-500 mb-2">Supported formats: PDF, PNG, JPG, DOCX</p>
+              <input type="file" id="resume" name="doc" 
+                     accept=".pdf, .png, .jpg" 
+                     class="absolute inset-0 opacity-0 cursor-pointer" 
+                     onchange="previewFile()" 
+                     required>
             </div>
-            <button type="submit" class="block mx-auto bg-[#004370] hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg shadow-md transition duration-300">
+          
+            <!-- Tombol Submit -->
+            <button type="submit" 
+                    class="block mx-auto bg-[#004370] hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg shadow-md transition duration-300">
               Submit Application
             </button>
           </form>
+          
+          <!-- JavaScript -->
+          <script>
+            function previewFile() {
+              const input = document.getElementById('resume');
+              const preview = document.getElementById('preview');
+              const fileName = document.getElementById('file-name');
+              const fileInfo = document.getElementById('file-info');
+              const jd_hidden = document.getElementById('jd_hidden');
+          
+              // Reset tampilan
+              preview.classList.add('hidden');
+              fileName.textContent = '';
+          
+              // Jika ada file yang diunggah
+              if (input.files && input.files[0]) {
+                const file = input.files[0];
+                const fileType = file.type;
+          
+                // Jika file adalah gambar (PNG atau JPG)
+                if (fileType.startsWith('image/')) {
+                  const reader = new FileReader();
+          
+                  reader.onload = function (e) {
+                    preview.src = e.target.result; // Tampilkan gambar
+                    preview.classList.remove('hidden');
+                    jd_hidden.classList.add("hidden")
+                                      };
+          
+                  reader.readAsDataURL(file); // Membaca file gambar
+                } else {
+                  // Jika file bukan gambar, tampilkan nama file
+                  fileName.textContent = `File uploaded: ${file.name}`;
+                }
+              }
+            }
+          </script>
+          
+          
         </div>
 
       </div>

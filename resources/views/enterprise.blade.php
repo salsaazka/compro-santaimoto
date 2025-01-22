@@ -110,36 +110,36 @@
 
   </section>
 
-  <section class="md:px-[6rem] px-[1rem]">
+  <section class="md:px-[6rem] px-[2rem]">
     <h1 class="text-[44px] font-semibold text-center">Client Success Stories</h1>
-    <div class="flex md:flex-row flex-col gap-3 justify-center mt-5">
+    <div class="flex md:flex-row flex-col gap-6 justify-center mt-5">
       <div class="relative group">
-        <img src="{{asset('images/testi-1.png')}}" alt="" class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80">
-        <img src="{{asset('images/kutip.svg')}}" class="absolute bottom-[24rem] left-0" alt="">
-        <div class="absolute bottom-[8rem] left-[1rem]">
+        <img src="{{asset('images/mbsa.jpeg')}}" alt="" class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80">
+        <img src="{{asset('images/kutip.svg')}}" class="absolute bottom-[16rem] left-0" alt="">
+        <div class="absolute bottom-[2rem] left-[1rem] ">
           <h1 class="mt-3 font-bold text-white text-[20px]">MBSA (Majlis Bandaraya Shah Alam)</h1>
-          <p class="text-white font-semibold pr-5">Managing a fleet of enforcement motorcycles can be a logistical challenge, but SantaiMoto has made it seamless for us. By maintaining our vehicles during off-duty hours, they ensure our bikes are always in top condition, minimizing downtime and making fleet management significantly easier.</p>
+          <p class="text-white font-semibold pr-5">SantaiMoto has simplified our fleet management by maintaining our enforcement motorcycles during off-duty hours. This keeps our bikes in excellent condition, reduces downtime, and streamlines overall operations.</p>
           <h1 class="mt-3 font-semibold text-white text-[20p]">– Ts. Abdul Manaf, Deputy Director.</h1>
           <p class="text-white text-[20]">Location: Shah Alam, Selangor</p>
         </div>
       </div>
       
       <div class="relative group">
-        <img src="{{asset('images/testi-center.png')}}"   class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80" alt="">
-        <img src="{{asset('images/kutip.svg')}}" class="absolute bottom-[24rem] left-0" alt="">
-        <div class="absolute bottom-[8rem] left-[1rem]">
+        <img src="{{asset('images/ebidmoto.jpeg')}}"   class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80" alt="">
+        <img src="{{asset('images/kutip.svg')}}" class="absolute bottom-[16rem] left-0" alt="">
+        <div class="absolute bottom-[2rem] left-[1rem] ">
           <h1 class="mt-3 font-bold text-white text-[20px]">EBIDMOTO.COM</h1>
-          <p class="text-white font-semibold pr-5">With customers spread across Malaysia, it’s challenging for us to provide consistent after-sales service nationwide. SantaiMoto has been instrumental in bridging this gap, delivering reliable maintenance to areas beyond our reach and ensuring our customers receive exceptional service no matter where they are.</p>
+          <p class="text-white font-semibold pr-5">With customers across Malaysia, providing consistent after-sales service is challenging. SantaiMoto bridges this gap by offering reliable maintenance in remote areas, ensuring all customers receive excellent service everywhere.</p>
           <h1 class="mt-3 font-semibold text-white text-[20]">– Ricky Chea, General Manager.</h1>
           <p class=" text-white text-[20]">Location: Ampang, Selangor</p>
         </div>
       </div>
       <div class="relative group">
-        <img src="{{asset('images/testi-2.png')}}"  class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80" alt="">
-        <img src="{{asset('images/kutip.svg')}}" class="absolute bottom-[24rem] left-0" alt="">
-        <div class="absolute bottom-[8rem] left-[1rem]">
+        <img src="{{asset('images/superbike.jpeg')}}"  class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80" alt="">
+        <img src="{{asset('images/kutip.svg')}}" class="absolute bottom-[16rem] left-0" alt="">
+        <div class="absolute bottom-[2rem] left-[1rem] ">
           <h1 class="mt-3 font-bold text-white text-[20px]">Superbike & Kapchai Wash</h1>
-          <p class="text-white font-semibold pr-5">COur customers expect their bikes to be spotless, but occasionally, water issues can cause bikes to malfunction after a wash. SantaiMoto has been a lifesaver, stepping in to resolve these issues and ensuring our customers leave satisfied with both a clean and fully functional bike.</p>
+          <p class="text-white font-semibold pr-5">Our customers expect spotless bikes, but water issues can sometimes cause malfunctions after a wash. SantaiMoto has been a lifesaver, quickly resolving these problems and ensuring customers leave with clean, fully functional bikes.</p>
           <h1 class="mt-3 font-semibold text-white text-[20]">– Yussof Sahib, Owner.</h1>
           <p class=" text-white text-[20]">Location: Gombak, Kuala Lumpur Manager</p>
         </div>
@@ -147,7 +147,7 @@
     </div>
 
   </section>
-  <section class="md:px-[6rem] px-[1rem] mt-12">
+  <section id="enterprise-pricing" class="md:px-[6rem] px-[1rem] pt-[5rem]">
     <h1 class="text-[44px] font-semibold text-center">Enterprise Packages</h1>
     <div class="flex md:flex-row flex-col gap-5 items-center justify-center mt-5">
       <div class="mx-auto bg-[#FAFAFA] rounded-xl border p-6 transform transition duration-300 hover:scale-105 ">
