@@ -36,10 +36,9 @@
         <b class="bg-gradient-to-r from-[#4499db] to-[#004370] bg-clip-text text-transparent">Meet SantaiMoto</b>, the app that brings trusted motorcycle mechanics and peace of mind directly to you.
       </h2>
     
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-[4rem]">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-y-8 mt-16">
         <div data-aos="fade-down" data-aos-delay="500" class="p-4 bg-gray-100 rounded-2xl">
           <div class="justify-center mt-[-4rem] flex items-center">
-            <!-- Perkecil gambar dan buat responsif -->
             <img src="{{ asset('images/Frame-1.png') }}" alt="" class="w-20 h-20 md:w-28 md:h-28 object-contain">
           </div>
           <h3 class="font-bold text-[20px] md:text-[24px]">Convenience</h3>
@@ -49,7 +48,6 @@
         </div>
         <div data-aos="fade-down" data-aos-delay="1000" class="p-4 bg-gray-100 rounded-2xl">
           <div class="justify-center mt-[-4rem] flex items-center">
-            <!-- Perkecil gambar dan buat responsif -->
             <img src="{{ asset('images/Frame-2.png') }}" alt="" class="w-20 h-20 md:w-28 md:h-28 object-contain">
           </div>
           <h3 class="font-bold text-[20px] md:text-[24px]">Reliability</h3>
@@ -59,7 +57,6 @@
         </div>
         <div data-aos="fade-down" data-aos-delay="1500" class="p-4 bg-gray-100 rounded-2xl">
           <div class="justify-center mt-[-4rem] flex items-center">
-            <!-- Perkecil gambar dan buat responsif -->
             <img src="{{ asset('images/Frame-3.png') }}" alt="" class="w-20 h-20 md:w-28 md:h-28 object-contain">
           </div>
           <h3 class="font-bold text-[20px] md:text-[24px]">Transparency</h3>
