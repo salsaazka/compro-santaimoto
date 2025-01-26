@@ -8,7 +8,7 @@
   <img src="{{ asset('images/banner-home.png') }}" alt="Hero Image" class="w-full object-cover rounded-lg">
 
   <!-- Overlay Text -->
-  <div class="absolute  top-4 md:top-1/4 left-2 md:left-12 lg:left-16 text-left text-white">
+  <div class="absolute top-4 md:top-1/4 left-2 md:left-12 lg:left-16 text-left text-white">
     <h1 data-aos="fade-up" data-aos-duration="800" class="text-[20px] md:text-[40px] leading-5 md:leading-[3rem] font-semibold md:px-0 px-3 md:font-bold mb-4">
       Discover the Ultimate Convenience in <br>
       Motorcycle Maintenance with Santai
@@ -17,50 +17,92 @@
       Experience seamless, on-demand motorcycle maintenance at your <br> doorstep. Join millions of satisfied users today.
     </p>
   </div>
-  <!-- Logo Section -->
-  <div class="absolute bottom-[4rem] left-0 right-0 md:flex hidden justify-center items-end space-x-8 md:space-x-[2rem]">
-    <img data-aos="fade-up" data-aos-delay="100" src="{{ asset('images/l-4.png') }}" alt="Yamaha" class="h-3 md:h-8 object-contain">
-    <img data-aos="fade-up" data-aos-delay="300" src="{{ asset('assets/img/honda.png') }}" alt="Honda" class="h-3 md:h-7 object-contain">
-    <img data-aos="fade-up" data-aos-delay="500" src="{{ asset('images/modenas.png') }}" alt="Modenas" class="h-3 md:h-10 object-contain">
-    <img data-aos="fade-up" data-aos-delay="700" src="{{ asset('images/kawasaki.png') }}" alt="Modenas" class="h-3 md:h-7 object-contain">
-    <img data-aos="fade-up" data-aos-delay="900" src="{{ asset('images/suzuki.png') }}" alt="Modenas" class="h-3 md:h-7 object-contain">
-     <img data-aos="fade-up" data-aos-delay="1100" src="{{ asset('images/sym.png') }}" alt="SYM" class="h-3 md:h-12 object-contain">
-    <img data-aos="fade-up" data-aos-delay="1300" src="{{ asset('images/cfo.png') }}" alt="Cfmoto" class="h-3 md:h-8 object-contain">
-    <img data-aos="fade-up" data-aos-delay="1500" src="{{ asset('images/ktm.png') }}" alt="KTM" class="h-3 md:h-8 object-contain">
-    <img data-aos="fade-up" data-aos-delay="1700" src="{{ asset('images/benelli.png') }}" alt="Benelli" class="h-3 md:h-7 object-contain">
-  </div>
 
+  <!-- Logo Section -->
+  <div class="absolute bottom-[2rem] left-0 right-0 overflow-hidden">
+    <div class="flex animate-scroll mb-12 space-x-8 items-end">
+      <!-- Logos -->
+      <img src="{{ asset('images/l-4.png') }}" alt="Yamaha" class="h-3 md:h-8 object-contain">
+      <img src="{{ asset('assets/img/honda.png') }}" alt="Honda" class="h-3 md:h-7 object-contain">
+      <img src="{{ asset('images/modenas.png') }}" alt="Modenas" class="h-3 md:h-10 object-contain">
+      <img src="{{ asset('images/kawasaki.png') }}" alt="Kawasaki" class="h-3 md:h-7 object-contain">
+      <img src="{{ asset('images/suzuki.png') }}" alt="Suzuki" class="h-3 md:h-7 object-contain">
+      <img src="{{ asset('images/sym-2.png') }}" alt="SYM" class="h-3 mb-[-6px] md:h-[3rem] object-contain">
+      <img src="{{ asset('images/cfo.png') }}" alt="Cfmoto" class="h-3 md:h-8 object-contain">
+      <img src="{{ asset('images/ktm.png') }}" alt="KTM" class="h-3 md:h-8 object-contain">
+      <img src="{{ asset('images/benelli.png') }}" alt="Benelli" class="h-3 md:h-8 object-contain">
+      <!-- Duplicate the logos for seamless scrolling -->
+      <img src="{{ asset('images/l-4.png') }}" alt="Yamaha" class="h-3 md:h-8 object-contain">
+      <img src="{{ asset('assets/img/honda.png') }}" alt="Honda" class="h-3 md:h-7 object-contain">
+      <img src="{{ asset('images/modenas.png') }}" alt="Modenas" class="h-3 md:h-10 object-contain">
+      <img src="{{ asset('images/kawasaki.png') }}" alt="Kawasaki" class="h-3 md:h-7 object-contain">
+      <img src="{{ asset('images/suzuki.png') }}" alt="Suzuki" class="h-3 md:h-7 object-contain">
+      <img src="{{ asset('images/sym-2.png') }}" alt="SYM" class="h-3 mb-[-6px] md:h-[3rem] object-contain">
+      <img src="{{ asset('images/cfo.png') }}" alt="Cfmoto" class="h-3 md:h-8 object-contain">
+      <img src="{{ asset('images/ktm.png') }}" alt="KTM" class="h-3 md:h-8 object-contain">
+      <img src="{{ asset('images/benelli.png') }}" alt="Benelli" class="h-3 md:h-8 object-contain">
+    </div>
+  </div>
 </div>
+
+<!-- Tailwind CSS Classes -->
+<style>
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .animate-scroll {
+    animation: scroll 20s linear infinite;
+  }
+</style>
+
 
 <div class="md:mx-[6rem] mx-[1rem]">
   <div class="bg-white py-16">
     <div class="container mx-auto px-2 text-center">
-      <h2 class="md:text-[32px] md:mb-[4rem] text-[20px] md:mx-[5rem] mx-[1rem] text-[#818898]"><b class="bg-gradient-to-r from-[#4499db]  to-[#004370] bg-clip-text text-transparent">Meet SantaiMoto</b>, the app that brings trusted motorcycle mechanics and peace of mind directly to you.</h2>
+      <h2 class="md:text-[32px] text-[20px] md:mx-[5rem] mx-[1rem] text-[#818898]">
+        <b class="bg-gradient-to-r from-[#4499db] to-[#004370] bg-clip-text text-transparent">Meet SantaiMoto</b>, the app that brings trusted motorcycle mechanics and peace of mind directly to you.
+      </h2>
 
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 https://meet.google.com/mmh-pgzv-svemt-[4rem]">
-        <div data-aos="fade-down" data-aos-delay="500" class="p-4 bg-gray-100 rounded-2xl ">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-[4rem]">
+        <div data-aos="fade-down" data-aos-delay="500" class="p-4 bg-gray-100 rounded-2xl">
           <div class="justify-center mt-[-4rem] flex items-center">
-            <img src="{{ asset('images/Frame-1.png') }}" alt="" srcset="">
+            <!-- Perkecil gambar dan buat responsif -->
+            <img src="{{ asset('images/Frame-1.png') }}" alt="" class="w-20 h-20 md:w-28 md:h-28 object-contain">
           </div>
-          <h3 class="font-bold text-[24px]">Convenience</h3>
-          <p class=" font-semibold mx-12 text-[#818898] text-[18px] mt-2">On-demand service that saves you time.</p>
+          <h3 class="font-bold text-[20px] md:text-[24px]">Convenience</h3>
+          <p class="font-semibold mx-6 md:mx-12 text-[#818898] text-[16px] md:text-[18px] mt-2">
+            On-demand service that saves you time.
+          </p>
         </div>
-        <div data-aos="fade-down" data-aos-delay="1000" class="p-4 bg-gray-100 rounded-2xl ">
+        <div data-aos="fade-down" data-aos-delay="1000" class="p-4 bg-gray-100 rounded-2xl">
           <div class="justify-center mt-[-4rem] flex items-center">
-            <img src="{{ asset('images/Frame-2.png') }}" alt="" srcset="">
+            <!-- Perkecil gambar dan buat responsif -->
+            <img src="{{ asset('images/Frame-2.png') }}" alt="" class="w-20 h-20 md:w-28 md:h-28 object-contain">
           </div>
-          <h3 class="font-bold text-[24px]">Reliability</h3>
-          <p class=" font-semibold mx-12 text-[#818898] text-[18px] mt-2">Skilled mechanics and a service you can trust.</p>
+          <h3 class="font-bold text-[20px] md:text-[24px]">Reliability</h3>
+          <p class="font-semibold mx-6 md:mx-12 text-[#818898] text-[16px] md:text-[18px] mt-2">
+            Skilled mechanics and a service you can trust.
+          </p>
         </div>
-        <div data-aos="fade-down" data-aos-delay="1500" class="p-4 bg-gray-100 rounded-2xl ">
+        <div data-aos="fade-down" data-aos-delay="1500" class="p-4 bg-gray-100 rounded-2xl">
           <div class="justify-center mt-[-4rem] flex items-center">
-            <img src="{{ asset('images/Frame-3.png') }}" alt="" srcset="">
+            <!-- Perkecil gambar dan buat responsif -->
+            <img src="{{ asset('images/Frame-3.png') }}" alt="" class="w-20 h-20 md:w-28 md:h-28 object-contain">
           </div>
-          <h3 class="font-bold text-[24px]">Transparency</h3>
-          <p class=" font-semibold mx-12 text-[#818898] text-[18px] mt-2">Problem details, repair records, and complete visibility.</p>
+          <h3 class="font-bold text-[20px] md:text-[24px]">Transparency</h3>
+          <p class="font-semibold mx-6 md:mx-12 text-[#818898] text-[16px] md:text-[18px] mt-2">
+            Problem details, repair records, and complete visibility.
+          </p>
         </div>
       </div>
     </div>
+
 
     <div class="bg-white py-16">
       <div class="container mx-auto px-6 md:px-12">
@@ -147,15 +189,15 @@
         <div class="swiper-wrapper">
           <!-- Slide 1 -->
           <div class="swiper-slide flex justify-center  items-center">
-            <img src="{{ asset('images/b-1.png') }}" alt="Banner 1" class="w-full h-auto">
+            <img src="{{ asset('images/7.png') }}" alt="Banner 1" class="w-full h-auto rounded-xl">
           </div>
           <!-- Slide 2 -->
           <div class="swiper-slide flex justify-center items-center">
-            <img src="{{ asset('images/b-2.png') }}" alt="Banner 2" class="w-full h-auto">
+            <img src="{{ asset('images/11.png') }}" alt="Banner 2" class="w-full h-auto rounded-xl">
           </div>
           <!-- Slide 3 -->
           <div class="swiper-slide flex justify-center items-center">
-            <img src="{{ asset('images/b-3.png') }}" alt="Banner 3" class="w-full h-auto">
+            <img src="{{ asset('images/12.png') }}" alt="Banner 3" class="w-full h-auto rounded-xl">
           </div>
         </div>
         <div class="swiper-pagination absolute left-0 right-0 flex justify-center z-10"></div>

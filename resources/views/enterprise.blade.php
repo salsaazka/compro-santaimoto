@@ -113,38 +113,47 @@
   <section class="md:px-[6rem] px-[2rem]">
     <h1 class="text-[44px] font-semibold text-center">Client Success Stories</h1>
     <div class="flex md:flex-row flex-col gap-6 justify-center mt-5">
-      <div class="relative group">
-        <img src="{{asset('images/testi-1.png')}}" alt="" class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80">
+      <div class="relative group" style="min-width: 450px; min-height: 400px;">
+        <!-- Tambahkan overlay -->
+        <div class="absolute inset-0 bg-black opacity-50 group-hover:opacity-70 transition duration-300 ease-in-out"></div>
+
+        <img src="{{asset('images/mbsa.jpeg')}}" alt="" class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80 w-full h-full object-cover">
         <img src="{{asset('images/kutip.svg')}}" class="absolute bottom-[16rem] left-0" alt="">
-        <div class="absolute bottom-[2rem] left-[1rem] ">
+
+        <div class="absolute bottom-[2rem] left-[1rem]">
           <h1 class="mt-3 font-bold text-white text-[20px]">MBSA (Majlis Bandaraya Shah Alam)</h1>
           <p class="text-white font-semibold pr-5">SantaiMoto has simplified our fleet management by maintaining our enforcement motorcycles during off-duty hours. This keeps our bikes in excellent condition, reduces downtime, and streamlines overall operations.</p>
-          <h1 class="mt-3 font-semibold text-white text-[20p]">– Ts. Abdul Manaf, Deputy Director.</h1>
-          <p class="text-white text-[20]">Location: Shah Alam, Selangor</p>
+          <h1 class="mt-3 font-semibold text-white text-[20px]">– Ts. Abdul Manaf, Deputy Director.</h1>
+          <p class="text-white text-[20px]">Location: Shah Alam, Selangor</p>
         </div>
       </div>
-      
-      <div class="relative group">
-        <img src="{{asset('images/testi-center.png')}}"   class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80" alt="">
+
+
+      <div class="relative group" style="min-width: 400px; min-height: 400px;">
+        <div class="absolute inset-0 bg-black opacity-50 group-hover:opacity-70 transition duration-300 ease-in-out"></div>
+        <img src="{{asset('images/ebidmoto.jpeg')}}" class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80 w-full h-full object-cover" alt="">
         <img src="{{asset('images/kutip.svg')}}" class="absolute bottom-[16rem] left-0" alt="">
-        <div class="absolute bottom-[2rem] left-[1rem] ">
+        <div class="absolute bottom-[2rem] left-[1rem]">
           <h1 class="mt-3 font-bold text-white text-[20px]">EBIDMOTO.COM</h1>
           <p class="text-white font-semibold pr-5">With customers across Malaysia, providing consistent after-sales service is challenging. SantaiMoto bridges this gap by offering reliable maintenance in remote areas, ensuring all customers receive excellent service everywhere.</p>
           <h1 class="mt-3 font-semibold text-white text-[20]">– Ricky Chea, General Manager.</h1>
-          <p class=" text-white text-[20]">Location: Ampang, Selangor</p>
+          <p class="text-white text-[20]">Location: Ampang, Selangor</p>
         </div>
       </div>
-      <div class="relative group">
-        <img src="{{asset('images/testi-2.png')}}"  class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80" alt="">
+
+      <div class="relative group" style="min-width: 400px; min-height: 400px;">
+        <div class="absolute inset-0 bg-black opacity-50 group-hover:opacity-70 transition duration-300 ease-in-out"></div>
+        <img src="{{asset('images/superbike.jpeg')}}" class="transition duration-300 ease-in-out group-hover:scale-105 group-hover:opacity-80 w-full h-full object-cover" alt="">
         <img src="{{asset('images/kutip.svg')}}" class="absolute bottom-[16rem] left-0" alt="">
-        <div class="absolute bottom-[2rem] left-[1rem] ">
+        <div class="absolute bottom-[2rem] left-[1rem]">
           <h1 class="mt-3 font-bold text-white text-[20px]">Superbike & Kapchai Wash</h1>
           <p class="text-white font-semibold pr-5">Our customers expect spotless bikes, but water issues can sometimes cause malfunctions after a wash. SantaiMoto has been a lifesaver, quickly resolving these problems and ensuring customers leave with clean, fully functional bikes.</p>
           <h1 class="mt-3 font-semibold text-white text-[20]">– Yussof Sahib, Owner.</h1>
-          <p class=" text-white text-[20]">Location: Gombak, Kuala Lumpur Manager</p>
+          <p class="text-white text-[20]">Location: Gombak, Kuala Lumpur Manager</p>
         </div>
       </div>
     </div>
+
 
   </section>
   <section id="enterprise-pricing" class="md:px-[6rem] px-[1rem] pt-[5rem]">
@@ -173,6 +182,10 @@
             <img src="{{asset('images/check.svg')}}" alt="">
             <span><b>Towing Services:</b> 2 per month (additional at RM150 each)</span>
           </li>
+          <li class="flex gap-2 items-start">
+            <img src="{{asset('images/check.svg')}}" alt="">
+            <span><b>Mechanic Fees:</b> 30% discount on services</span>
+          </li>
         </ul>
 
         <!-- Button -->
@@ -185,11 +198,11 @@
         <div class="text-md text-white mb-4">
           Monthly base fee:
         </div>
-        <h1 class="text-[32px] font-semibold text-white">RM 1,200</h1>
+        <h1 class="text-[32px] font-semibold text-white">RM 2,000</h1>
         <ul class="space-y-3 text-white">
           <li class="flex gap-2 items-start">
             <img src="{{asset('images/check-w.svg')}}" alt="">
-            <span><b>Fleet size</b>: Up to 10 motorcycles</span>
+            <span><b>Fleet size</b>: Up to 50 motorcycles</span>
           </li>
           <li class="flex gap-2 items-start">
             <img src="{{asset('images/check-w.svg')}}" alt="">
@@ -197,11 +210,15 @@
           </li>
           <li class="flex gap-2 items-start">
             <img src="{{asset('images/check-w.svg')}}" alt="">
-            <span><b>Emergency Callouts: </b>Up to 5 per month (additional at RM100 each)</span>
+            <span><b>Emergency Callouts: </b>Up to 20 per month (additional at RM100 each)</span>
           </li>
           <li class="flex gap-2 items-start">
             <img src="{{asset('images/check-w.svg')}}" alt="">
-            <span><b>Towing Services:</b> 2 per month (additional at RM150 each)</span>
+            <span><b>Towing Services:</b> 10 per month (additional at RM150 each)</span>
+          </li>
+          <li class="flex gap-2 items-start">
+            <img src="{{asset('images/check-w.svg')}}" alt="">
+            <span><b>Mechanic Fees:</b> 50% discount on services</span>
           </li>
         </ul>
 
@@ -212,28 +229,28 @@
       </div>
       <div class=" mx-auto bg-[#FAFAFA] rounded-xl border p-6 transform transition duration-300 hover:scale-105 hover:shadow-lg">
         <h3 class="text-xl font-semibold text-gray-800 mb-4">Silver Package</h3>
-        <div class="text-md text-[#818898] mb-4">
+        {{-- <div class="text-md text-[#818898] mb-4">
           Monthly base fee:
-        </div>
-        <h1 class="text-[32px] font-semibold">RM 1,200</h1>
-        <ul class="space-y-3 text-gray-700">
+        </div> --}}
+        <h2 class="text-[18px] font-semibold">For custom solutions, contact SantaiMoto for a tailored quote.</h2>
+        {{-- <ul class="space-y-3 text-gray-700">
           <li class="flex gap-2 items-start">
             <img src="{{asset('images/check.svg')}}" alt="">
-            <span><b>Fleet size</b>: Up to 10 motorcycles</span>
-          </li>
-          <li class="flex gap-2 items-start">
-            <img src="{{asset('images/check.svg')}}" alt="">
-            <span><b>Data Logger Device (Optional):</b> RM500 - RM800 per bike (one-time fee)</span>
-          </li>
-          <li class="flex gap-2 items-start">
-            <img src="{{asset('images/check.svg')}}" alt="">
-            <span><b>Emergency Callouts: </b>Up to 5 per month (additional at RM100 each)</span>
-          </li>
-          <li class="flex gap-2 items-start">
-            <img src="{{asset('images/check.svg')}}" alt="">
-            <span><b>Towing Services:</b> 2 per month (additional at RM150 each)</span>
-          </li>
-        </ul>
+        <span><b>Fleet size</b>: Up to 10 motorcycles</span>
+        </li>
+        <li class="flex gap-2 items-start">
+          <img src="{{asset('images/check.svg')}}" alt="">
+          <span><b>Data Logger Device (Optional):</b> RM500 - RM800 per bike (one-time fee)</span>
+        </li>
+        <li class="flex gap-2 items-start">
+          <img src="{{asset('images/check.svg')}}" alt="">
+          <span><b>Emergency Callouts: </b>Up to 5 per month (additional at RM100 each)</span>
+        </li>
+        <li class="flex gap-2 items-start">
+          <img src="{{asset('images/check.svg')}}" alt="">
+          <span><b>Towing Services:</b> 2 per month (additional at RM150 each)</span>
+        </li>
+        </ul> --}}
 
         <!-- Button -->
         <button class="mt-6 w-full py-2 bg-[#004370] text-white font-semibold rounded-lg hover:bg-blue-700">
@@ -251,10 +268,14 @@
       </div>
       <h2 class="text-lg md:text-[32px] font-semibold mt-[-2rem]  bg-gradient-to-r from-[#4499db]  to-[#004370] bg-clip-text text-transparent">Get Started with SantaiMoto Enterprise Co-Pilot.</h2>
       <h2 class="text-lg md:text-[24px] px-12 font-normal mt-8 bg-gradient-to-r from-[#4499db]  to-[#004370] bg-clip-text text-transparent">Contact us to select the best package for your fleet and discover how SantaiMoto’s data-driven approach can enhance your maintenance management.</h2>
-      <button class="bg-[#004370] text-white px-8 py-3 mt-5 rounded-lg hover:bg-blue-700">
-        Get Started
-      </button>
+      <a data-fancybox="gallery" href="https://www.youtube.com/watch?v=MrUvVFEnmBw">
+        <button class="bg-[#004370] text-white px-8 py-3 mt-5 rounded-lg hover:bg-blue-700">
+          Get Started
+        </button>
+      </a>
+
     </div>
   </section>
 </div>
+
 @endsection

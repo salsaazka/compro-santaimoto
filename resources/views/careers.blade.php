@@ -170,14 +170,19 @@
           
             <!-- Upload File -->
             <div class="mb-6 border-2 border-dashed border-gray-300 rounded-lg p-6 flex flex-col items-center justify-center relative">
-              <div id="file-info" class="text-center mb-4">
-                <img id="jd_hidden" src="{{ asset('images/ic.svg') }}" 
-                alt="Preview" class="w-24 h-24 object-contain ">
-                <img id="preview" src="{{ asset('images/ic.svg') }}" 
-                     alt="Preview" class="w-24 h-24 object-contain hidden">
-                <p id="file-name" class="text-sm text-gray-500"></p>
-              </div>
-              <p class="font-medium mb-1">Upload your file*</p>
+             <div class="flex flex-col align-items-center">
+              
+               <div id="file-info" class="text-center mb-4">
+                 <img id="jd_hidden" src="{{ asset('images/ic.svg') }}" 
+                 alt="Preview" class="w-24 h-24 object-contain text-center">
+ 
+                 <img id="preview" src="{{ asset('images/ic.svg') }}" 
+                      alt="Preview" class="w-24 h-24 object-contain  hidden">
+                 <p id="file-name" class="text-sm text-gray-500"></p>
+               </div>
+               <p class="font-medium mb-1">Upload your file*</p>
+             </div>
+
               <p class="text-sm text-gray-500">Maximum file size: 10 MB</p>
               <p class="text-sm text-gray-500 mb-2">Supported formats: PDF, PNG, JPG, DOCX</p>
               <input type="file" id="resume" name="doc" 

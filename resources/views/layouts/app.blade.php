@@ -10,11 +10,17 @@
   <link rel="stylesheet" href="{{ asset('css/app.css') }}">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- Google tag (gtag.js) -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modal-video/2.4.0/modal-video.min.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <link rel="icon" type="image/x-icon" href="{{asset('images/logoh.png')}}">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/modal-video/2.4.0/jquery-modal-video.min.js"></script>
 
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+  />
+  
+  
   <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -146,10 +152,6 @@
   </script>
 
 
-
-  <!-- JavaScript untuk Menambahkan Efek Scroll -->
-
-
   <!-- Content -->
   <main class="container mx-auto px-6 md:px-12 py-8">
     @yield('content')
@@ -278,5 +280,18 @@
     });
 
   </script>
+
+<script>
+  Fancybox.bind('[data-fancybox]', {
+      Toolbar: {
+        display: ['close'], // Hanya menampilkan tombol close
+      },
+      YouTube: {
+        autoplay: true, // Memutar otomatis saat popup dibuka
+      },
+      Thumbs: false,
+    });
+
+</script>
 </body>
 </html>
